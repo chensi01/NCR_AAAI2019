@@ -1,0 +1,350 @@
+>> load('filmTrust_u_i_r.mat')
+>> MF(1,D);
+¾¯¸æ: One or more folds do not contain points from all the groups. 
+> In internal.stats.cvpartitionImpl>stra_kfoldcv (line 364)
+  In internal.stats.cvpartitionImpl/rerandom (line 315)
+  In internal.stats.cvpartitionInMemoryImpl (line 166)
+  In cvpartition (line 175)
+  In MF (line 24) 
+generate data completed
+MF iter [30/1000] completed, loss = 34572.362526, delta_loss: -1237.788237, lr: 5.807599
+AUC = 0.555614, NDCG = 0.474107, RMSE = 1.636208, MAE = 1.247545, MRR = 0.610883 
+MF iter [60/1000] completed, loss = 17591.300624, delta_loss: 520.000141, lr: 16.733405
+AUC = 0.626805, NDCG = 0.508332, RMSE = 1.284424, MAE = 0.908619, MRR = 0.680721 
+MF iter [90/1000] completed, loss = 5618.750702, delta_loss: 202.299891, lr: 72.320811
+AUC = 0.638271, NDCG = 0.517787, RMSE = 1.072573, MAE = 0.767721, MRR = 0.684064 
+MF iter [120/1000] completed, loss = 4779.595585, delta_loss: 156.387246, lr: 5.420379
+AUC = 0.626319, NDCG = 0.515594, RMSE = 1.123573, MAE = 0.807014, MRR = 0.678296 
+MF iter [150/1000] completed, loss = 3977.258944, delta_loss: 19.931426, lr: 23.426566
+AUC = 0.627069, NDCG = 0.516793, RMSE = 1.096958, MAE = 0.789012, MRR = 0.677596 
+MF iter [180/1000] completed, loss = 3365.027480, delta_loss: 20.892013, lr: 101.248270
+AUC = 0.628613, NDCG = 0.517933, RMSE = 1.093456, MAE = 0.788215, MRR = 0.680442 
+MF iter [210/1000] completed, loss = 3243.662631, delta_loss: 16.709955, lr: 2.248434
+AUC = 0.631310, NDCG = 0.515226, RMSE = 1.114435, MAE = 0.805603, MRR = 0.677721 
+MF iter [240/1000] completed, loss = 3153.629165, delta_loss: 1.811620, lr: 9.717604
+AUC = 0.631140, NDCG = 0.517374, RMSE = 1.109767, MAE = 0.801107, MRR = 0.681748 
+MF iter [270/1000] completed, loss = 3077.794614, delta_loss: 3.512462, lr: 41.998924
+AUC = 0.633754, NDCG = 0.517592, RMSE = 1.107558, MAE = 0.799609, MRR = 0.684453 
+MF iter [300/1000] completed, loss = 3093.116770, delta_loss: -156.318508, lr: 15.935643
+AUC = 0.630132, NDCG = 0.515695, RMSE = 1.112598, MAE = 0.804319, MRR = 0.680473 
+MF iter [330/1000] completed, loss = 2913.425083, delta_loss: 0.122137, lr: 2.687314
+AUC = 0.632115, NDCG = 0.515913, RMSE = 1.112050, MAE = 0.803307, MRR = 0.681172 
+MF iter [360/1000] completed, loss = 2906.489109, delta_loss: 0.435376, lr: 11.614418
+AUC = 0.629816, NDCG = 0.515112, RMSE = 1.112318, MAE = 0.803545, MRR = 0.678996 
+MF iter [390/1000] completed, loss = 2878.138756, delta_loss: 1.659052, lr: 50.196845
+AUC = 0.629293, NDCG = 0.515414, RMSE = 1.113696, MAE = 0.804647, MRR = 0.679462 
+MF iter [420/1000] completed, loss = 2876.071167, delta_loss: -52.562153, lr: 5.643312
+AUC = 0.621631, NDCG = 0.514116, RMSE = 1.120181, MAE = 0.810266, MRR = 0.677006 
+MF iter [450/1000] completed, loss = 2815.214518, delta_loss: 0.031896, lr: 1.427494
+AUC = 0.623471, NDCG = 0.514692, RMSE = 1.118226, MAE = 0.808092, MRR = 0.678638 
+MF iter [480/1000] completed, loss = 2813.015239, delta_loss: 0.135395, lr: 6.169546
+AUC = 0.624160, NDCG = 0.514880, RMSE = 1.118315, MAE = 0.808164, MRR = 0.679104 
+MF iter [510/1000] completed, loss = 2803.867105, delta_loss: 0.550749, lr: 26.664421
+AUC = 0.623679, NDCG = 0.515286, RMSE = 1.118850, MAE = 0.808566, MRR = 0.679960 
+MF iter [540/1000] completed, loss = 3192.261887, delta_loss: -46.489573, lr: 22.763870
+AUC = 0.621255, NDCG = 0.515140, RMSE = 1.122559, MAE = 0.811456, MRR = 0.680333 
+MF iter [570/1000] completed, loss = 2760.701988, delta_loss: 0.461461, lr: 0.758281
+AUC = 0.622316, NDCG = 0.514872, RMSE = 1.122516, MAE = 0.811315, MRR = 0.679618 
+MF iter [600/1000] completed, loss = 2759.086475, delta_loss: 0.032538, lr: 2.184830
+AUC = 0.621773, NDCG = 0.514572, RMSE = 1.122547, MAE = 0.811324, MRR = 0.679151 
+MF iter [630/1000] completed, loss = 2756.856003, delta_loss: 0.137016, lr: 9.442710
+AUC = 0.621464, NDCG = 0.514448, RMSE = 1.122708, MAE = 0.811453, MRR = 0.678685 
+MF iter [660/1000] completed, loss = 2747.676314, delta_loss: 0.551654, lr: 40.810848
+AUC = 0.621546, NDCG = 0.514687, RMSE = 1.123499, MAE = 0.812053, MRR = 0.680239 
+MF iter [690/1000] completed, loss = 2723.945751, delta_loss: 46.587660, lr: 10.323234
+AUC = 0.623204, NDCG = 0.514917, RMSE = 1.126975, MAE = 0.814617, MRR = 0.681017 
+MF iter [720/1000] completed, loss = 2721.875521, delta_loss: 0.047256, lr: 0.229249
+AUC = 0.625297, NDCG = 0.515707, RMSE = 1.126352, MAE = 0.814109, MRR = 0.682789 
+MF iter [750/1000] completed, loss = 2721.082322, delta_loss: 0.008341, lr: 0.990803
+AUC = 0.624282, NDCG = 0.515538, RMSE = 1.126351, MAE = 0.814107, MRR = 0.682525 
+MF iter [780/1000] completed, loss = 2720.348412, delta_loss: 0.045243, lr: 4.282194
+AUC = 0.625041, NDCG = 0.515721, RMSE = 1.126411, MAE = 0.814150, MRR = 0.683069 
+MF iter [810/1000] completed, loss = 2717.292025, delta_loss: 0.185493, lr: 18.507395
+AUC = 0.623637, NDCG = 0.515624, RMSE = 1.126693, MAE = 0.814345, MRR = 0.683022 
+MF iter [840/1000] completed, loss = 2705.042751, delta_loss: 0.721743, lr: 79.987896
+AUC = 0.624984, NDCG = 0.516451, RMSE = 1.128017, MAE = 0.815236, MRR = 0.684344 
+MF iter [870/1000] completed, loss = 2707.359802, delta_loss: -3.259139, lr: 1.184202
+AUC = 0.623390, NDCG = 0.513990, RMSE = 1.130803, MAE = 0.817122, MRR = 0.680084 
+MF iter [900/1000] completed, loss = 2694.414734, delta_loss: 0.118834, lr: 0.299548
+AUC = 0.624278, NDCG = 0.514837, RMSE = 1.130314, MAE = 0.816776, MRR = 0.681281 
+MF iter [930/1000] completed, loss = 2693.511161, delta_loss: 0.018933, lr: 1.294627
+AUC = 0.624321, NDCG = 0.514926, RMSE = 1.130309, MAE = 0.816779, MRR = 0.681748 
+MF iter [960/1000] completed, loss = 2692.363010, delta_loss: 0.061666, lr: 5.595304
+AUC = 0.624016, NDCG = 0.514932, RMSE = 1.130328, MAE = 0.816803, MRR = 0.681748 
+MF iter [990/1000] completed, loss = 2689.048778, delta_loss: 0.182281, lr: 24.182583
+AUC = 0.622395, NDCG = 0.514529, RMSE = 1.130539, MAE = 0.816955, MRR = 0.680815 
+MF 1/5 fold completed
+generate data completed
+MF iter [30/1000] completed, loss = 34309.198149, delta_loss: -1420.046643, lr: 8.711398
+AUC = 0.565954, NDCG = 0.474085, RMSE = 1.639918, MAE = 1.250530, MRR = 0.620211 
+MF iter [60/1000] completed, loss = 14604.762192, delta_loss: 576.389009, lr: 25.100107
+AUC = 0.626915, NDCG = 0.507397, RMSE = 1.214611, MAE = 0.869687, MRR = 0.683924 
+MF iter [90/1000] completed, loss = 28082.116094, delta_loss: 26646.854352, lr: 32.142583
+AUC = 0.623123, NDCG = 0.510277, RMSE = 1.916998, MAE = 1.204243, MRR = 0.684437 
+MF iter [120/1000] completed, loss = 4620.708269, delta_loss: 38.402108, lr: 12.195853
+AUC = 0.645559, NDCG = 0.516467, RMSE = 1.118967, MAE = 0.809269, MRR = 0.693330 
+MF iter [150/1000] completed, loss = 3654.120862, delta_loss: 25.170835, lr: 52.709774
+AUC = 0.659170, NDCG = 0.522046, RMSE = 1.085566, MAE = 0.784229, MRR = 0.706748 
+MF iter [180/1000] completed, loss = 3164.467516, delta_loss: 157.072399, lr: 8.888737
+AUC = 0.665186, NDCG = 0.523472, RMSE = 1.084836, MAE = 0.784000, MRR = 0.709173 
+MF iter [210/1000] completed, loss = 3108.963251, delta_loss: 0.415112, lr: 0.999304
+AUC = 0.662598, NDCG = 0.524079, RMSE = 1.083963, MAE = 0.784553, MRR = 0.709717 
+MF iter [240/1000] completed, loss = 3101.347831, delta_loss: 0.363189, lr: 4.318935
+AUC = 0.663708, NDCG = 0.524594, RMSE = 1.083911, MAE = 0.784339, MRR = 0.710339 
+MF iter [270/1000] completed, loss = 3076.864548, delta_loss: 1.464073, lr: 18.666188
+AUC = 0.662320, NDCG = 0.524123, RMSE = 1.084041, MAE = 0.784621, MRR = 0.709437 
+MF iter [300/1000] completed, loss = 2989.099582, delta_loss: 4.695966, lr: 80.674190
+AUC = 0.664843, NDCG = 0.525136, RMSE = 1.085726, MAE = 0.786571, MRR = 0.710914 
+MF iter [330/1000] completed, loss = 2911.887351, delta_loss: -6.192856, lr: 2.687314
+AUC = 0.668320, NDCG = 0.525796, RMSE = 1.090576, MAE = 0.790403, MRR = 0.713340 
+MF iter [360/1000] completed, loss = 2895.117066, delta_loss: 0.179594, lr: 3.441309
+AUC = 0.667833, NDCG = 0.525794, RMSE = 1.090017, MAE = 0.790548, MRR = 0.712593 
+MF iter [390/1000] completed, loss = 2886.679856, delta_loss: 0.494242, lr: 14.873139
+AUC = 0.666767, NDCG = 0.525719, RMSE = 1.090111, MAE = 0.790676, MRR = 0.713184 
+MF iter [420/1000] completed, loss = 2855.289347, delta_loss: 1.799234, lr: 64.280851
+AUC = 0.664319, NDCG = 0.525192, RMSE = 1.091123, MAE = 0.791729, MRR = 0.710868 
+MF iter [450/1000] completed, loss = 2926.240209, delta_loss: -15.387553, lr: 3.211861
+AUC = 0.659848, NDCG = 0.523623, RMSE = 1.104711, MAE = 0.805029, MRR = 0.709173 
+MF iter [480/1000] completed, loss = 2853.742621, delta_loss: 0.992774, lr: 2.742020
+AUC = 0.660337, NDCG = 0.523823, RMSE = 1.102029, MAE = 0.800518, MRR = 0.710619 
+MF iter [510/1000] completed, loss = 2823.279074, delta_loss: 1.031202, lr: 11.850854
+AUC = 0.658969, NDCG = 0.524587, RMSE = 1.100089, MAE = 0.798806, MRR = 0.711521 
+MF iter [540/1000] completed, loss = 2796.086048, delta_loss: 1.018240, lr: 51.218708
+AUC = 0.660326, NDCG = 0.524438, RMSE = 1.098265, MAE = 0.797395, MRR = 0.711412 
+MF iter [570/1000] completed, loss = 4179.887103, delta_loss: 799.399448, lr: 5.758194
+AUC = 0.654437, NDCG = 0.521632, RMSE = 1.129738, MAE = 0.827326, MRR = 0.705939 
+MF iter [600/1000] completed, loss = 2901.392905, delta_loss: 4.859013, lr: 4.915868
+AUC = 0.658696, NDCG = 0.522309, RMSE = 1.118165, MAE = 0.813688, MRR = 0.709111 
+MF iter [630/1000] completed, loss = 2783.006629, delta_loss: 2.134554, lr: 21.246097
+AUC = 0.661724, NDCG = 0.524834, RMSE = 1.109902, MAE = 0.806298, MRR = 0.713822 
+MF iter [660/1000] completed, loss = 2743.973335, delta_loss: 1.228999, lr: 91.824409
+AUC = 0.660912, NDCG = 0.524483, RMSE = 1.105714, MAE = 0.803052, MRR = 0.711660 
+MF iter [690/1000] completed, loss = 2726.125876, delta_loss: 0.286086, lr: 3.058736
+AUC = 0.666059, NDCG = 0.525855, RMSE = 1.105684, MAE = 0.803114, MRR = 0.713822 
+MF iter [720/1000] completed, loss = 2722.775813, delta_loss: 0.012292, lr: 1.740863
+AUC = 0.665754, NDCG = 0.526002, RMSE = 1.105611, MAE = 0.802950, MRR = 0.714443 
+MF iter [750/1000] completed, loss = 2721.701808, delta_loss: 0.067570, lr: 7.523911
+AUC = 0.666122, NDCG = 0.525902, RMSE = 1.105627, MAE = 0.802963, MRR = 0.714521 
+MF iter [780/1000] completed, loss = 2717.054042, delta_loss: 0.281583, lr: 32.517910
+AUC = 0.666086, NDCG = 0.525677, RMSE = 1.105705, MAE = 0.803003, MRR = 0.713899 
+MF iter [810/1000] completed, loss = 2780.589177, delta_loss: 2970.916231, lr: 27.761093
+AUC = 0.663297, NDCG = 0.524721, RMSE = 1.173721, MAE = 0.845522, MRR = 0.710510 
+MF iter [840/1000] completed, loss = 2709.750025, delta_loss: 1.370663, lr: 0.616494
+AUC = 0.664004, NDCG = 0.525216, RMSE = 1.108924, MAE = 0.805936, MRR = 0.710401 
+MF iter [870/1000] completed, loss = 2698.498855, delta_loss: 0.118280, lr: 2.664453
+AUC = 0.665721, NDCG = 0.525520, RMSE = 1.108679, MAE = 0.805245, MRR = 0.712780 
+MF iter [900/1000] completed, loss = 2694.751340, delta_loss: 0.140023, lr: 11.515614
+AUC = 0.666106, NDCG = 0.525713, RMSE = 1.108354, MAE = 0.804939, MRR = 0.713790 
+MF iter [930/1000] completed, loss = 2689.350671, delta_loss: 0.282480, lr: 49.769821
+AUC = 0.666072, NDCG = 0.525430, RMSE = 1.107993, MAE = 0.804532, MRR = 0.712702 
+MF iter [960/1000] completed, loss = 2689.920546, delta_loss: 0.678025, lr: 5.595304
+AUC = 0.665121, NDCG = 0.525285, RMSE = 1.108525, MAE = 0.804998, MRR = 0.712578 
+MF iter [990/1000] completed, loss = 2677.947837, delta_loss: -0.008837, lr: 0.186384
+AUC = 0.666248, NDCG = 0.525409, RMSE = 1.108423, MAE = 0.804702, MRR = 0.713044 
+MF 2/5 fold completed
+generate data completed
+MF iter [30/1000] completed, loss = 34524.790732, delta_loss: -1360.602281, lr: 8.711398
+AUC = 0.593291, NDCG = 0.487447, RMSE = 1.637577, MAE = 1.250167, MRR = 0.647254 
+MF iter [60/1000] completed, loss = 14454.779737, delta_loss: 590.398802, lr: 25.100107
+AUC = 0.653927, NDCG = 0.522975, RMSE = 1.204986, MAE = 0.862210, MRR = 0.707266 
+MF iter [90/1000] completed, loss = 17638.419089, delta_loss: -2274.812174, lr: 21.428388
+AUC = 0.639127, NDCG = 0.524064, RMSE = 1.272855, MAE = 0.898620, MRR = 0.699168 
+MF iter [120/1000] completed, loss = 4562.241640, delta_loss: 18.807358, lr: 3.613586
+AUC = 0.657922, NDCG = 0.526983, RMSE = 1.095881, MAE = 0.802277, MRR = 0.702621 
+MF iter [150/1000] completed, loss = 4050.326620, delta_loss: 13.861847, lr: 15.617711
+AUC = 0.661558, NDCG = 0.528905, RMSE = 1.081079, MAE = 0.786606, MRR = 0.706717 
+MF iter [180/1000] completed, loss = 3551.813709, delta_loss: 19.554783, lr: 67.498847
+AUC = 0.657215, NDCG = 0.526182, RMSE = 1.079750, MAE = 0.785640, MRR = 0.700691 
+MF iter [210/1000] completed, loss = 3377.645512, delta_loss: 20.156163, lr: 2.248434
+AUC = 0.661553, NDCG = 0.527169, RMSE = 1.098447, MAE = 0.801245, MRR = 0.702354 
+MF iter [240/1000] completed, loss = 3225.468096, delta_loss: 0.281527, lr: 1.279684
+AUC = 0.657009, NDCG = 0.527025, RMSE = 1.093894, MAE = 0.797411, MRR = 0.703562 
+MF iter [270/1000] completed, loss = 3209.532079, delta_loss: 0.852876, lr: 5.530722
+AUC = 0.656158, NDCG = 0.526904, RMSE = 1.093277, MAE = 0.796843, MRR = 0.704033 
+MF iter [300/1000] completed, loss = 3166.983484, delta_loss: 2.194599, lr: 23.903464
+AUC = 0.655825, NDCG = 0.526762, RMSE = 1.092918, MAE = 0.796484, MRR = 0.704143 
+MF iter [330/1000] completed, loss = 3049.112700, delta_loss: 5.845989, lr: 103.309393
+AUC = 0.655638, NDCG = 0.526742, RMSE = 1.096339, MAE = 0.798907, MRR = 0.707611 
+MF iter [360/1000] completed, loss = 3421.785441, delta_loss: 61.933344, lr: 2.294206
+AUC = 0.649820, NDCG = 0.524196, RMSE = 1.134212, MAE = 0.830918, MRR = 0.700047 
+MF iter [390/1000] completed, loss = 3094.850769, delta_loss: 7.120436, lr: 9.915426
+AUC = 0.651995, NDCG = 0.524410, RMSE = 1.120686, MAE = 0.817713, MRR = 0.699090 
+MF iter [420/1000] completed, loss = 2977.019397, delta_loss: 2.559326, lr: 42.853901
+AUC = 0.651347, NDCG = 0.525489, RMSE = 1.112892, MAE = 0.811148, MRR = 0.703202 
+MF iter [450/1000] completed, loss = 2966.659866, delta_loss: 80.660255, lr: 16.260046
+AUC = 0.658035, NDCG = 0.527774, RMSE = 1.113498, MAE = 0.811487, MRR = 0.707015 
+MF iter [480/1000] completed, loss = 2884.448954, delta_loss: 0.022006, lr: 4.113031
+AUC = 0.656563, NDCG = 0.528075, RMSE = 1.113586, MAE = 0.811424, MRR = 0.707031 
+MF iter [510/1000] completed, loss = 2880.032284, delta_loss: 0.252396, lr: 11.850854
+AUC = 0.657046, NDCG = 0.528358, RMSE = 1.113656, MAE = 0.811457, MRR = 0.708129 
+MF iter [540/1000] completed, loss = 2863.044145, delta_loss: 1.005619, lr: 51.218708
+AUC = 0.654355, NDCG = 0.528538, RMSE = 1.114182, MAE = 0.811784, MRR = 0.708569 
+MF iter [570/1000] completed, loss = 2839.700497, delta_loss: 3.658804, lr: 5.758194
+AUC = 0.659037, NDCG = 0.529546, RMSE = 1.115985, MAE = 0.813035, MRR = 0.710483 
+MF iter [600/1000] completed, loss = 2825.645059, delta_loss: -0.000511, lr: 0.971036
+AUC = 0.656671, NDCG = 0.529432, RMSE = 1.116039, MAE = 0.813035, MRR = 0.709416 
+MF iter [630/1000] completed, loss = 2824.589096, delta_loss: 0.058892, lr: 4.196760
+AUC = 0.657170, NDCG = 0.529432, RMSE = 1.116087, MAE = 0.813064, MRR = 0.709416 
+MF iter [660/1000] completed, loss = 2820.515489, delta_loss: 0.249647, lr: 18.138155
+AUC = 0.655575, NDCG = 0.529421, RMSE = 1.116299, MAE = 0.813189, MRR = 0.709463 
+MF iter [690/1000] completed, loss = 2804.147512, delta_loss: 0.955487, lr: 78.392060
+AUC = 0.654770, NDCG = 0.528757, RMSE = 1.117314, MAE = 0.813781, MRR = 0.707031 
+MF iter [720/1000] completed, loss = 2801.963523, delta_loss: 1.440207, lr: 1.740863
+AUC = 0.658810, NDCG = 0.529666, RMSE = 1.119825, MAE = 0.815610, MRR = 0.708255 
+MF iter [750/1000] completed, loss = 2786.696788, delta_loss: 0.004701, lr: 0.038660
+AUC = 0.657951, NDCG = 0.529596, RMSE = 1.119585, MAE = 0.815413, MRR = 0.708067 
+MF iter [780/1000] completed, loss = 2786.374807, delta_loss: 0.013202, lr: 0.167085
+AUC = 0.656907, NDCG = 0.529577, RMSE = 1.119584, MAE = 0.815414, MRR = 0.707988 
+MF iter [810/1000] completed, loss = 2786.051807, delta_loss: 0.009647, lr: 0.722130
+AUC = 0.656332, NDCG = 0.529636, RMSE = 1.119583, MAE = 0.815420, MRR = 0.707988 
+MF iter [840/1000] completed, loss = 2785.426290, delta_loss: 0.037246, lr: 3.121003
+AUC = 0.656065, NDCG = 0.529535, RMSE = 1.119573, MAE = 0.815399, MRR = 0.707988 
+MF iter [870/1000] completed, loss = 2783.110000, delta_loss: 0.133605, lr: 13.488796
+AUC = 0.656956, NDCG = 0.529683, RMSE = 1.119592, MAE = 0.815372, MRR = 0.708616 
+MF iter [900/1000] completed, loss = 2774.455311, delta_loss: 0.516831, lr: 58.297797
+AUC = 0.657163, NDCG = 0.529335, RMSE = 1.120072, MAE = 0.815637, MRR = 0.708114 
+MF iter [930/1000] completed, loss = 2794.046388, delta_loss: -12.103750, lr: 2.912911
+AUC = 0.659511, NDCG = 0.529430, RMSE = 1.122422, MAE = 0.817513, MRR = 0.709463 
+MF iter [960/1000] completed, loss = 2756.779952, delta_loss: 0.044761, lr: 0.736830
+AUC = 0.659469, NDCG = 0.529587, RMSE = 1.121742, MAE = 0.816812, MRR = 0.709353 
+MF iter [990/1000] completed, loss = 2756.648262, delta_loss: 0.004124, lr: 0.279575
+AUC = 0.659261, NDCG = 0.529609, RMSE = 1.121744, MAE = 0.816808, MRR = 0.709353 
+MF 3/5 fold completed
+generate data completed
+MF iter [30/1000] completed, loss = 35152.911308, delta_loss: -1275.521460, lr: 5.807599
+AUC = 0.577126, NDCG = 0.478630, RMSE = 1.633029, MAE = 1.247734, MRR = 0.624797 
+MF iter [60/1000] completed, loss = 17976.011716, delta_loss: 531.307043, lr: 16.733405
+AUC = 0.636825, NDCG = 0.509366, RMSE = 1.277074, MAE = 0.907087, MRR = 0.673112 
+MF iter [90/1000] completed, loss = 5655.853953, delta_loss: 209.657367, lr: 72.320811
+AUC = 0.662336, NDCG = 0.523252, RMSE = 1.072718, MAE = 0.771181, MRR = 0.698549 
+MF iter [120/1000] completed, loss = 6035.767531, delta_loss: 253.386931, lr: 18.293780
+AUC = 0.647166, NDCG = 0.516298, RMSE = 1.173065, MAE = 0.846330, MRR = 0.689061 
+MF iter [150/1000] completed, loss = 3696.410609, delta_loss: 32.797933, lr: 79.064662
+AUC = 0.656725, NDCG = 0.521373, RMSE = 1.109474, MAE = 0.796748, MRR = 0.693102 
+MF iter [180/1000] completed, loss = 3291.392771, delta_loss: -45.791225, lr: 5.925825
+AUC = 0.653439, NDCG = 0.523297, RMSE = 1.109574, MAE = 0.796661, MRR = 0.697878 
+MF iter [210/1000] completed, loss = 3179.530245, delta_loss: 1.091015, lr: 7.588466
+AUC = 0.657608, NDCG = 0.524292, RMSE = 1.111602, MAE = 0.796831, MRR = 0.699735 
+MF iter [240/1000] completed, loss = 3133.077718, delta_loss: 2.634321, lr: 32.796913
+AUC = 0.653526, NDCG = 0.523595, RMSE = 1.110785, MAE = 0.795816, MRR = 0.698720 
+MF iter [270/1000] completed, loss = 10266.812295, delta_loss: -179.290987, lr: 27.999282
+AUC = 0.656642, NDCG = 0.521973, RMSE = 1.155609, MAE = 0.835636, MRR = 0.697269 
+MF iter [300/1000] completed, loss = 3018.504833, delta_loss: 2.056615, lr: 2.098521
+AUC = 0.656392, NDCG = 0.522775, RMSE = 1.126901, MAE = 0.810502, MRR = 0.696910 
+MF iter [330/1000] completed, loss = 2976.106688, delta_loss: 1.172993, lr: 9.069686
+AUC = 0.655367, NDCG = 0.522700, RMSE = 1.120638, MAE = 0.804475, MRR = 0.696083 
+MF iter [360/1000] completed, loss = 2940.487013, delta_loss: 1.477121, lr: 39.198661
+AUC = 0.660410, NDCG = 0.523324, RMSE = 1.117476, MAE = 0.801075, MRR = 0.697519 
+MF iter [390/1000] completed, loss = 3043.373438, delta_loss: 461.596166, lr: 22.309709
+AUC = 0.662805, NDCG = 0.524621, RMSE = 1.171939, MAE = 0.838739, MRR = 0.699251 
+MF iter [420/1000] completed, loss = 2865.930088, delta_loss: 0.231423, lr: 0.495435
+AUC = 0.659295, NDCG = 0.524569, RMSE = 1.123169, MAE = 0.805883, MRR = 0.698315 
+MF iter [450/1000] completed, loss = 2862.087163, delta_loss: 0.103255, lr: 2.141241
+AUC = 0.661092, NDCG = 0.525797, RMSE = 1.121882, MAE = 0.804897, MRR = 0.701545 
+MF iter [480/1000] completed, loss = 2856.648766, delta_loss: 0.269976, lr: 9.254319
+AUC = 0.660701, NDCG = 0.526211, RMSE = 1.121098, MAE = 0.804062, MRR = 0.702559 
+MF iter [510/1000] completed, loss = 2842.434974, delta_loss: 0.799025, lr: 39.996632
+AUC = 0.660455, NDCG = 0.526344, RMSE = 1.120415, MAE = 0.803347, MRR = 0.701810 
+MF iter [540/1000] completed, loss = 6595.293215, delta_loss: -3530.334324, lr: 15.175914
+AUC = 0.648408, NDCG = 0.520213, RMSE = 1.199309, MAE = 0.868195, MRR = 0.692150 
+MF iter [570/1000] completed, loss = 2869.243294, delta_loss: 3.833601, lr: 1.137421
+AUC = 0.655459, NDCG = 0.523726, RMSE = 1.133888, MAE = 0.816510, MRR = 0.698783 
+MF iter [600/1000] completed, loss = 2831.793610, delta_loss: 1.151907, lr: 4.915868
+AUC = 0.656254, NDCG = 0.524834, RMSE = 1.132323, MAE = 0.814407, MRR = 0.700484 
+MF iter [630/1000] completed, loss = 2799.237721, delta_loss: 0.820375, lr: 21.246097
+AUC = 0.656799, NDCG = 0.524515, RMSE = 1.127999, MAE = 0.809917, MRR = 0.699547 
+MF iter [660/1000] completed, loss = 2773.423325, delta_loss: 1.188752, lr: 91.824409
+AUC = 0.661399, NDCG = 0.525272, RMSE = 1.126524, MAE = 0.808554, MRR = 0.700905 
+MF iter [690/1000] completed, loss = 2864.685140, delta_loss: 26.140203, lr: 3.058736
+AUC = 0.657191, NDCG = 0.523985, RMSE = 1.137392, MAE = 0.819692, MRR = 0.698689 
+MF iter [720/1000] completed, loss = 2777.559466, delta_loss: 0.887899, lr: 5.875414
+AUC = 0.654047, NDCG = 0.524932, RMSE = 1.135352, MAE = 0.816664, MRR = 0.699657 
+MF iter [750/1000] completed, loss = 2755.167708, delta_loss: 0.535899, lr: 25.393200
+AUC = 0.654103, NDCG = 0.524879, RMSE = 1.131866, MAE = 0.813105, MRR = 0.698642 
+MF iter [780/1000] completed, loss = 2735.146125, delta_loss: 1.290796, lr: 109.747946
+AUC = 0.657386, NDCG = 0.525520, RMSE = 1.130068, MAE = 0.811980, MRR = 0.699703 
+MF iter [810/1000] completed, loss = 2724.404392, delta_loss: 0.366015, lr: 2.437188
+AUC = 0.656519, NDCG = 0.525538, RMSE = 1.131443, MAE = 0.812922, MRR = 0.701155 
+MF iter [840/1000] completed, loss = 2724.299060, delta_loss: 0.026833, lr: 0.616494
+AUC = 0.656639, NDCG = 0.525560, RMSE = 1.131385, MAE = 0.812879, MRR = 0.701155 
+MF iter [870/1000] completed, loss = 2723.934262, delta_loss: 0.020148, lr: 2.664453
+AUC = 0.656685, NDCG = 0.525601, RMSE = 1.131348, MAE = 0.812841, MRR = 0.701155 
+MF iter [900/1000] completed, loss = 2722.580516, delta_loss: 0.082638, lr: 11.515614
+AUC = 0.656467, NDCG = 0.525601, RMSE = 1.131228, MAE = 0.812729, MRR = 0.701779 
+MF iter [930/1000] completed, loss = 2716.901968, delta_loss: 0.346752, lr: 49.769821
+AUC = 0.656153, NDCG = 0.525847, RMSE = 1.131184, MAE = 0.812730, MRR = 0.703012 
+MF iter [960/1000] completed, loss = 2764.165399, delta_loss: -18.643454, lr: 5.595304
+AUC = 0.651376, NDCG = 0.524663, RMSE = 1.136697, MAE = 0.819575, MRR = 0.701998 
+MF iter [990/1000] completed, loss = 2707.105108, delta_loss: 0.401163, lr: 0.186384
+AUC = 0.653952, NDCG = 0.525655, RMSE = 1.132923, MAE = 0.814853, MRR = 0.702419 
+MF 4/5 fold completed
+generate data completed
+MF iter [30/1000] completed, loss = 34096.613236, delta_loss: -725.333416, lr: 5.807599
+AUC = 0.591051, NDCG = 0.484054, RMSE = 1.603817, MAE = 1.199392, MRR = 0.650343 
+MF iter [60/1000] completed, loss = 18800.210982, delta_loss: 584.212404, lr: 16.733405
+AUC = 0.643416, NDCG = 0.512038, RMSE = 1.267595, MAE = 0.899419, MRR = 0.695073 
+MF iter [90/1000] completed, loss = 5551.645232, delta_loss: 208.381710, lr: 72.320811
+AUC = 0.649242, NDCG = 0.515854, RMSE = 1.053679, MAE = 0.763405, MRR = 0.691129 
+MF iter [120/1000] completed, loss = 4905.555160, delta_loss: 109.717333, lr: 5.420379
+AUC = 0.638305, NDCG = 0.514442, RMSE = 1.103649, MAE = 0.807141, MRR = 0.689024 
+MF iter [150/1000] completed, loss = 3907.583242, delta_loss: 18.242883, lr: 23.426566
+AUC = 0.646466, NDCG = 0.517424, RMSE = 1.074214, MAE = 0.781670, MRR = 0.694574 
+MF iter [180/1000] completed, loss = 3332.216237, delta_loss: 18.942795, lr: 101.248270
+AUC = 0.650711, NDCG = 0.517786, RMSE = 1.072302, MAE = 0.780792, MRR = 0.699751 
+MF iter [210/1000] completed, loss = 3141.862718, delta_loss: -2.436756, lr: 3.372652
+AUC = 0.655737, NDCG = 0.518759, RMSE = 1.076921, MAE = 0.785265, MRR = 0.701886 
+MF iter [240/1000] completed, loss = 3120.108649, delta_loss: 0.907693, lr: 9.717604
+AUC = 0.653733, NDCG = 0.518605, RMSE = 1.076904, MAE = 0.784926, MRR = 0.702152 
+MF iter [270/1000] completed, loss = 3064.354665, delta_loss: 3.171006, lr: 41.998924
+AUC = 0.654410, NDCG = 0.519413, RMSE = 1.078192, MAE = 0.785758, MRR = 0.703835 
+MF iter [300/1000] completed, loss = 3045.131874, delta_loss: -94.336312, lr: 10.623762
+AUC = 0.656037, NDCG = 0.519714, RMSE = 1.085189, MAE = 0.790810, MRR = 0.702463 
+MF iter [330/1000] completed, loss = 2928.278821, delta_loss: 0.212745, lr: 2.687314
+AUC = 0.653220, NDCG = 0.518954, RMSE = 1.084184, MAE = 0.790134, MRR = 0.701372 
+MF iter [360/1000] completed, loss = 2920.900810, delta_loss: 0.445809, lr: 11.614418
+AUC = 0.654353, NDCG = 0.519197, RMSE = 1.084471, MAE = 0.790316, MRR = 0.702385 
+MF iter [390/1000] completed, loss = 2892.307636, delta_loss: 1.658198, lr: 50.196845
+AUC = 0.652304, NDCG = 0.518998, RMSE = 1.085935, MAE = 0.791329, MRR = 0.703773 
+MF iter [420/1000] completed, loss = 2965.661633, delta_loss: 83.739394, lr: 3.762208
+AUC = 0.656319, NDCG = 0.519044, RMSE = 1.093772, MAE = 0.798040, MRR = 0.699782 
+MF iter [450/1000] completed, loss = 2844.596025, delta_loss: 0.037646, lr: 0.422961
+AUC = 0.655213, NDCG = 0.519123, RMSE = 1.092230, MAE = 0.796817, MRR = 0.701855 
+MF iter [480/1000] completed, loss = 2841.819234, delta_loss: 0.112533, lr: 1.828014
+AUC = 0.654998, NDCG = 0.519003, RMSE = 1.092115, MAE = 0.796658, MRR = 0.701388 
+MF iter [510/1000] completed, loss = 2835.882225, delta_loss: 0.289793, lr: 7.900569
+AUC = 0.654214, NDCG = 0.518747, RMSE = 1.091899, MAE = 0.796320, MRR = 0.700920 
+MF iter [540/1000] completed, loss = 2822.059634, delta_loss: 0.726458, lr: 34.145805
+AUC = 0.653931, NDCG = 0.518693, RMSE = 1.092158, MAE = 0.796305, MRR = 0.700187 
+MF iter [570/1000] completed, loss = 3276.540545, delta_loss: -490.522172, lr: 12.955936
+AUC = 0.659748, NDCG = 0.519355, RMSE = 1.099437, MAE = 0.802296, MRR = 0.698909 
+MF iter [600/1000] completed, loss = 2777.536378, delta_loss: 0.344465, lr: 0.971036
+AUC = 0.655084, NDCG = 0.518674, RMSE = 1.096241, MAE = 0.799793, MRR = 0.700437 
+MF iter [630/1000] completed, loss = 2776.277054, delta_loss: 0.040498, lr: 2.797840
+AUC = 0.655304, NDCG = 0.518557, RMSE = 1.096264, MAE = 0.799792, MRR = 0.700327 
+MF iter [660/1000] completed, loss = 2773.262281, delta_loss: 0.178043, lr: 12.092103
+AUC = 0.655139, NDCG = 0.518345, RMSE = 1.096426, MAE = 0.799874, MRR = 0.699860 
+MF iter [690/1000] completed, loss = 2761.657307, delta_loss: 0.689542, lr: 52.261373
+AUC = 0.655427, NDCG = 0.518376, RMSE = 1.097430, MAE = 0.800619, MRR = 0.700218 
+MF iter [720/1000] completed, loss = 2790.711305, delta_loss: -39.965938, lr: 5.875414
+AUC = 0.655801, NDCG = 0.517923, RMSE = 1.102133, MAE = 0.804968, MRR = 0.700078 
+MF iter [750/1000] completed, loss = 2738.938175, delta_loss: -0.005374, lr: 0.293571
+AUC = 0.655312, NDCG = 0.518058, RMSE = 1.100935, MAE = 0.803553, MRR = 0.698831 
+MF iter [780/1000] completed, loss = 2738.296027, delta_loss: 0.017454, lr: 1.268798
+AUC = 0.655313, NDCG = 0.518094, RMSE = 1.100924, MAE = 0.803505, MRR = 0.698831 
+MF iter [810/1000] completed, loss = 2737.039345, delta_loss: 0.072210, lr: 5.483673
+AUC = 0.655225, NDCG = 0.517928, RMSE = 1.100951, MAE = 0.803482, MRR = 0.698831 
+MF iter [840/1000] completed, loss = 2732.732711, delta_loss: 0.245748, lr: 23.700117
+AUC = 0.655122, NDCG = 0.517895, RMSE = 1.101235, MAE = 0.803588, MRR = 0.698394 
+MF iter [870/1000] completed, loss = 2717.362177, delta_loss: 0.675076, lr: 102.430542
+AUC = 0.655314, NDCG = 0.518188, RMSE = 1.104203, MAE = 0.806112, MRR = 0.700000 
+MF iter [900/1000] completed, loss = 3133.021698, delta_loss: 57.361691, lr: 2.274689
+AUC = 0.647719, NDCG = 0.517715, RMSE = 1.136025, MAE = 0.835422, MRR = 0.698737 
+MF iter [930/1000] completed, loss = 2832.707256, delta_loss: 6.747845, lr: 9.831076
+AUC = 0.651923, NDCG = 0.518456, RMSE = 1.123112, MAE = 0.823160, MRR = 0.698768 
+MF iter [960/1000] completed, loss = 2723.339309, delta_loss: 1.563373, lr: 42.489343
+AUC = 0.654747, NDCG = 0.519131, RMSE = 1.114371, MAE = 0.814424, MRR = 0.698051 
+MF iter [990/1000] completed, loss = 2698.423803, delta_loss: 36.035412, lr: 16.121722
+AUC = 0.654144, NDCG = 0.519372, RMSE = 1.115690, MAE = 0.815693, MRR = 0.701200 
+MF 5/5 fold completed
+AUC = 0.650731, NDCG = 0.522915, RMSE = 1.121609, MAE = 0.813438, MRR = 0.701077 
+>> 

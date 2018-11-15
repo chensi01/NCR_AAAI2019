@@ -1,0 +1,1024 @@
+>> load('session_MovieLens_new_small.mat')
+>> BPR_baseline(1,session);
+警告: One or more folds do not contain points from all the groups. 
+> In internal.stats.cvpartitionImpl>stra_kfoldcv (line 364)
+  In internal.stats.cvpartitionImpl/rerandom (line 315)
+  In internal.stats.cvpartitionInMemoryImpl (line 166)
+  In cvpartition (line 175)
+  In BPR_baseline (line 25) 
+generate data completed
+BPR_baseline:iter [1/100] completed, loss: 868696.815123, delta_loss = -868696.815123, lr: 5.000000
+auc = 0.596660, NDCG = 0.521874, mrr = 0.798330, map = 0.798330, pre = 0.500000
+时间已过 11.243581 秒。
+BPR_baseline:iter [2/100] completed, loss: 668985.871024, delta_loss = 199710.944099, lr: 5.000000
+auc = 0.646038, NDCG = 0.533048, mrr = 0.823019, map = 0.823019, pre = 0.500000
+时间已过 9.918743 秒。
+BPR_baseline:iter [3/100] completed, loss: 584959.529289, delta_loss = 84026.341735, lr: 5.250000
+auc = 0.681623, NDCG = 0.541100, mrr = 0.840811, map = 0.840811, pre = 0.500000
+时间已过 11.609241 秒。
+BPR_baseline:iter [4/100] completed, loss: 562691.873275, delta_loss = 22267.656014, lr: 5.512500
+auc = 0.618890, NDCG = 0.526904, mrr = 0.809445, map = 0.809445, pre = 0.500000
+时间已过 9.153769 秒。
+BPR_baseline:iter [5/100] completed, loss: 698998.847313, delta_loss = -136306.974038, lr: 2.756250
+auc = 0.654185, NDCG = 0.534891, mrr = 0.827092, map = 0.827092, pre = 0.500000
+时间已过 9.632337 秒。
+BPR_baseline:iter [6/100] completed, loss: 3001606.762098, delta_loss = -2302607.914785, lr: 1.378125
+auc = 0.609265, NDCG = 0.524726, mrr = 0.804632, map = 0.804632, pre = 0.500000
+时间已过 9.469699 秒。
+BPR_baseline:iter [7/100] completed, loss: 1271579.463659, delta_loss = 1730027.298439, lr: 1.447031
+auc = 0.628244, NDCG = 0.529021, mrr = 0.814122, map = 0.814122, pre = 0.500000
+时间已过 9.477207 秒。
+BPR_baseline:iter [8/100] completed, loss: 583367.795018, delta_loss = 688211.668642, lr: 1.519383
+auc = 0.680126, NDCG = 0.540762, mrr = 0.840063, map = 0.840063, pre = 0.500000
+时间已过 9.068165 秒。
+BPR_baseline:iter [9/100] completed, loss: 401492.237047, delta_loss = 181875.557971, lr: 1.595352
+auc = 0.698131, NDCG = 0.544836, mrr = 0.849065, map = 0.849065, pre = 0.500000
+时间已过 9.363552 秒。
+BPR_baseline:iter [10/100] completed, loss: 398905.102445, delta_loss = 2587.134602, lr: 1.675120
+auc = 0.700266, NDCG = 0.545319, mrr = 0.850133, map = 0.850133, pre = 0.500000
+时间已过 10.217877 秒。
+BPR_baseline:iter [11/100] completed, loss: 391794.046431, delta_loss = 7111.056014, lr: 1.758876
+auc = 0.702360, NDCG = 0.545793, mrr = 0.851180, map = 0.851180, pre = 0.500000
+时间已过 9.583928 秒。
+BPR_baseline:iter [12/100] completed, loss: 387352.491659, delta_loss = 4441.554772, lr: 1.846819
+auc = 0.704071, NDCG = 0.546180, mrr = 0.852036, map = 0.852036, pre = 0.500000
+时间已过 9.392536 秒。
+BPR_baseline:iter [13/100] completed, loss: 383316.551128, delta_loss = 4035.940531, lr: 1.939160
+auc = 0.706417, NDCG = 0.546711, mrr = 0.853208, map = 0.853208, pre = 0.500000
+时间已过 9.454800 秒。
+BPR_baseline:iter [14/100] completed, loss: 379415.285376, delta_loss = 3901.265753, lr: 2.036118
+auc = 0.708627, NDCG = 0.547211, mrr = 0.854314, map = 0.854314, pre = 0.500000
+时间已过 10.294705 秒。
+BPR_baseline:iter [15/100] completed, loss: 375669.943738, delta_loss = 3745.341637, lr: 2.137924
+auc = 0.710908, NDCG = 0.547727, mrr = 0.855454, map = 0.855454, pre = 0.500000
+时间已过 9.298099 秒。
+BPR_baseline:iter [16/100] completed, loss: 372111.351812, delta_loss = 3558.591926, lr: 2.244820
+auc = 0.713435, NDCG = 0.548299, mrr = 0.856718, map = 0.856718, pre = 0.500000
+时间已过 9.651764 秒。
+BPR_baseline:iter [17/100] completed, loss: 368732.456668, delta_loss = 3378.895144, lr: 2.357061
+auc = 0.716196, NDCG = 0.548924, mrr = 0.858098, map = 0.858098, pre = 0.500000
+时间已过 9.095654 秒。
+BPR_baseline:iter [18/100] completed, loss: 365528.709807, delta_loss = 3203.746861, lr: 2.474914
+auc = 0.718807, NDCG = 0.549515, mrr = 0.859403, map = 0.859403, pre = 0.500000
+时间已过 9.653703 秒。
+BPR_baseline:iter [19/100] completed, loss: 362499.337554, delta_loss = 3029.372253, lr: 2.598660
+auc = 0.721423, NDCG = 0.550107, mrr = 0.860712, map = 0.860712, pre = 0.500000
+时间已过 9.281369 秒。
+BPR_baseline:iter [20/100] completed, loss: 359641.637412, delta_loss = 2857.700142, lr: 2.728593
+auc = 0.724240, NDCG = 0.550744, mrr = 0.862120, map = 0.862120, pre = 0.500000
+时间已过 9.432062 秒。
+BPR_baseline:iter [21/100] completed, loss: 356952.315845, delta_loss = 2689.321567, lr: 2.865023
+auc = 0.726716, NDCG = 0.551304, mrr = 0.863358, map = 0.863358, pre = 0.500000
+时间已过 10.367288 秒。
+BPR_baseline:iter [22/100] completed, loss: 354427.916781, delta_loss = 2524.399064, lr: 3.008274
+auc = 0.729877, NDCG = 0.552020, mrr = 0.864939, map = 0.864939, pre = 0.500000
+时间已过 9.623125 秒。
+BPR_baseline:iter [23/100] completed, loss: 352064.598618, delta_loss = 2363.318163, lr: 3.158688
+auc = 0.733025, NDCG = 0.552732, mrr = 0.866512, map = 0.866512, pre = 0.500000
+时间已过 9.494270 秒。
+BPR_baseline:iter [24/100] completed, loss: 349858.321596, delta_loss = 2206.277022, lr: 3.316622
+auc = 0.736154, NDCG = 0.553440, mrr = 0.868077, map = 0.868077, pre = 0.500000
+时间已过 10.089916 秒。
+BPR_baseline:iter [25/100] completed, loss: 347804.898730, delta_loss = 2053.422866, lr: 3.482453
+auc = 0.739586, NDCG = 0.554217, mrr = 0.869793, map = 0.869793, pre = 0.500000
+时间已过 9.617223 秒。
+BPR_baseline:iter [26/100] completed, loss: 345900.064682, delta_loss = 1904.834048, lr: 3.656576
+auc = 0.742925, NDCG = 0.554973, mrr = 0.871462, map = 0.871462, pre = 0.500000
+时间已过 9.708817 秒。
+BPR_baseline:iter [27/100] completed, loss: 344139.531075, delta_loss = 1760.533607, lr: 3.839405
+auc = 0.746581, NDCG = 0.555800, mrr = 0.873290, map = 0.873290, pre = 0.500000
+时间已过 9.718092 秒。
+BPR_baseline:iter [28/100] completed, loss: 342519.026232, delta_loss = 1620.504844, lr: 4.031375
+auc = 0.750498, NDCG = 0.556686, mrr = 0.875249, map = 0.875249, pre = 0.500000
+时间已过 8.818370 秒。
+BPR_baseline:iter [29/100] completed, loss: 341034.319283, delta_loss = 1484.706948, lr: 4.232944
+auc = 0.754280, NDCG = 0.557542, mrr = 0.877140, map = 0.877140, pre = 0.500000
+时间已过 9.463984 秒。
+BPR_baseline:iter [30/100] completed, loss: 339681.225056, delta_loss = 1353.094227, lr: 4.444591
+auc = 0.758337, NDCG = 0.558460, mrr = 0.879168, map = 0.879168, pre = 0.500000
+时间已过 9.325908 秒。
+BPR_baseline:iter [31/100] completed, loss: 338455.588269, delta_loss = 1225.636788, lr: 4.666820
+auc = 0.761652, NDCG = 0.559210, mrr = 0.880826, map = 0.880826, pre = 0.500000
+时间已过 10.243196 秒。
+BPR_baseline:iter [32/100] completed, loss: 337353.248606, delta_loss = 1102.339663, lr: 4.900161
+auc = 0.765201, NDCG = 0.560013, mrr = 0.882600, map = 0.882600, pre = 0.500000
+时间已过 9.432328 秒。
+BPR_baseline:iter [33/100] completed, loss: 336369.981166, delta_loss = 983.267439, lr: 5.145169
+auc = 0.768470, NDCG = 0.560753, mrr = 0.884235, map = 0.884235, pre = 0.500000
+时间已过 9.588421 秒。
+BPR_baseline:iter [34/100] completed, loss: 335501.429442, delta_loss = 868.551724, lr: 5.402428
+auc = 0.771421, NDCG = 0.561421, mrr = 0.885711, map = 0.885711, pre = 0.500000
+时间已过 9.197923 秒。
+BPR_baseline:iter [35/100] completed, loss: 334742.999736, delta_loss = 758.429707, lr: 5.672549
+auc = 0.774317, NDCG = 0.562076, mrr = 0.887159, map = 0.887159, pre = 0.500000
+时间已过 9.406496 秒。
+BPR_baseline:iter [36/100] completed, loss: 334089.810408, delta_loss = 653.189328, lr: 5.956177
+auc = 0.777087, NDCG = 0.562703, mrr = 0.888544, map = 0.888544, pre = 0.500000
+时间已过 8.686381 秒。
+BPR_baseline:iter [37/100] completed, loss: 333536.480740, delta_loss = 553.329668, lr: 6.253986
+auc = 0.779778, NDCG = 0.563312, mrr = 0.889889, map = 0.889889, pre = 0.500000
+时间已过 9.337892 秒。
+BPR_baseline:iter [38/100] completed, loss: 333077.382397, delta_loss = 459.098343, lr: 6.566685
+auc = 0.783513, NDCG = 0.564157, mrr = 0.891756, map = 0.891756, pre = 0.500000
+时间已过 9.101513 秒。
+BPR_baseline:iter [39/100] completed, loss: 332705.588403, delta_loss = 371.793994, lr: 6.895019
+auc = 0.785728, NDCG = 0.564659, mrr = 0.892864, map = 0.892864, pre = 0.500000
+时间已过 9.823951 秒。
+BPR_baseline:iter [40/100] completed, loss: 332416.020218, delta_loss = 289.568185, lr: 7.239770
+auc = 0.788111, NDCG = 0.565198, mrr = 0.894055, map = 0.894055, pre = 0.500000
+时间已过 9.277003 秒。
+BPR_baseline:iter [41/100] completed, loss: 332194.763150, delta_loss = 221.257068, lr: 7.601759
+auc = 0.790848, NDCG = 0.565817, mrr = 0.895424, map = 0.895424, pre = 0.500000
+时间已过 9.326029 秒。
+BPR_baseline:iter [42/100] completed, loss: 332057.651311, delta_loss = 137.111839, lr: 7.981847
+auc = 0.793758, NDCG = 0.566476, mrr = 0.896879, map = 0.896879, pre = 0.500000
+时间已过 9.993948 秒。
+BPR_baseline:iter [43/100] completed, loss: 331903.914991, delta_loss = 153.736320, lr: 8.380939
+auc = 0.796565, NDCG = 0.567111, mrr = 0.898283, map = 0.898283, pre = 0.500000
+时间已过 9.448224 秒。
+BPR_baseline:iter [44/100] completed, loss: 332115.897995, delta_loss = -211.983004, lr: 4.190469
+auc = 0.796882, NDCG = 0.567183, mrr = 0.898441, map = 0.898441, pre = 0.500000
+时间已过 10.083523 秒。
+BPR_baseline:iter [45/100] completed, loss: 331892.038039, delta_loss = 223.859956, lr: 4.399993
+auc = 0.787267, NDCG = 0.565007, mrr = 0.893633, map = 0.893633, pre = 0.500000
+时间已过 10.026250 秒。
+BPR_baseline:iter [46/100] completed, loss: 332569.467560, delta_loss = -677.429521, lr: 2.199996
+auc = 0.798561, NDCG = 0.567563, mrr = 0.899280, map = 0.899280, pre = 0.500000
+时间已过 10.046791 秒。
+BPR_baseline:iter [47/100] completed, loss: 336373.216768, delta_loss = -3803.749208, lr: 1.099998
+auc = 0.804311, NDCG = 0.568864, mrr = 0.902155, map = 0.902155, pre = 0.500000
+时间已过 9.187798 秒。
+BPR_baseline:iter [48/100] completed, loss: 331652.481898, delta_loss = 4720.734870, lr: 1.154998
+auc = 0.811352, NDCG = 0.570457, mrr = 0.905676, map = 0.905676, pre = 0.500000
+时间已过 9.534879 秒。
+BPR_baseline:iter [49/100] completed, loss: 331627.394980, delta_loss = 25.086918, lr: 1.212748
+auc = 0.801662, NDCG = 0.568264, mrr = 0.900831, map = 0.900831, pre = 0.500000
+时间已过 9.073487 秒。
+BPR_baseline:iter [50/100] completed, loss: 331604.985714, delta_loss = 22.409266, lr: 1.273385
+auc = 0.801214, NDCG = 0.568163, mrr = 0.900607, map = 0.900607, pre = 0.500000
+时间已过 9.511280 秒。
+BPR_baseline:iter [51/100] completed, loss: 331649.672668, delta_loss = -44.686953, lr: 0.636693
+auc = 0.801475, NDCG = 0.568222, mrr = 0.900738, map = 0.900738, pre = 0.500000
+时间已过 9.494339 秒。
+BPR_baseline:iter [52/100] completed, loss: 331631.635362, delta_loss = 18.037305, lr: 0.668527
+auc = 0.801653, NDCG = 0.568262, mrr = 0.900826, map = 0.900826, pre = 0.500000
+时间已过 9.968737 秒。
+BPR_baseline:iter [53/100] completed, loss: 331640.318874, delta_loss = -8.683512, lr: 0.334264
+auc = 0.801928, NDCG = 0.568325, mrr = 0.900964, map = 0.900964, pre = 0.500000
+时间已过 10.020956 秒。
+BPR_baseline:iter [54/100] completed, loss: 331631.271515, delta_loss = 9.047359, lr: 0.350977
+auc = 0.802002, NDCG = 0.568341, mrr = 0.901001, map = 0.901001, pre = 0.500000
+时间已过 9.660114 秒。
+BPR_baseline:iter [55/100] completed, loss: 331637.185589, delta_loss = -5.914074, lr: 0.175488
+auc = 0.802030, NDCG = 0.568348, mrr = 0.901015, map = 0.901015, pre = 0.500000
+时间已过 9.241308 秒。
+BPR_baseline:iter [56/100] completed, loss: 331633.217699, delta_loss = 3.967889, lr: 0.184263
+auc = 0.802114, NDCG = 0.568367, mrr = 0.901057, map = 0.901057, pre = 0.500000
+时间已过 8.645298 秒。
+BPR_baseline:iter [57/100] completed, loss: 331636.533154, delta_loss = -3.315454, lr: 0.092131
+auc = 0.802152, NDCG = 0.568375, mrr = 0.901076, map = 0.901076, pre = 0.500000
+时间已过 8.897704 秒。
+BPR_baseline:iter [58/100] completed, loss: 331634.547734, delta_loss = 1.985420, lr: 0.096738
+auc = 0.802138, NDCG = 0.568372, mrr = 0.901069, map = 0.901069, pre = 0.500000
+时间已过 9.213501 秒。
+BPR_baseline:iter [59/100] completed, loss: 331636.317018, delta_loss = -1.769284, lr: 0.048369
+auc = 0.802147, NDCG = 0.568374, mrr = 0.901073, map = 0.901073, pre = 0.500000
+时间已过 9.113076 秒。
+BPR_baseline:iter [60/100] completed, loss: 331635.292269, delta_loss = 1.024749, lr: 0.050787
+auc = 0.802166, NDCG = 0.568378, mrr = 0.901083, map = 0.901083, pre = 0.500000
+时间已过 9.169859 秒。
+BPR_baseline:iter [61/100] completed, loss: 331636.226787, delta_loss = -0.934518, lr: 0.025394
+auc = 0.802166, NDCG = 0.568378, mrr = 0.901083, map = 0.901083, pre = 0.500000
+时间已过 9.869865 秒。
+BPR_baseline:iter [62/100] completed, loss: 331635.692850, delta_loss = 0.533937, lr: 0.026663
+auc = 0.802166, NDCG = 0.568378, mrr = 0.901083, map = 0.901083, pre = 0.500000
+时间已过 10.191606 秒。
+BPR_baseline:iter [63/100] completed, loss: 331636.184810, delta_loss = -0.491959, lr: 0.013332
+auc = 0.802166, NDCG = 0.568378, mrr = 0.901083, map = 0.901083, pre = 0.500000
+时间已过 9.745893 秒。
+BPR_baseline:iter [64/100] completed, loss: 331635.905523, delta_loss = 0.279286, lr: 0.013998
+auc = 0.802170, NDCG = 0.568379, mrr = 0.901085, map = 0.901085, pre = 0.500000
+时间已过 9.050013 秒。
+BPR_baseline:iter [65/100] completed, loss: 331636.164144, delta_loss = -0.258621, lr: 0.006999
+auc = 0.802175, NDCG = 0.568380, mrr = 0.901087, map = 0.901087, pre = 0.500000
+时间已过 9.778225 秒。
+BPR_baseline:iter [66/100] completed, loss: 331636.017792, delta_loss = 0.146353, lr: 0.007349
+auc = 0.802180, NDCG = 0.568382, mrr = 0.901090, map = 0.901090, pre = 0.500000
+时间已过 9.717513 秒。
+BPR_baseline:iter [67/100] completed, loss: 331636.153659, delta_loss = -0.135867, lr: 0.003675
+auc = 0.802175, NDCG = 0.568380, mrr = 0.901087, map = 0.901087, pre = 0.500000
+时间已过 9.406467 秒。
+BPR_baseline:iter [68/100] completed, loss: 331636.076897, delta_loss = 0.076761, lr: 0.003858
+auc = 0.802170, NDCG = 0.568379, mrr = 0.901085, map = 0.901085, pre = 0.500000
+时间已过 9.180459 秒。
+BPR_baseline:iter [69/100] completed, loss: 331636.148252, delta_loss = -0.071355, lr: 0.001929
+auc = 0.802170, NDCG = 0.568379, mrr = 0.901085, map = 0.901085, pre = 0.500000
+时间已过 9.665827 秒。
+时间已过 2.983662 秒。
+BPR_baseline:fold [1/5] completed
+generate data completed
+BPR_baseline:iter [1/100] completed, loss: 857634.194240, delta_loss = -857634.194240, lr: 5.000000
+auc = 0.583759, NDCG = 0.518954, mrr = 0.791880, map = 0.791880, pre = 0.500000
+时间已过 9.962504 秒。
+BPR_baseline:iter [2/100] completed, loss: 666067.066538, delta_loss = 191567.127702, lr: 5.000000
+auc = 0.630619, NDCG = 0.529558, mrr = 0.815310, map = 0.815310, pre = 0.500000
+时间已过 9.387418 秒。
+BPR_baseline:iter [3/100] completed, loss: 580967.316379, delta_loss = 85099.750159, lr: 5.250000
+auc = 0.671179, NDCG = 0.538737, mrr = 0.835590, map = 0.835590, pre = 0.500000
+时间已过 8.990063 秒。
+BPR_baseline:iter [4/100] completed, loss: 552509.154332, delta_loss = 28458.162047, lr: 5.512500
+auc = 0.617609, NDCG = 0.526614, mrr = 0.808804, map = 0.808804, pre = 0.500000
+时间已过 9.027897 秒。
+BPR_baseline:iter [5/100] completed, loss: 661744.807445, delta_loss = -109235.653114, lr: 2.756250
+auc = 0.650591, NDCG = 0.534078, mrr = 0.825296, map = 0.825296, pre = 0.500000
+时间已过 8.727786 秒。
+BPR_baseline:iter [6/100] completed, loss: 2592589.326610, delta_loss = -1930844.519165, lr: 1.378125
+auc = 0.599791, NDCG = 0.522582, mrr = 0.799896, map = 0.799896, pre = 0.500000
+时间已过 8.733634 秒。
+BPR_baseline:iter [7/100] completed, loss: 1122289.627857, delta_loss = 1470299.698753, lr: 1.447031
+auc = 0.617077, NDCG = 0.526494, mrr = 0.808539, map = 0.808539, pre = 0.500000
+时间已过 8.709290 秒。
+BPR_baseline:iter [8/100] completed, loss: 550474.715600, delta_loss = 571814.912257, lr: 1.519383
+auc = 0.671655, NDCG = 0.538844, mrr = 0.835827, map = 0.835827, pre = 0.500000
+时间已过 9.736286 秒。
+BPR_baseline:iter [9/100] completed, loss: 402611.195515, delta_loss = 147863.520085, lr: 1.595352
+auc = 0.684711, NDCG = 0.541799, mrr = 0.842356, map = 0.842356, pre = 0.500000
+时间已过 9.406115 秒。
+BPR_baseline:iter [10/100] completed, loss: 399421.696173, delta_loss = 3189.499342, lr: 1.675120
+auc = 0.687071, NDCG = 0.542333, mrr = 0.843535, map = 0.843535, pre = 0.500000
+时间已过 9.022188 秒。
+BPR_baseline:iter [11/100] completed, loss: 392453.960195, delta_loss = 6967.735978, lr: 1.758876
+auc = 0.689407, NDCG = 0.542862, mrr = 0.844704, map = 0.844704, pre = 0.500000
+时间已过 9.122301 秒。
+BPR_baseline:iter [12/100] completed, loss: 387988.689085, delta_loss = 4465.271110, lr: 1.846819
+auc = 0.691893, NDCG = 0.543424, mrr = 0.845946, map = 0.845946, pre = 0.500000
+时间已过 9.854838 秒。
+BPR_baseline:iter [13/100] completed, loss: 383907.358529, delta_loss = 4081.330556, lr: 1.939160
+auc = 0.694551, NDCG = 0.544026, mrr = 0.847275, map = 0.847275, pre = 0.500000
+时间已过 9.486201 秒。
+BPR_baseline:iter [14/100] completed, loss: 379947.602555, delta_loss = 3959.755974, lr: 2.036118
+auc = 0.697111, NDCG = 0.544605, mrr = 0.848555, map = 0.848555, pre = 0.500000
+时间已过 10.089431 秒。
+BPR_baseline:iter [15/100] completed, loss: 376147.219602, delta_loss = 3800.382953, lr: 2.137924
+auc = 0.699605, NDCG = 0.545170, mrr = 0.849803, map = 0.849803, pre = 0.500000
+时间已过 9.310735 秒。
+BPR_baseline:iter [16/100] completed, loss: 372536.395843, delta_loss = 3610.823759, lr: 2.244820
+auc = 0.702315, NDCG = 0.545783, mrr = 0.851157, map = 0.851157, pre = 0.500000
+时间已过 9.141083 秒。
+BPR_baseline:iter [17/100] completed, loss: 369105.063594, delta_loss = 3431.332249, lr: 2.357061
+auc = 0.705462, NDCG = 0.546495, mrr = 0.852731, map = 0.852731, pre = 0.500000
+时间已过 9.627482 秒。
+BPR_baseline:iter [18/100] completed, loss: 365849.111846, delta_loss = 3255.951748, lr: 2.474914
+auc = 0.708456, NDCG = 0.547172, mrr = 0.854228, map = 0.854228, pre = 0.500000
+时间已过 10.328469 秒。
+BPR_baseline:iter [19/100] completed, loss: 362767.734805, delta_loss = 3081.377041, lr: 2.598660
+auc = 0.711543, NDCG = 0.547871, mrr = 0.855772, map = 0.855772, pre = 0.500000
+时间已过 11.107312 秒。
+BPR_baseline:iter [20/100] completed, loss: 359857.846201, delta_loss = 2909.888604, lr: 2.728593
+auc = 0.714775, NDCG = 0.548602, mrr = 0.857387, map = 0.857387, pre = 0.500000
+时间已过 10.055081 秒。
+BPR_baseline:iter [21/100] completed, loss: 357116.051197, delta_loss = 2741.795005, lr: 2.865023
+auc = 0.718174, NDCG = 0.549372, mrr = 0.859087, map = 0.859087, pre = 0.500000
+时间已过 12.192444 秒。
+BPR_baseline:iter [22/100] completed, loss: 354538.781089, delta_loss = 2577.270108, lr: 3.008274
+auc = 0.721797, NDCG = 0.550191, mrr = 0.860899, map = 0.860899, pre = 0.500000
+时间已过 9.624091 秒。
+BPR_baseline:iter [23/100] completed, loss: 352122.118735, delta_loss = 2416.662354, lr: 3.158688
+auc = 0.725547, NDCG = 0.551040, mrr = 0.862773, map = 0.862773, pre = 0.500000
+时间已过 9.151552 秒。
+BPR_baseline:iter [24/100] completed, loss: 349862.010854, delta_loss = 2260.107881, lr: 3.316622
+auc = 0.729226, NDCG = 0.551872, mrr = 0.864613, map = 0.864613, pre = 0.500000
+时间已过 8.717490 秒。
+BPR_baseline:iter [25/100] completed, loss: 347754.300202, delta_loss = 2107.710652, lr: 3.482453
+auc = 0.733068, NDCG = 0.552742, mrr = 0.866534, map = 0.866534, pre = 0.500000
+时间已过 9.732376 秒。
+BPR_baseline:iter [26/100] completed, loss: 345794.811604, delta_loss = 1959.488599, lr: 3.656576
+auc = 0.736272, NDCG = 0.553467, mrr = 0.868136, map = 0.868136, pre = 0.500000
+时间已过 8.951191 秒。
+BPR_baseline:iter [27/100] completed, loss: 343979.404402, delta_loss = 1815.407202, lr: 3.839405
+auc = 0.739676, NDCG = 0.554237, mrr = 0.869838, map = 0.869838, pre = 0.500000
+时间已过 9.856588 秒。
+BPR_baseline:iter [28/100] completed, loss: 342304.020333, delta_loss = 1675.384069, lr: 4.031375
+auc = 0.743290, NDCG = 0.555055, mrr = 0.871645, map = 0.871645, pre = 0.500000
+时间已过 10.422998 秒。
+BPR_baseline:iter [29/100] completed, loss: 340764.710243, delta_loss = 1539.310090, lr: 4.232944
+auc = 0.746992, NDCG = 0.555893, mrr = 0.873496, map = 0.873496, pre = 0.500000
+时间已过 8.463033 秒。
+BPR_baseline:iter [30/100] completed, loss: 339357.642206, delta_loss = 1407.068037, lr: 4.444591
+auc = 0.750746, NDCG = 0.556742, mrr = 0.875373, map = 0.875373, pre = 0.500000
+时间已过 9.822335 秒。
+BPR_baseline:iter [31/100] completed, loss: 338079.091405, delta_loss = 1278.550800, lr: 4.666820
+auc = 0.754691, NDCG = 0.557635, mrr = 0.877346, map = 0.877346, pre = 0.500000
+时间已过 9.308814 秒。
+BPR_baseline:iter [32/100] completed, loss: 336925.396010, delta_loss = 1153.695395, lr: 4.900161
+auc = 0.758282, NDCG = 0.558448, mrr = 0.879141, map = 0.879141, pre = 0.500000
+时间已过 12.874520 秒。
+BPR_baseline:iter [33/100] completed, loss: 335892.915631, delta_loss = 1032.480379, lr: 5.145169
+auc = 0.761663, NDCG = 0.559213, mrr = 0.880831, map = 0.880831, pre = 0.500000
+时间已过 8.987835 秒。
+BPR_baseline:iter [34/100] completed, loss: 334977.904869, delta_loss = 915.010761, lr: 5.402428
+auc = 0.764964, NDCG = 0.559960, mrr = 0.882482, map = 0.882482, pre = 0.500000
+时间已过 10.215234 秒。
+BPR_baseline:iter [35/100] completed, loss: 334176.515987, delta_loss = 801.388883, lr: 5.672549
+auc = 0.768158, NDCG = 0.560683, mrr = 0.884079, map = 0.884079, pre = 0.500000
+时间已过 9.689234 秒。
+BPR_baseline:iter [36/100] completed, loss: 333484.411027, delta_loss = 692.104960, lr: 5.956177
+auc = 0.771511, NDCG = 0.561441, mrr = 0.885756, map = 0.885756, pre = 0.500000
+时间已过 9.331611 秒。
+BPR_baseline:iter [37/100] completed, loss: 332897.366747, delta_loss = 587.044280, lr: 6.253986
+auc = 0.774402, NDCG = 0.562096, mrr = 0.887201, map = 0.887201, pre = 0.500000
+时间已过 9.536422 秒。
+BPR_baseline:iter [38/100] completed, loss: 332409.064927, delta_loss = 488.301821, lr: 6.566685
+auc = 0.777732, NDCG = 0.562849, mrr = 0.888866, map = 0.888866, pre = 0.500000
+时间已过 9.065721 秒。
+BPR_baseline:iter [39/100] completed, loss: 332017.354349, delta_loss = 391.710578, lr: 6.895019
+auc = 0.780805, NDCG = 0.563545, mrr = 0.890402, map = 0.890402, pre = 0.500000
+时间已过 9.650682 秒。
+BPR_baseline:iter [40/100] completed, loss: 331703.600853, delta_loss = 313.753496, lr: 7.239770
+auc = 0.783430, NDCG = 0.564139, mrr = 0.891715, map = 0.891715, pre = 0.500000
+时间已过 9.511674 秒。
+BPR_baseline:iter [41/100] completed, loss: 331503.492503, delta_loss = 200.108350, lr: 7.601759
+auc = 0.785841, NDCG = 0.564684, mrr = 0.892920, map = 0.892920, pre = 0.500000
+时间已过 9.793771 秒。
+BPR_baseline:iter [42/100] completed, loss: 331249.471597, delta_loss = 254.020906, lr: 7.981847
+auc = 0.788368, NDCG = 0.565256, mrr = 0.894184, map = 0.894184, pre = 0.500000
+时间已过 9.464410 秒。
+BPR_baseline:iter [43/100] completed, loss: 331585.363879, delta_loss = -335.892282, lr: 3.990923
+auc = 0.790397, NDCG = 0.565715, mrr = 0.895198, map = 0.895198, pre = 0.500000
+时间已过 9.501258 秒。
+BPR_baseline:iter [44/100] completed, loss: 331562.675265, delta_loss = 22.688614, lr: 4.190469
+auc = 0.778207, NDCG = 0.562957, mrr = 0.889104, map = 0.889104, pre = 0.500000
+时间已过 9.219844 秒。
+BPR_baseline:iter [45/100] completed, loss: 332541.847404, delta_loss = -979.172139, lr: 2.095235
+auc = 0.793199, NDCG = 0.566349, mrr = 0.896600, map = 0.896600, pre = 0.500000
+时间已过 9.200831 秒。
+BPR_baseline:iter [46/100] completed, loss: 338966.957480, delta_loss = -6425.110075, lr: 1.047617
+auc = 0.794174, NDCG = 0.566570, mrr = 0.897087, map = 0.897087, pre = 0.500000
+时间已过 8.881365 秒。
+BPR_baseline:iter [47/100] completed, loss: 330792.534881, delta_loss = 8174.422599, lr: 1.099998
+auc = 0.797233, NDCG = 0.567262, mrr = 0.898616, map = 0.898616, pre = 0.500000
+时间已过 9.338942 秒。
+BPR_baseline:iter [48/100] completed, loss: 330859.465700, delta_loss = -66.930820, lr: 0.549999
+auc = 0.794631, NDCG = 0.566673, mrr = 0.897315, map = 0.897315, pre = 0.500000
+时间已过 9.457754 秒。
+BPR_baseline:iter [49/100] completed, loss: 330782.856914, delta_loss = 76.608787, lr: 0.577499
+auc = 0.794603, NDCG = 0.566667, mrr = 0.897301, map = 0.897301, pre = 0.500000
+时间已过 9.567624 秒。
+BPR_baseline:iter [50/100] completed, loss: 330820.542860, delta_loss = -37.685947, lr: 0.288750
+auc = 0.794705, NDCG = 0.566690, mrr = 0.897353, map = 0.897353, pre = 0.500000
+时间已过 9.563228 秒。
+BPR_baseline:iter [51/100] completed, loss: 330826.745459, delta_loss = -6.202599, lr: 0.144375
+auc = 0.794789, NDCG = 0.566709, mrr = 0.897395, map = 0.897395, pre = 0.500000
+时间已过 9.338046 秒。
+BPR_baseline:iter [52/100] completed, loss: 330829.478257, delta_loss = -2.732798, lr: 0.072187
+auc = 0.794855, NDCG = 0.566724, mrr = 0.897427, map = 0.897427, pre = 0.500000
+时间已过 10.426234 秒。
+BPR_baseline:iter [53/100] completed, loss: 330830.493665, delta_loss = -1.015409, lr: 0.036094
+auc = 0.794887, NDCG = 0.566731, mrr = 0.897444, map = 0.897444, pre = 0.500000
+时间已过 9.501055 秒。
+BPR_baseline:iter [54/100] completed, loss: 330830.916447, delta_loss = -0.422782, lr: 0.018047
+auc = 0.794901, NDCG = 0.566735, mrr = 0.897451, map = 0.897451, pre = 0.500000
+时间已过 9.753428 秒。
+BPR_baseline:iter [55/100] completed, loss: 330831.109601, delta_loss = -0.193154, lr: 0.009023
+auc = 0.794915, NDCG = 0.566738, mrr = 0.897458, map = 0.897458, pre = 0.500000
+时间已过 9.502936 秒。
+BPR_baseline:iter [56/100] completed, loss: 330831.202185, delta_loss = -0.092584, lr: 0.004512
+auc = 0.794906, NDCG = 0.566736, mrr = 0.897453, map = 0.897453, pre = 0.500000
+时间已过 9.540708 秒。
+BPR_baseline:iter [57/100] completed, loss: 330831.247563, delta_loss = -0.045379, lr: 0.002256
+auc = 0.794911, NDCG = 0.566737, mrr = 0.897455, map = 0.897455, pre = 0.500000
+时间已过 9.533824 秒。
+BPR_baseline:iter [58/100] completed, loss: 330831.270036, delta_loss = -0.022473, lr: 0.001128
+auc = 0.794911, NDCG = 0.566737, mrr = 0.897455, map = 0.897455, pre = 0.500000
+时间已过 10.164015 秒。
+时间已过 3.002078 秒。
+BPR_baseline:fold [2/5] completed
+generate data completed
+BPR_baseline:iter [1/100] completed, loss: 867726.279259, delta_loss = -867726.279259, lr: 5.000000
+auc = 0.584067, NDCG = 0.519024, mrr = 0.792033, map = 0.792033, pre = 0.500000
+时间已过 10.211722 秒。
+BPR_baseline:iter [2/100] completed, loss: 674801.433245, delta_loss = 192924.846014, lr: 5.000000
+auc = 0.630913, NDCG = 0.529625, mrr = 0.815456, map = 0.815456, pre = 0.500000
+时间已过 8.658305 秒。
+BPR_baseline:iter [3/100] completed, loss: 598942.066105, delta_loss = 75859.367140, lr: 5.250000
+auc = 0.666339, NDCG = 0.537642, mrr = 0.833169, map = 0.833169, pre = 0.500000
+时间已过 9.323470 秒。
+BPR_baseline:iter [4/100] completed, loss: 592500.685201, delta_loss = 6441.380904, lr: 5.512500
+auc = 0.598952, NDCG = 0.522392, mrr = 0.799476, map = 0.799476, pre = 0.500000
+时间已过 8.695016 秒。
+BPR_baseline:iter [5/100] completed, loss: 799288.623157, delta_loss = -206787.937956, lr: 2.756250
+auc = 0.647779, NDCG = 0.533442, mrr = 0.823890, map = 0.823890, pre = 0.500000
+时间已过 9.298608 秒。
+BPR_baseline:iter [6/100] completed, loss: 4042499.033843, delta_loss = -3243210.410686, lr: 1.378125
+auc = 0.592092, NDCG = 0.520840, mrr = 0.796046, map = 0.796046, pre = 0.500000
+时间已过 9.249230 秒。
+BPR_baseline:iter [7/100] completed, loss: 1629551.497207, delta_loss = 2412947.536636, lr: 1.447031
+auc = 0.611967, NDCG = 0.525337, mrr = 0.805983, map = 0.805983, pre = 0.500000
+时间已过 9.433433 秒。
+BPR_baseline:iter [8/100] completed, loss: 660163.698320, delta_loss = 969387.798887, lr: 1.519383
+auc = 0.675063, NDCG = 0.539616, mrr = 0.837532, map = 0.837532, pre = 0.500000
+时间已过 9.279727 秒。
+BPR_baseline:iter [9/100] completed, loss: 402736.748357, delta_loss = 257426.949963, lr: 1.595352
+auc = 0.688004, NDCG = 0.542544, mrr = 0.844002, map = 0.844002, pre = 0.500000
+时间已过 8.952994 秒。
+BPR_baseline:iter [10/100] completed, loss: 400205.536269, delta_loss = 2531.212088, lr: 1.675120
+auc = 0.690307, NDCG = 0.543065, mrr = 0.845154, map = 0.845154, pre = 0.500000
+时间已过 9.015561 秒。
+BPR_baseline:iter [11/100] completed, loss: 392267.755833, delta_loss = 7937.780436, lr: 1.758876
+auc = 0.693142, NDCG = 0.543707, mrr = 0.846571, map = 0.846571, pre = 0.500000
+时间已过 8.718125 秒。
+BPR_baseline:iter [12/100] completed, loss: 387772.263733, delta_loss = 4495.492100, lr: 1.846819
+auc = 0.695404, NDCG = 0.544219, mrr = 0.847702, map = 0.847702, pre = 0.500000
+时间已过 8.860825 秒。
+BPR_baseline:iter [13/100] completed, loss: 383693.059600, delta_loss = 4079.204133, lr: 1.939160
+auc = 0.697801, NDCG = 0.544761, mrr = 0.848900, map = 0.848900, pre = 0.500000
+时间已过 8.753382 秒。
+BPR_baseline:iter [14/100] completed, loss: 379724.359013, delta_loss = 3968.700588, lr: 2.036118
+auc = 0.700258, NDCG = 0.545317, mrr = 0.850129, map = 0.850129, pre = 0.500000
+时间已过 8.989448 秒。
+BPR_baseline:iter [15/100] completed, loss: 375914.954356, delta_loss = 3809.404657, lr: 2.137924
+auc = 0.702921, NDCG = 0.545920, mrr = 0.851460, map = 0.851460, pre = 0.500000
+时间已过 9.620574 秒。
+BPR_baseline:iter [16/100] completed, loss: 372294.155290, delta_loss = 3620.799066, lr: 2.244820
+auc = 0.705336, NDCG = 0.546466, mrr = 0.852668, map = 0.852668, pre = 0.500000
+时间已过 9.391423 秒。
+BPR_baseline:iter [17/100] completed, loss: 368851.142747, delta_loss = 3443.012543, lr: 2.357061
+auc = 0.708470, NDCG = 0.547176, mrr = 0.854235, map = 0.854235, pre = 0.500000
+时间已过 8.809260 秒。
+BPR_baseline:iter [18/100] completed, loss: 365582.868134, delta_loss = 3268.274613, lr: 2.474914
+auc = 0.711501, NDCG = 0.547862, mrr = 0.855751, map = 0.855751, pre = 0.500000
+时间已过 9.104067 秒。
+BPR_baseline:iter [19/100] completed, loss: 362489.454777, delta_loss = 3093.413357, lr: 2.598660
+auc = 0.714402, NDCG = 0.548518, mrr = 0.857201, map = 0.857201, pre = 0.500000
+时间已过 9.207729 秒。
+BPR_baseline:iter [20/100] completed, loss: 359568.389024, delta_loss = 2921.065753, lr: 2.728593
+auc = 0.717255, NDCG = 0.549164, mrr = 0.858628, map = 0.858628, pre = 0.500000
+时间已过 9.241453 秒。
+BPR_baseline:iter [21/100] completed, loss: 356816.839688, delta_loss = 2751.549336, lr: 2.865023
+auc = 0.720566, NDCG = 0.549913, mrr = 0.860283, map = 0.860283, pre = 0.500000
+时间已过 9.077189 秒。
+BPR_baseline:iter [22/100] completed, loss: 354231.730478, delta_loss = 2585.109210, lr: 3.008274
+auc = 0.723751, NDCG = 0.550634, mrr = 0.861876, map = 0.861876, pre = 0.500000
+时间已过 8.912095 秒。
+BPR_baseline:iter [23/100] completed, loss: 351809.541839, delta_loss = 2422.188639, lr: 3.158688
+auc = 0.726945, NDCG = 0.551356, mrr = 0.863473, map = 0.863473, pre = 0.500000
+时间已过 9.179868 秒。
+BPR_baseline:iter [24/100] completed, loss: 349546.540061, delta_loss = 2263.001778, lr: 3.316622
+auc = 0.730126, NDCG = 0.552076, mrr = 0.865063, map = 0.865063, pre = 0.500000
+时间已过 8.697646 秒。
+BPR_baseline:iter [25/100] completed, loss: 347438.806489, delta_loss = 2107.733573, lr: 3.482453
+auc = 0.734089, NDCG = 0.552973, mrr = 0.867045, map = 0.867045, pre = 0.500000
+时间已过 9.218316 秒。
+BPR_baseline:iter [26/100] completed, loss: 345482.326864, delta_loss = 1956.479625, lr: 3.656576
+auc = 0.738123, NDCG = 0.553886, mrr = 0.869061, map = 0.869061, pre = 0.500000
+时间已过 8.910220 秒。
+BPR_baseline:iter [27/100] completed, loss: 343673.046733, delta_loss = 1809.280131, lr: 3.839405
+auc = 0.742488, NDCG = 0.554874, mrr = 0.871244, map = 0.871244, pre = 0.500000
+时间已过 9.345656 秒。
+BPR_baseline:iter [28/100] completed, loss: 342006.923292, delta_loss = 1666.123441, lr: 4.031375
+auc = 0.746829, NDCG = 0.555856, mrr = 0.873415, map = 0.873415, pre = 0.500000
+时间已过 8.464018 秒。
+BPR_baseline:iter [29/100] completed, loss: 340479.956123, delta_loss = 1526.967169, lr: 4.232944
+auc = 0.750839, NDCG = 0.556764, mrr = 0.875420, map = 0.875420, pre = 0.500000
+时间已过 8.548321 秒。
+BPR_baseline:iter [30/100] completed, loss: 339088.199563, delta_loss = 1391.756560, lr: 4.444591
+auc = 0.754463, NDCG = 0.557583, mrr = 0.877231, map = 0.877231, pre = 0.500000
+时间已过 8.784739 秒。
+BPR_baseline:iter [31/100] completed, loss: 337827.757249, delta_loss = 1260.442315, lr: 4.666820
+auc = 0.758091, NDCG = 0.558404, mrr = 0.879045, map = 0.879045, pre = 0.500000
+时间已过 8.545246 秒。
+BPR_baseline:iter [32/100] completed, loss: 336694.741495, delta_loss = 1133.015754, lr: 4.900161
+auc = 0.761835, NDCG = 0.559252, mrr = 0.880918, map = 0.880918, pre = 0.500000
+时间已过 8.923225 秒。
+BPR_baseline:iter [33/100] completed, loss: 335685.238239, delta_loss = 1009.503256, lr: 5.145169
+auc = 0.765062, NDCG = 0.559982, mrr = 0.882531, map = 0.882531, pre = 0.500000
+时间已过 9.051339 秒。
+BPR_baseline:iter [34/100] completed, loss: 334795.180770, delta_loss = 890.057469, lr: 5.402428
+auc = 0.768974, NDCG = 0.560867, mrr = 0.884487, map = 0.884487, pre = 0.500000
+时间已过 8.738993 秒。
+BPR_baseline:iter [35/100] completed, loss: 334020.369141, delta_loss = 774.811629, lr: 5.672549
+auc = 0.772015, NDCG = 0.561555, mrr = 0.886007, map = 0.886007, pre = 0.500000
+时间已过 8.600726 秒。
+BPR_baseline:iter [36/100] completed, loss: 333356.061132, delta_loss = 664.308009, lr: 5.956177
+auc = 0.775041, NDCG = 0.562240, mrr = 0.887521, map = 0.887521, pre = 0.500000
+时间已过 9.064050 秒。
+BPR_baseline:iter [37/100] completed, loss: 332797.660077, delta_loss = 558.401055, lr: 6.253986
+auc = 0.778454, NDCG = 0.563013, mrr = 0.889227, map = 0.889227, pre = 0.500000
+时间已过 9.477500 秒。
+BPR_baseline:iter [38/100] completed, loss: 332338.307257, delta_loss = 459.352820, lr: 6.566685
+auc = 0.781882, NDCG = 0.563788, mrr = 0.890941, map = 0.890941, pre = 0.500000
+时间已过 8.677718 秒。
+BPR_baseline:iter [39/100] completed, loss: 331975.780083, delta_loss = 362.527174, lr: 6.895019
+auc = 0.785533, NDCG = 0.564615, mrr = 0.892767, map = 0.892767, pre = 0.500000
+时间已过 9.065951 秒。
+BPR_baseline:iter [40/100] completed, loss: 331689.884678, delta_loss = 285.895405, lr: 7.239770
+auc = 0.788396, NDCG = 0.565262, mrr = 0.894198, map = 0.894198, pre = 0.500000
+时间已过 9.108513 秒。
+BPR_baseline:iter [41/100] completed, loss: 331519.922088, delta_loss = 169.962590, lr: 7.601759
+auc = 0.790597, NDCG = 0.565761, mrr = 0.895299, map = 0.895299, pre = 0.500000
+时间已过 8.989475 秒。
+BPR_baseline:iter [42/100] completed, loss: 331283.551383, delta_loss = 236.370705, lr: 7.981847
+auc = 0.793162, NDCG = 0.566341, mrr = 0.896581, map = 0.896581, pre = 0.500000
+时间已过 9.252522 秒。
+BPR_baseline:iter [43/100] completed, loss: 331682.668682, delta_loss = -399.117298, lr: 3.990923
+auc = 0.793246, NDCG = 0.566360, mrr = 0.896623, map = 0.896623, pre = 0.500000
+时间已过 8.840988 秒。
+BPR_baseline:iter [44/100] completed, loss: 331711.921818, delta_loss = -29.253136, lr: 1.995462
+auc = 0.780357, NDCG = 0.563443, mrr = 0.890179, map = 0.890179, pre = 0.500000
+时间已过 8.737154 秒。
+BPR_baseline:iter [45/100] completed, loss: 333380.047520, delta_loss = -1668.125702, lr: 0.997731
+auc = 0.795778, NDCG = 0.566933, mrr = 0.897889, map = 0.897889, pre = 0.500000
+时间已过 9.375012 秒。
+BPR_baseline:iter [46/100] completed, loss: 331371.886787, delta_loss = 2008.160733, lr: 1.047617
+auc = 0.796095, NDCG = 0.567005, mrr = 0.898048, map = 0.898048, pre = 0.500000
+时间已过 8.811236 秒。
+BPR_baseline:iter [47/100] completed, loss: 331325.278091, delta_loss = 46.608695, lr: 1.099998
+auc = 0.796613, NDCG = 0.567122, mrr = 0.898306, map = 0.898306, pre = 0.500000
+时间已过 8.950482 秒。
+BPR_baseline:iter [48/100] completed, loss: 331094.193307, delta_loss = 231.084785, lr: 1.154998
+auc = 0.797126, NDCG = 0.567238, mrr = 0.898563, map = 0.898563, pre = 0.500000
+时间已过 8.925175 秒。
+BPR_baseline:iter [49/100] completed, loss: 331043.692554, delta_loss = 50.500753, lr: 1.212748
+auc = 0.797373, NDCG = 0.567294, mrr = 0.898686, map = 0.898686, pre = 0.500000
+时间已过 8.649862 秒。
+BPR_baseline:iter [50/100] completed, loss: 331050.490967, delta_loss = -6.798413, lr: 0.606374
+auc = 0.797662, NDCG = 0.567359, mrr = 0.898831, map = 0.898831, pre = 0.500000
+时间已过 9.395395 秒。
+BPR_baseline:iter [51/100] completed, loss: 331038.480710, delta_loss = 12.010258, lr: 0.636693
+auc = 0.797853, NDCG = 0.567402, mrr = 0.898927, map = 0.898927, pre = 0.500000
+时间已过 9.390265 秒。
+BPR_baseline:iter [52/100] completed, loss: 331051.068298, delta_loss = -12.587589, lr: 0.318346
+auc = 0.797965, NDCG = 0.567428, mrr = 0.898983, map = 0.898983, pre = 0.500000
+时间已过 9.284854 秒。
+BPR_baseline:iter [53/100] completed, loss: 331044.401771, delta_loss = 6.666528, lr: 0.334264
+auc = 0.798026, NDCG = 0.567442, mrr = 0.899013, map = 0.899013, pre = 0.500000
+时间已过 9.604127 秒。
+BPR_baseline:iter [54/100] completed, loss: 331050.670939, delta_loss = -6.269168, lr: 0.167132
+auc = 0.798072, NDCG = 0.567452, mrr = 0.899036, map = 0.899036, pre = 0.500000
+时间已过 8.803222 秒。
+BPR_baseline:iter [55/100] completed, loss: 331047.112406, delta_loss = 3.558533, lr: 0.175488
+auc = 0.798124, NDCG = 0.567464, mrr = 0.899062, map = 0.899062, pre = 0.500000
+时间已过 10.219143 秒。
+BPR_baseline:iter [56/100] completed, loss: 331050.393000, delta_loss = -3.280594, lr: 0.087744
+auc = 0.798170, NDCG = 0.567474, mrr = 0.899085, map = 0.899085, pre = 0.500000
+时间已过 10.680763 秒。
+BPR_baseline:iter [57/100] completed, loss: 331048.540332, delta_loss = 1.852667, lr: 0.092131
+auc = 0.798231, NDCG = 0.567488, mrr = 0.899115, map = 0.899115, pre = 0.500000
+时间已过 10.516891 秒。
+BPR_baseline:iter [58/100] completed, loss: 331050.266448, delta_loss = -1.726115, lr: 0.046066
+auc = 0.798240, NDCG = 0.567490, mrr = 0.899120, map = 0.899120, pre = 0.500000
+时间已过 9.529601 秒。
+BPR_baseline:iter [59/100] completed, loss: 331049.299689, delta_loss = 0.966758, lr: 0.048369
+auc = 0.798249, NDCG = 0.567492, mrr = 0.899125, map = 0.899125, pre = 0.500000
+时间已过 10.337549 秒。
+BPR_baseline:iter [60/100] completed, loss: 331050.207322, delta_loss = -0.907633, lr: 0.024184
+auc = 0.798249, NDCG = 0.567492, mrr = 0.899125, map = 0.899125, pre = 0.500000
+时间已过 9.481016 秒。
+BPR_baseline:iter [61/100] completed, loss: 331049.701498, delta_loss = 0.505824, lr: 0.025394
+auc = 0.798254, NDCG = 0.567493, mrr = 0.899127, map = 0.899127, pre = 0.500000
+时间已过 9.247688 秒。
+BPR_baseline:iter [62/100] completed, loss: 331050.178428, delta_loss = -0.476930, lr: 0.012697
+auc = 0.798254, NDCG = 0.567493, mrr = 0.899127, map = 0.899127, pre = 0.500000
+时间已过 9.235232 秒。
+BPR_baseline:iter [63/100] completed, loss: 331049.913354, delta_loss = 0.265073, lr: 0.013332
+auc = 0.798263, NDCG = 0.567495, mrr = 0.899132, map = 0.899132, pre = 0.500000
+时间已过 9.464205 秒。
+BPR_baseline:iter [64/100] completed, loss: 331050.163862, delta_loss = -0.250508, lr: 0.006666
+auc = 0.798263, NDCG = 0.567495, mrr = 0.899132, map = 0.899132, pre = 0.500000
+时间已过 9.031344 秒。
+BPR_baseline:iter [65/100] completed, loss: 331050.024833, delta_loss = 0.139029, lr: 0.006999
+auc = 0.798268, NDCG = 0.567496, mrr = 0.899134, map = 0.899134, pre = 0.500000
+时间已过 9.530619 秒。
+BPR_baseline:iter [66/100] completed, loss: 331050.156384, delta_loss = -0.131550, lr: 0.003500
+auc = 0.798277, NDCG = 0.567499, mrr = 0.899139, map = 0.899139, pre = 0.500000
+时间已过 9.000281 秒。
+BPR_baseline:iter [67/100] completed, loss: 331050.083431, delta_loss = 0.072953, lr: 0.003675
+auc = 0.798287, NDCG = 0.567501, mrr = 0.899143, map = 0.899143, pre = 0.500000
+时间已过 9.329036 秒。
+BPR_baseline:iter [68/100] completed, loss: 331050.152504, delta_loss = -0.069073, lr: 0.001837
+auc = 0.798287, NDCG = 0.567501, mrr = 0.899143, map = 0.899143, pre = 0.500000
+时间已过 10.404884 秒。
+时间已过 3.173770 秒。
+BPR_baseline:fold [3/5] completed
+generate data completed
+BPR_baseline:iter [1/100] completed, loss: 851734.109512, delta_loss = -851734.109512, lr: 5.000000
+auc = 0.602270, NDCG = 0.523143, mrr = 0.801135, map = 0.801135, pre = 0.500000
+时间已过 8.845250 秒。
+BPR_baseline:iter [2/100] completed, loss: 662568.104924, delta_loss = 189166.004587, lr: 5.000000
+auc = 0.649820, NDCG = 0.533903, mrr = 0.824910, map = 0.824910, pre = 0.500000
+时间已过 8.579907 秒。
+BPR_baseline:iter [3/100] completed, loss: 573522.981376, delta_loss = 89045.123549, lr: 5.250000
+auc = 0.683437, NDCG = 0.541511, mrr = 0.841718, map = 0.841718, pre = 0.500000
+时间已过 8.722297 秒。
+BPR_baseline:iter [4/100] completed, loss: 536201.824600, delta_loss = 37321.156775, lr: 5.512500
+auc = 0.639095, NDCG = 0.531476, mrr = 0.819547, map = 0.819547, pre = 0.500000
+时间已过 8.849152 秒。
+BPR_baseline:iter [5/100] completed, loss: 604818.431678, delta_loss = -68616.607078, lr: 2.756250
+auc = 0.662714, NDCG = 0.536821, mrr = 0.831357, map = 0.831357, pre = 0.500000
+时间已过 8.634441 秒。
+BPR_baseline:iter [6/100] completed, loss: 1994836.148770, delta_loss = -1390017.717092, lr: 1.378125
+auc = 0.615816, NDCG = 0.526209, mrr = 0.807908, map = 0.807908, pre = 0.500000
+时间已过 9.229571 秒。
+BPR_baseline:iter [7/100] completed, loss: 910983.943469, delta_loss = 1083852.205300, lr: 1.447031
+auc = 0.629848, NDCG = 0.529384, mrr = 0.814924, map = 0.814924, pre = 0.500000
+时间已过 8.768023 秒。
+BPR_baseline:iter [8/100] completed, loss: 506654.729206, delta_loss = 404329.214263, lr: 1.519383
+auc = 0.685512, NDCG = 0.541980, mrr = 0.842756, map = 0.842756, pre = 0.500000
+时间已过 8.736791 秒。
+BPR_baseline:iter [9/100] completed, loss: 404707.652468, delta_loss = 101947.076738, lr: 1.595352
+auc = 0.692441, NDCG = 0.543548, mrr = 0.846221, map = 0.846221, pre = 0.500000
+时间已过 8.963535 秒。
+BPR_baseline:iter [10/100] completed, loss: 400340.595214, delta_loss = 4367.057255, lr: 1.675120
+auc = 0.694358, NDCG = 0.543982, mrr = 0.847179, map = 0.847179, pre = 0.500000
+时间已过 9.011007 秒。
+BPR_baseline:iter [11/100] completed, loss: 393966.636302, delta_loss = 6373.958912, lr: 1.758876
+auc = 0.696760, NDCG = 0.544526, mrr = 0.848380, map = 0.848380, pre = 0.500000
+时间已过 10.365110 秒。
+BPR_baseline:iter [12/100] completed, loss: 389587.028709, delta_loss = 4379.607593, lr: 1.846819
+auc = 0.699292, NDCG = 0.545099, mrr = 0.849646, map = 0.849646, pre = 0.500000
+时间已过 9.317169 秒。
+BPR_baseline:iter [13/100] completed, loss: 385516.454302, delta_loss = 4070.574407, lr: 1.939160
+auc = 0.701880, NDCG = 0.545684, mrr = 0.850940, map = 0.850940, pre = 0.500000
+时间已过 9.220721 秒。
+BPR_baseline:iter [14/100] completed, loss: 381550.029246, delta_loss = 3966.425056, lr: 2.036118
+auc = 0.704337, NDCG = 0.546240, mrr = 0.852169, map = 0.852169, pre = 0.500000
+时间已过 9.115006 秒。
+BPR_baseline:iter [15/100] completed, loss: 377750.038460, delta_loss = 3799.990786, lr: 2.137924
+auc = 0.706627, NDCG = 0.546758, mrr = 0.853313, map = 0.853313, pre = 0.500000
+时间已过 9.249104 秒。
+BPR_baseline:iter [16/100] completed, loss: 374135.122808, delta_loss = 3614.915652, lr: 2.244820
+auc = 0.709476, NDCG = 0.547403, mrr = 0.854738, map = 0.854738, pre = 0.500000
+时间已过 12.091729 秒。
+BPR_baseline:iter [17/100] completed, loss: 370693.668101, delta_loss = 3441.454706, lr: 2.357061
+auc = 0.712316, NDCG = 0.548046, mrr = 0.856158, map = 0.856158, pre = 0.500000
+时间已过 11.306837 秒。
+BPR_baseline:iter [18/100] completed, loss: 367424.146565, delta_loss = 3269.521536, lr: 2.474914
+auc = 0.715156, NDCG = 0.548689, mrr = 0.857578, map = 0.857578, pre = 0.500000
+时间已过 15.800608 秒。
+BPR_baseline:iter [19/100] completed, loss: 364325.965297, delta_loss = 3098.181267, lr: 2.598660
+auc = 0.717823, NDCG = 0.549292, mrr = 0.858912, map = 0.858912, pre = 0.500000
+时间已过 9.651170 秒。
+BPR_baseline:iter [20/100] completed, loss: 361396.357399, delta_loss = 2929.607899, lr: 2.728593
+auc = 0.720877, NDCG = 0.549983, mrr = 0.860439, map = 0.860439, pre = 0.500000
+时间已过 9.265413 秒。
+BPR_baseline:iter [21/100] completed, loss: 358632.577629, delta_loss = 2763.779770, lr: 2.865023
+auc = 0.723815, NDCG = 0.550648, mrr = 0.861908, map = 0.861908, pre = 0.500000
+时间已过 9.162347 秒。
+BPR_baseline:iter [22/100] completed, loss: 356031.514344, delta_loss = 2601.063285, lr: 3.008274
+auc = 0.727490, NDCG = 0.551480, mrr = 0.863745, map = 0.863745, pre = 0.500000
+时间已过 9.043731 秒。
+BPR_baseline:iter [23/100] completed, loss: 353589.709775, delta_loss = 2441.804569, lr: 3.158688
+auc = 0.730623, NDCG = 0.552189, mrr = 0.865312, map = 0.865312, pre = 0.500000
+时间已过 11.284419 秒。
+BPR_baseline:iter [24/100] completed, loss: 351303.509153, delta_loss = 2286.200621, lr: 3.316622
+auc = 0.733860, NDCG = 0.552921, mrr = 0.866930, map = 0.866930, pre = 0.500000
+时间已过 9.586090 秒。
+BPR_baseline:iter [25/100] completed, loss: 349169.083674, delta_loss = 2134.425480, lr: 3.482453
+auc = 0.737404, NDCG = 0.553723, mrr = 0.868702, map = 0.868702, pre = 0.500000
+时间已过 10.314143 秒。
+BPR_baseline:iter [26/100] completed, loss: 347182.513160, delta_loss = 1986.570514, lr: 3.656576
+auc = 0.741190, NDCG = 0.554580, mrr = 0.870595, map = 0.870595, pre = 0.500000
+时间已过 9.445839 秒。
+BPR_baseline:iter [27/100] completed, loss: 345339.827436, delta_loss = 1842.685724, lr: 3.839405
+auc = 0.744450, NDCG = 0.555318, mrr = 0.872225, map = 0.872225, pre = 0.500000
+时间已过 9.308712 秒。
+BPR_baseline:iter [28/100] completed, loss: 343637.052284, delta_loss = 1702.775152, lr: 4.031375
+auc = 0.748474, NDCG = 0.556228, mrr = 0.874237, map = 0.874237, pre = 0.500000
+时间已过 10.540598 秒。
+BPR_baseline:iter [29/100] completed, loss: 342070.233744, delta_loss = 1566.818540, lr: 4.232944
+auc = 0.751822, NDCG = 0.556986, mrr = 0.875911, map = 0.875911, pre = 0.500000
+时间已过 11.222312 秒。
+BPR_baseline:iter [30/100] completed, loss: 340635.444115, delta_loss = 1434.789630, lr: 4.444591
+auc = 0.755198, NDCG = 0.557750, mrr = 0.877599, map = 0.877599, pre = 0.500000
+时间已过 8.880187 秒。
+BPR_baseline:iter [31/100] completed, loss: 339328.783188, delta_loss = 1306.660927, lr: 4.666820
+auc = 0.759017, NDCG = 0.558614, mrr = 0.879509, map = 0.879509, pre = 0.500000
+时间已过 8.807455 秒。
+BPR_baseline:iter [32/100] completed, loss: 338146.322337, delta_loss = 1182.460851, lr: 4.900161
+auc = 0.762524, NDCG = 0.559408, mrr = 0.881262, map = 0.881262, pre = 0.500000
+时间已过 9.152465 秒。
+BPR_baseline:iter [33/100] completed, loss: 337084.117578, delta_loss = 1062.204759, lr: 5.145169
+auc = 0.765979, NDCG = 0.560190, mrr = 0.882990, map = 0.882990, pre = 0.500000
+时间已过 8.682142 秒。
+BPR_baseline:iter [34/100] completed, loss: 336137.996787, delta_loss = 946.120790, lr: 5.402428
+auc = 0.769099, NDCG = 0.560896, mrr = 0.884550, map = 0.884550, pre = 0.500000
+时间已过 8.455513 秒。
+BPR_baseline:iter [35/100] completed, loss: 335303.836338, delta_loss = 834.160449, lr: 5.672549
+auc = 0.772718, NDCG = 0.561714, mrr = 0.886359, map = 0.886359, pre = 0.500000
+时间已过 8.931064 秒。
+BPR_baseline:iter [36/100] completed, loss: 334576.543974, delta_loss = 727.292364, lr: 5.956177
+auc = 0.776136, NDCG = 0.562488, mrr = 0.888068, map = 0.888068, pre = 0.500000
+时间已过 8.932755 秒。
+BPR_baseline:iter [37/100] completed, loss: 333952.502793, delta_loss = 624.041181, lr: 6.253986
+auc = 0.779069, NDCG = 0.563152, mrr = 0.889534, map = 0.889534, pre = 0.500000
+时间已过 8.747398 秒。
+BPR_baseline:iter [38/100] completed, loss: 333422.117468, delta_loss = 530.385324, lr: 6.566685
+auc = 0.781643, NDCG = 0.563734, mrr = 0.890822, map = 0.890822, pre = 0.500000
+时间已过 8.890790 秒。
+BPR_baseline:iter [39/100] completed, loss: 332992.506021, delta_loss = 429.611448, lr: 6.895019
+auc = 0.784063, NDCG = 0.564282, mrr = 0.892032, map = 0.892032, pre = 0.500000
+时间已过 8.732360 秒。
+BPR_baseline:iter [40/100] completed, loss: 332612.897952, delta_loss = 379.608068, lr: 7.239770
+auc = 0.786642, NDCG = 0.564865, mrr = 0.893321, map = 0.893321, pre = 0.500000
+时间已过 8.844743 秒。
+BPR_baseline:iter [41/100] completed, loss: 332435.276402, delta_loss = 177.621550, lr: 7.601759
+auc = 0.788712, NDCG = 0.565334, mrr = 0.894356, map = 0.894356, pre = 0.500000
+时间已过 9.878645 秒。
+BPR_baseline:iter [42/100] completed, loss: 331863.851775, delta_loss = 571.424627, lr: 7.981847
+auc = 0.776840, NDCG = 0.562647, mrr = 0.888420, map = 0.888420, pre = 0.500000
+时间已过 9.669067 秒。
+BPR_baseline:iter [43/100] completed, loss: 333514.204761, delta_loss = -1650.352986, lr: 3.990923
+auc = 0.793809, NDCG = 0.566487, mrr = 0.896905, map = 0.896905, pre = 0.500000
+时间已过 10.429393 秒。
+BPR_baseline:iter [44/100] completed, loss: 340068.204825, delta_loss = -6554.000064, lr: 1.995462
+auc = 0.777222, NDCG = 0.562734, mrr = 0.888611, map = 0.888611, pre = 0.500000
+时间已过 11.551515 秒。
+BPR_baseline:iter [45/100] completed, loss: 361710.373536, delta_loss = -21642.168712, lr: 0.997731
+auc = 0.795245, NDCG = 0.566812, mrr = 0.897623, map = 0.897623, pre = 0.500000
+时间已过 12.017126 秒。
+BPR_baseline:iter [46/100] completed, loss: 332143.608806, delta_loss = 29566.764731, lr: 1.047617
+auc = 0.795189, NDCG = 0.566800, mrr = 0.897595, map = 0.897595, pre = 0.500000
+时间已过 11.453355 秒。
+BPR_baseline:iter [47/100] completed, loss: 332421.726168, delta_loss = -278.117362, lr: 0.523809
+auc = 0.795511, NDCG = 0.566873, mrr = 0.897756, map = 0.897756, pre = 0.500000
+时间已过 11.781805 秒。
+BPR_baseline:iter [48/100] completed, loss: 331328.885931, delta_loss = 1092.840237, lr: 0.549999
+auc = 0.795786, NDCG = 0.566935, mrr = 0.897893, map = 0.897893, pre = 0.500000
+时间已过 9.200928 秒。
+BPR_baseline:iter [49/100] completed, loss: 331148.468615, delta_loss = 180.417316, lr: 0.577499
+auc = 0.795945, NDCG = 0.566971, mrr = 0.897972, map = 0.897972, pre = 0.500000
+时间已过 9.230162 秒。
+BPR_baseline:iter [50/100] completed, loss: 331093.169205, delta_loss = 55.299410, lr: 0.606374
+auc = 0.796057, NDCG = 0.566996, mrr = 0.898028, map = 0.898028, pre = 0.500000
+时间已过 9.810529 秒。
+BPR_baseline:iter [51/100] completed, loss: 331072.995435, delta_loss = 20.173770, lr: 0.636693
+auc = 0.796164, NDCG = 0.567020, mrr = 0.898082, map = 0.898082, pre = 0.500000
+时间已过 8.911672 秒。
+BPR_baseline:iter [52/100] completed, loss: 331067.366425, delta_loss = 5.629010, lr: 0.668527
+auc = 0.796206, NDCG = 0.567030, mrr = 0.898103, map = 0.898103, pre = 0.500000
+时间已过 9.237498 秒。
+BPR_baseline:iter [53/100] completed, loss: 331068.975745, delta_loss = -1.609320, lr: 0.334264
+auc = 0.796355, NDCG = 0.567064, mrr = 0.898178, map = 0.898178, pre = 0.500000
+时间已过 9.182727 秒。
+BPR_baseline:iter [54/100] completed, loss: 331059.343491, delta_loss = 9.632254, lr: 0.350977
+auc = 0.796374, NDCG = 0.567068, mrr = 0.898187, map = 0.898187, pre = 0.500000
+时间已过 9.618036 秒。
+BPR_baseline:iter [55/100] completed, loss: 331065.476033, delta_loss = -6.132542, lr: 0.175488
+auc = 0.796383, NDCG = 0.567070, mrr = 0.898192, map = 0.898192, pre = 0.500000
+时间已过 9.547949 秒。
+BPR_baseline:iter [56/100] completed, loss: 331061.882292, delta_loss = 3.593741, lr: 0.184263
+auc = 0.796453, NDCG = 0.567086, mrr = 0.898227, map = 0.898227, pre = 0.500000
+时间已过 8.635494 秒。
+BPR_baseline:iter [57/100] completed, loss: 331065.432834, delta_loss = -3.550542, lr: 0.092131
+auc = 0.796481, NDCG = 0.567092, mrr = 0.898241, map = 0.898241, pre = 0.500000
+时间已过 9.253534 秒。
+BPR_baseline:iter [58/100] completed, loss: 331063.677203, delta_loss = 1.755631, lr: 0.096738
+auc = 0.796532, NDCG = 0.567104, mrr = 0.898266, map = 0.898266, pre = 0.500000
+时间已过 8.958687 秒。
+BPR_baseline:iter [59/100] completed, loss: 331065.581418, delta_loss = -1.904215, lr: 0.048369
+auc = 0.796537, NDCG = 0.567105, mrr = 0.898269, map = 0.898269, pre = 0.500000
+时间已过 8.774118 秒。
+BPR_baseline:iter [60/100] completed, loss: 331064.682922, delta_loss = 0.898496, lr: 0.050787
+auc = 0.796546, NDCG = 0.567107, mrr = 0.898273, map = 0.898273, pre = 0.500000
+时间已过 9.211498 秒。
+BPR_baseline:iter [61/100] completed, loss: 331065.690823, delta_loss = -1.007901, lr: 0.025394
+auc = 0.796560, NDCG = 0.567110, mrr = 0.898280, map = 0.898280, pre = 0.500000
+时间已过 9.074788 秒。
+BPR_baseline:iter [62/100] completed, loss: 331065.224549, delta_loss = 0.466274, lr: 0.026663
+auc = 0.796565, NDCG = 0.567111, mrr = 0.898283, map = 0.898283, pre = 0.500000
+时间已过 8.779218 秒。
+BPR_baseline:iter [63/100] completed, loss: 331065.755690, delta_loss = -0.531141, lr: 0.013332
+auc = 0.796570, NDCG = 0.567112, mrr = 0.898285, map = 0.898285, pre = 0.500000
+时间已过 9.297324 秒。
+BPR_baseline:iter [64/100] completed, loss: 331065.512289, delta_loss = 0.243401, lr: 0.013998
+auc = 0.796574, NDCG = 0.567113, mrr = 0.898287, map = 0.898287, pre = 0.500000
+时间已过 8.748177 秒。
+BPR_baseline:iter [65/100] completed, loss: 331065.791656, delta_loss = -0.279366, lr: 0.006999
+auc = 0.796574, NDCG = 0.567113, mrr = 0.898287, map = 0.898287, pre = 0.500000
+时间已过 8.583540 秒。
+BPR_baseline:iter [66/100] completed, loss: 331065.664241, delta_loss = 0.127415, lr: 0.007349
+auc = 0.796574, NDCG = 0.567113, mrr = 0.898287, map = 0.898287, pre = 0.500000
+时间已过 8.892525 秒。
+BPR_baseline:iter [67/100] completed, loss: 331065.811046, delta_loss = -0.146806, lr: 0.003675
+auc = 0.796579, NDCG = 0.567114, mrr = 0.898290, map = 0.898290, pre = 0.500000
+时间已过 8.494037 秒。
+BPR_baseline:iter [68/100] completed, loss: 331065.744254, delta_loss = 0.066793, lr: 0.003858
+auc = 0.796579, NDCG = 0.567114, mrr = 0.898290, map = 0.898290, pre = 0.500000
+时间已过 9.580620 秒。
+BPR_baseline:iter [69/100] completed, loss: 331065.821364, delta_loss = -0.077111, lr: 0.001929
+auc = 0.796579, NDCG = 0.567114, mrr = 0.898290, map = 0.898290, pre = 0.500000
+时间已过 8.892850 秒。
+时间已过 2.831121 秒。
+BPR_baseline:fold [4/5] completed
+generate data completed
+BPR_baseline:iter [1/100] completed, loss: 863377.376020, delta_loss = -863377.376020, lr: 5.000000
+auc = 0.584951, NDCG = 0.519224, mrr = 0.792476, map = 0.792476, pre = 0.500000
+时间已过 8.841399 秒。
+BPR_baseline:iter [2/100] completed, loss: 667449.575299, delta_loss = 195927.800721, lr: 5.000000
+auc = 0.636078, NDCG = 0.530794, mrr = 0.818039, map = 0.818039, pre = 0.500000
+时间已过 9.150036 秒。
+BPR_baseline:iter [3/100] completed, loss: 584872.440268, delta_loss = 82577.135030, lr: 5.250000
+auc = 0.669732, NDCG = 0.538409, mrr = 0.834866, map = 0.834866, pre = 0.500000
+时间已过 8.945845 秒。
+BPR_baseline:iter [4/100] completed, loss: 563022.935659, delta_loss = 21849.504610, lr: 5.512500
+auc = 0.614194, NDCG = 0.525841, mrr = 0.807097, map = 0.807097, pre = 0.500000
+时间已过 8.794858 秒。
+BPR_baseline:iter [5/100] completed, loss: 697287.074346, delta_loss = -134264.138687, lr: 2.756250
+auc = 0.651112, NDCG = 0.534196, mrr = 0.825556, map = 0.825556, pre = 0.500000
+时间已过 8.644469 秒。
+BPR_baseline:iter [6/100] completed, loss: 2985646.983484, delta_loss = -2288359.909138, lr: 1.378125
+auc = 0.602107, NDCG = 0.523106, mrr = 0.801053, map = 0.801053, pre = 0.500000
+时间已过 8.901724 秒。
+BPR_baseline:iter [7/100] completed, loss: 1269548.124039, delta_loss = 1716098.859446, lr: 1.447031
+auc = 0.619701, NDCG = 0.527088, mrr = 0.809850, map = 0.809850, pre = 0.500000
+时间已过 8.788899 秒。
+BPR_baseline:iter [8/100] completed, loss: 584336.777122, delta_loss = 685211.346917, lr: 1.519383
+auc = 0.681283, NDCG = 0.541023, mrr = 0.840641, map = 0.840641, pre = 0.500000
+时间已过 8.987641 秒。
+BPR_baseline:iter [9/100] completed, loss: 403547.427192, delta_loss = 180789.349930, lr: 1.595352
+auc = 0.687200, NDCG = 0.542362, mrr = 0.843600, map = 0.843600, pre = 0.500000
+时间已过 9.061069 秒。
+BPR_baseline:iter [10/100] completed, loss: 399520.445024, delta_loss = 4026.982168, lr: 1.675120
+auc = 0.689494, NDCG = 0.542882, mrr = 0.844747, map = 0.844747, pre = 0.500000
+时间已过 8.447856 秒。
+BPR_baseline:iter [11/100] completed, loss: 392639.398947, delta_loss = 6881.046078, lr: 1.758876
+auc = 0.692344, NDCG = 0.543526, mrr = 0.846172, map = 0.846172, pre = 0.500000
+时间已过 8.853272 秒。
+BPR_baseline:iter [12/100] completed, loss: 388248.040550, delta_loss = 4391.358397, lr: 1.846819
+auc = 0.695053, NDCG = 0.544139, mrr = 0.847526, map = 0.847526, pre = 0.500000
+时间已过 8.572507 秒。
+BPR_baseline:iter [13/100] completed, loss: 384185.049488, delta_loss = 4062.991062, lr: 1.939160
+auc = 0.697245, NDCG = 0.544635, mrr = 0.848622, map = 0.848622, pre = 0.500000
+时间已过 8.976342 秒。
+BPR_baseline:iter [14/100] completed, loss: 380226.114347, delta_loss = 3958.935140, lr: 2.036118
+auc = 0.699324, NDCG = 0.545106, mrr = 0.849662, map = 0.849662, pre = 0.500000
+时间已过 8.821457 秒。
+BPR_baseline:iter [15/100] completed, loss: 376435.097650, delta_loss = 3791.016698, lr: 2.137924
+auc = 0.701260, NDCG = 0.545544, mrr = 0.850630, map = 0.850630, pre = 0.500000
+时间已过 8.891886 秒。
+BPR_baseline:iter [16/100] completed, loss: 372827.951275, delta_loss = 3607.146375, lr: 2.244820
+auc = 0.703367, NDCG = 0.546021, mrr = 0.851684, map = 0.851684, pre = 0.500000
+时间已过 8.431216 秒。
+BPR_baseline:iter [17/100] completed, loss: 369393.172627, delta_loss = 3434.778649, lr: 2.357061
+auc = 0.705997, NDCG = 0.546616, mrr = 0.852999, map = 0.852999, pre = 0.500000
+时间已过 8.767205 秒。
+BPR_baseline:iter [18/100] completed, loss: 366129.327235, delta_loss = 3263.845392, lr: 2.474914
+auc = 0.708702, NDCG = 0.547228, mrr = 0.854351, map = 0.854351, pre = 0.500000
+时间已过 8.964067 秒。
+BPR_baseline:iter [19/100] completed, loss: 363035.951598, delta_loss = 3093.375637, lr: 2.598660
+auc = 0.711803, NDCG = 0.547930, mrr = 0.855901, map = 0.855901, pre = 0.500000
+时间已过 8.829415 秒。
+BPR_baseline:iter [20/100] completed, loss: 360110.307597, delta_loss = 2925.644001, lr: 2.728593
+auc = 0.714759, NDCG = 0.548599, mrr = 0.857380, map = 0.857380, pre = 0.500000
+时间已过 8.627904 秒。
+BPR_baseline:iter [21/100] completed, loss: 357349.642966, delta_loss = 2760.664631, lr: 2.865023
+auc = 0.717688, NDCG = 0.549262, mrr = 0.858844, map = 0.858844, pre = 0.500000
+时间已过 8.793722 秒。
+BPR_baseline:iter [22/100] completed, loss: 354750.883051, delta_loss = 2598.759915, lr: 3.008274
+auc = 0.720663, NDCG = 0.549935, mrr = 0.860331, map = 0.860331, pre = 0.500000
+时间已过 8.882573 秒。
+BPR_baseline:iter [23/100] completed, loss: 352310.615841, delta_loss = 2440.267211, lr: 3.158688
+auc = 0.723946, NDCG = 0.550678, mrr = 0.861973, map = 0.861973, pre = 0.500000
+时间已过 8.643553 秒。
+BPR_baseline:iter [24/100] completed, loss: 350025.266749, delta_loss = 2285.349092, lr: 3.316622
+auc = 0.727261, NDCG = 0.551428, mrr = 0.863631, map = 0.863631, pre = 0.500000
+时间已过 10.075628 秒。
+BPR_baseline:iter [25/100] completed, loss: 347891.130592, delta_loss = 2134.136157, lr: 3.482453
+auc = 0.730777, NDCG = 0.552224, mrr = 0.865389, map = 0.865389, pre = 0.500000
+时间已过 8.637478 秒。
+BPR_baseline:iter [26/100] completed, loss: 345904.460745, delta_loss = 1986.669847, lr: 3.656576
+auc = 0.734303, NDCG = 0.553021, mrr = 0.867151, map = 0.867151, pre = 0.500000
+时间已过 8.980864 秒。
+BPR_baseline:iter [27/100] completed, loss: 344061.518919, delta_loss = 1842.941826, lr: 3.839405
+auc = 0.737842, NDCG = 0.553822, mrr = 0.868921, map = 0.868921, pre = 0.500000
+时间已过 8.815379 秒。
+BPR_baseline:iter [28/100] completed, loss: 342358.626591, delta_loss = 1702.892328, lr: 4.031375
+auc = 0.741521, NDCG = 0.554655, mrr = 0.870761, map = 0.870761, pre = 0.500000
+时间已过 8.772353 秒。
+BPR_baseline:iter [29/100] completed, loss: 340792.193739, delta_loss = 1566.432852, lr: 4.232944
+auc = 0.745396, NDCG = 0.555532, mrr = 0.872698, map = 0.872698, pre = 0.500000
+时间已过 8.886371 秒。
+BPR_baseline:iter [30/100] completed, loss: 339358.728705, delta_loss = 1433.465033, lr: 4.444591
+auc = 0.749924, NDCG = 0.556556, mrr = 0.874962, map = 0.874962, pre = 0.500000
+时间已过 8.967178 秒。
+BPR_baseline:iter [31/100] completed, loss: 338054.836850, delta_loss = 1303.891855, lr: 4.666820
+auc = 0.753967, NDCG = 0.557471, mrr = 0.876984, map = 0.876984, pre = 0.500000
+时间已过 8.903134 秒。
+BPR_baseline:iter [32/100] completed, loss: 336877.167820, delta_loss = 1177.669030, lr: 4.900161
+auc = 0.758318, NDCG = 0.558456, mrr = 0.879159, map = 0.879159, pre = 0.500000
+时间已过 8.890217 秒。
+BPR_baseline:iter [33/100] completed, loss: 335822.405770, delta_loss = 1054.762050, lr: 5.145169
+auc = 0.761955, NDCG = 0.559279, mrr = 0.880978, map = 0.880978, pre = 0.500000
+时间已过 8.633931 秒。
+BPR_baseline:iter [34/100] completed, loss: 334887.077568, delta_loss = 935.328203, lr: 5.402428
+auc = 0.765704, NDCG = 0.560127, mrr = 0.882852, map = 0.882852, pre = 0.500000
+时间已过 9.215954 秒。
+BPR_baseline:iter [35/100] completed, loss: 334067.720557, delta_loss = 819.357011, lr: 5.672549
+auc = 0.769537, NDCG = 0.560995, mrr = 0.884769, map = 0.884769, pre = 0.500000
+时间已过 9.037179 秒。
+BPR_baseline:iter [36/100] completed, loss: 333360.065171, delta_loss = 707.655386, lr: 5.956177
+auc = 0.773534, NDCG = 0.561899, mrr = 0.886767, map = 0.886767, pre = 0.500000
+时间已过 8.755355 秒。
+BPR_baseline:iter [37/100] completed, loss: 332760.800432, delta_loss = 599.264739, lr: 6.253986
+auc = 0.776551, NDCG = 0.562582, mrr = 0.888275, map = 0.888275, pre = 0.500000
+时间已过 8.996185 秒。
+BPR_baseline:iter [38/100] completed, loss: 332261.969013, delta_loss = 498.831419, lr: 6.566685
+auc = 0.779722, NDCG = 0.563299, mrr = 0.889861, map = 0.889861, pre = 0.500000
+时间已过 8.648507 秒。
+BPR_baseline:iter [39/100] completed, loss: 331867.648142, delta_loss = 394.320871, lr: 6.895019
+auc = 0.782482, NDCG = 0.563924, mrr = 0.891241, map = 0.891241, pre = 0.500000
+时间已过 9.001075 秒。
+BPR_baseline:iter [40/100] completed, loss: 331539.171127, delta_loss = 328.477015, lr: 7.239770
+auc = 0.786017, NDCG = 0.564724, mrr = 0.893009, map = 0.893009, pre = 0.500000
+时间已过 8.672898 秒。
+BPR_baseline:iter [41/100] completed, loss: 331384.822780, delta_loss = 154.348348, lr: 7.601759
+auc = 0.788232, NDCG = 0.565225, mrr = 0.894116, map = 0.894116, pre = 0.500000
+时间已过 9.897075 秒。
+BPR_baseline:iter [42/100] completed, loss: 330969.237208, delta_loss = 415.585571, lr: 7.981847
+auc = 0.798137, NDCG = 0.567467, mrr = 0.899068, map = 0.899068, pre = 0.500000
+时间已过 8.918246 秒。
+BPR_baseline:iter [43/100] completed, loss: 332117.044497, delta_loss = -1147.807289, lr: 3.990923
+auc = 0.791795, NDCG = 0.566032, mrr = 0.895897, map = 0.895897, pre = 0.500000
+时间已过 8.906754 秒。
+BPR_baseline:iter [44/100] completed, loss: 334839.088571, delta_loss = -2722.044074, lr: 1.995462
+auc = 0.776579, NDCG = 0.562588, mrr = 0.888289, map = 0.888289, pre = 0.500000
+时间已过 8.645107 秒。
+BPR_baseline:iter [45/100] completed, loss: 345697.735750, delta_loss = -10858.647179, lr: 0.997731
+auc = 0.794164, NDCG = 0.566568, mrr = 0.897082, map = 0.897082, pre = 0.500000
+时间已过 9.143703 秒。
+BPR_baseline:iter [46/100] completed, loss: 331442.757509, delta_loss = 14254.978241, lr: 1.047617
+auc = 0.793940, NDCG = 0.566517, mrr = 0.896970, map = 0.896970, pre = 0.500000
+时间已过 8.463833 秒。
+BPR_baseline:iter [47/100] completed, loss: 331461.895223, delta_loss = -19.137714, lr: 0.523809
+auc = 0.794551, NDCG = 0.566655, mrr = 0.897275, map = 0.897275, pre = 0.500000
+时间已过 8.663760 秒。
+BPR_baseline:iter [48/100] completed, loss: 330721.951881, delta_loss = 739.943342, lr: 0.549999
+auc = 0.794896, NDCG = 0.566733, mrr = 0.897448, map = 0.897448, pre = 0.500000
+时间已过 8.623973 秒。
+BPR_baseline:iter [49/100] completed, loss: 330603.223169, delta_loss = 118.728712, lr: 0.577499
+auc = 0.795255, NDCG = 0.566814, mrr = 0.897627, map = 0.897627, pre = 0.500000
+时间已过 8.439839 秒。
+BPR_baseline:iter [50/100] completed, loss: 330568.384441, delta_loss = 34.838728, lr: 0.606374
+auc = 0.795446, NDCG = 0.566858, mrr = 0.897723, map = 0.897723, pre = 0.500000
+时间已过 8.901139 秒。
+BPR_baseline:iter [51/100] completed, loss: 330557.662665, delta_loss = 10.721775, lr: 0.636693
+auc = 0.795567, NDCG = 0.566885, mrr = 0.897784, map = 0.897784, pre = 0.500000
+时间已过 8.658101 秒。
+BPR_baseline:iter [52/100] completed, loss: 330557.297262, delta_loss = 0.365403, lr: 0.668527
+auc = 0.795744, NDCG = 0.566925, mrr = 0.897872, map = 0.897872, pre = 0.500000
+时间已过 9.086978 秒。
+BPR_baseline:iter [53/100] completed, loss: 330562.320681, delta_loss = -5.023419, lr: 0.334264
+auc = 0.795824, NDCG = 0.566943, mrr = 0.897912, map = 0.897912, pre = 0.500000
+时间已过 8.645234 秒。
+BPR_baseline:iter [54/100] completed, loss: 330555.141540, delta_loss = 7.179141, lr: 0.350977
+auc = 0.795940, NDCG = 0.566970, mrr = 0.897970, map = 0.897970, pre = 0.500000
+时间已过 8.635870 秒。
+BPR_baseline:iter [55/100] completed, loss: 330562.396555, delta_loss = -7.255015, lr: 0.175488
+auc = 0.795968, NDCG = 0.566976, mrr = 0.897984, map = 0.897984, pre = 0.500000
+时间已过 8.719948 秒。
+BPR_baseline:iter [56/100] completed, loss: 330559.792821, delta_loss = 2.603734, lr: 0.184263
+auc = 0.796052, NDCG = 0.566995, mrr = 0.898026, map = 0.898026, pre = 0.500000
+时间已过 8.996105 秒。
+BPR_baseline:iter [57/100] completed, loss: 330563.853289, delta_loss = -4.060468, lr: 0.092131
+auc = 0.796075, NDCG = 0.567000, mrr = 0.898038, map = 0.898038, pre = 0.500000
+时间已过 8.673220 秒。
+BPR_baseline:iter [58/100] completed, loss: 330562.585869, delta_loss = 1.267420, lr: 0.096738
+auc = 0.796108, NDCG = 0.567008, mrr = 0.898054, map = 0.898054, pre = 0.500000
+时间已过 8.984725 秒。
+BPR_baseline:iter [59/100] completed, loss: 330564.747732, delta_loss = -2.161863, lr: 0.048369
+auc = 0.796117, NDCG = 0.567010, mrr = 0.898059, map = 0.898059, pre = 0.500000
+时间已过 8.625453 秒。
+BPR_baseline:iter [60/100] completed, loss: 330564.100442, delta_loss = 0.647290, lr: 0.050787
+auc = 0.796159, NDCG = 0.567019, mrr = 0.898080, map = 0.898080, pre = 0.500000
+时间已过 8.746678 秒。
+BPR_baseline:iter [61/100] completed, loss: 330565.241721, delta_loss = -1.141279, lr: 0.025394
+auc = 0.796173, NDCG = 0.567022, mrr = 0.898087, map = 0.898087, pre = 0.500000
+时间已过 8.809140 秒。
+BPR_baseline:iter [62/100] completed, loss: 330564.906230, delta_loss = 0.335491, lr: 0.026663
+auc = 0.796192, NDCG = 0.567027, mrr = 0.898096, map = 0.898096, pre = 0.500000
+时间已过 8.667376 秒。
+BPR_baseline:iter [63/100] completed, loss: 330565.506962, delta_loss = -0.600732, lr: 0.013332
+auc = 0.796197, NDCG = 0.567028, mrr = 0.898098, map = 0.898098, pre = 0.500000
+时间已过 8.489635 秒。
+BPR_baseline:iter [64/100] completed, loss: 330565.331954, delta_loss = 0.175008, lr: 0.013998
+auc = 0.796201, NDCG = 0.567029, mrr = 0.898101, map = 0.898101, pre = 0.500000
+时间已过 8.524751 秒。
+BPR_baseline:iter [65/100] completed, loss: 330565.647748, delta_loss = -0.315793, lr: 0.006999
+auc = 0.796211, NDCG = 0.567031, mrr = 0.898105, map = 0.898105, pre = 0.500000
+时间已过 9.027892 秒。
+BPR_baseline:iter [66/100] completed, loss: 330565.556170, delta_loss = 0.091578, lr: 0.007349
+auc = 0.796211, NDCG = 0.567031, mrr = 0.898105, map = 0.898105, pre = 0.500000
+时间已过 8.269252 秒。
+BPR_baseline:iter [67/100] completed, loss: 330565.722071, delta_loss = -0.165902, lr: 0.003675
+auc = 0.796215, NDCG = 0.567032, mrr = 0.898108, map = 0.898108, pre = 0.500000
+时间已过 8.903768 秒。
+BPR_baseline:iter [68/100] completed, loss: 330565.674074, delta_loss = 0.047997, lr: 0.003858
+auc = 0.796215, NDCG = 0.567032, mrr = 0.898108, map = 0.898108, pre = 0.500000
+时间已过 8.751165 秒。
+BPR_baseline:iter [69/100] completed, loss: 330565.761203, delta_loss = -0.087128, lr: 0.001929
+auc = 0.796215, NDCG = 0.567032, mrr = 0.898108, map = 0.898108, pre = 0.500000
+时间已过 8.958848 秒。
+时间已过 2.822030 秒。
+BPR_baseline:fold [5/5] completed
+Final Results: map = 0.797632, NDCG = 0.567353, oPrec = 0.898816, auc = 0.898816, MRR = 0.500000
+>> 

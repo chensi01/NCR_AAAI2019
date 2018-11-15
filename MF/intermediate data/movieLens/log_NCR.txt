@@ -1,0 +1,114 @@
+>> load('MovieLens_u_i_r.mat')
+>> MF_NCR(1,D);
+generate data completed
+MF NCR iter [100/1000] completed, loss = 33051.522564, delta_loss: 3.462926, lr: 2.042884 theta=0.283623
+AUC = 0.703770, NDCG = 0.718291, RMSE = 1.048283, MAE = 0.838248, MRR = 0.860685 
+MF NCR iter [200/1000] completed, loss = 31784.404668, delta_loss: 3.113440, lr: 0.121182 theta=0.690127
+AUC = 0.702315, NDCG = 0.714082, RMSE = 1.034331, MAE = 0.825290, MRR = 0.856922 
+MF NCR iter [300/1000] completed, loss = 31834.369338, delta_loss: 2623.844459, lr: 3.147781 theta=1.145988
+AUC = 0.704710, NDCG = 0.718173, RMSE = 1.075977, MAE = 0.838158, MRR = 0.861342 
+MF NCR iter [400/1000] completed, loss = 31616.510519, delta_loss: 0.883222, lr: 2.126905 theta=0.739763
+AUC = 0.700212, NDCG = 0.713338, RMSE = 1.032847, MAE = 0.823902, MRR = 0.856248 
+MF NCR iter [500/1000] completed, loss = 31541.501620, delta_loss: 0.592632, lr: 1.437115 theta=0.739192
+AUC = 0.699773, NDCG = 0.713733, RMSE = 1.032745, MAE = 0.823778, MRR = 0.856461 
+MF NCR iter [600/1000] completed, loss = 31542.671021, delta_loss: 1.366928, lr: 0.431571 theta=0.630414
+AUC = 0.702145, NDCG = 0.715041, RMSE = 1.033013, MAE = 0.823424, MRR = 0.859709 
+MF NCR iter [700/1000] completed, loss = 31534.635459, delta_loss: 2.832735, lr: 0.437409 theta=0.550359
+AUC = 0.702575, NDCG = 0.714886, RMSE = 1.033516, MAE = 0.824733, MRR = 0.860241 
+MF NCR iter [800/1000] completed, loss = 31529.775245, delta_loss: 208.100557, lr: 0.664988 theta=0.627051
+AUC = 0.703925, NDCG = 0.715568, RMSE = 1.033688, MAE = 0.823441, MRR = 0.858236 
+MF NCR iter [900/1000] completed, loss = 31195.650557, delta_loss: 8.052955, lr: 7.677076 theta=0.903666
+AUC = 0.698924, NDCG = 0.710778, RMSE = 1.034380, MAE = 0.824365, MRR = 0.852219 
+MF NCR iter [1000/1000] completed, loss = 31120.820614, delta_loss: 63.823151, lr: 0.455399 theta=0.758104
+AUC = 0.701826, NDCG = 0.714008, RMSE = 1.034319, MAE = 0.826924, MRR = 0.854171 
+MF_NCR 1/5 fold completed
+generate data completed
+MF NCR iter [100/1000] completed, loss = 32325.373535, delta_loss: 2.066635, lr: 0.605299 theta=0.757462
+AUC = 0.710837, NDCG = 0.724767, RMSE = 1.038212, MAE = 0.823231, MRR = 0.863809 
+MF NCR iter [200/1000] completed, loss = 31881.934710, delta_loss: 0.497343, lr: 0.121182 theta=0.813227
+AUC = 0.712669, NDCG = 0.726613, RMSE = 1.031222, MAE = 0.819185, MRR = 0.866400 
+MF NCR iter [300/1000] completed, loss = 31960.574422, delta_loss: 3793.936034, lr: 3.147781 theta=1.219717
+AUC = 0.710224, NDCG = 0.722135, RMSE = 1.120539, MAE = 0.868312, MRR = 0.863472 
+MF NCR iter [400/1000] completed, loss = 31687.569158, delta_loss: 2.458265, lr: 7.178304 theta=0.712933
+AUC = 0.711462, NDCG = 0.725150, RMSE = 1.028519, MAE = 0.817807, MRR = 0.865264 
+MF NCR iter [500/1000] completed, loss = 31622.888753, delta_loss: 0.145026, lr: 0.638718 theta=0.800372
+AUC = 0.711576, NDCG = 0.724738, RMSE = 1.028210, MAE = 0.817787, MRR = 0.864022 
+MF NCR iter [600/1000] completed, loss = 31700.845469, delta_loss: 3.562622, lr: 0.127873 theta=0.542510
+AUC = 0.712939, NDCG = 0.725875, RMSE = 1.028597, MAE = 0.816306, MRR = 0.861555 
+MF NCR iter [700/1000] completed, loss = 35986.939967, delta_loss: -331.916844, lr: 3.321572 theta=0.100000
+AUC = 0.712955, NDCG = 0.725603, RMSE = 1.087368, MAE = 0.897487, MRR = 0.864341 
+MF NCR iter [800/1000] completed, loss = 31534.207087, delta_loss: 2.364658, lr: 5.049749 theta=0.651642
+AUC = 0.712036, NDCG = 0.724831, RMSE = 1.027994, MAE = 0.817485, MRR = 0.864430 
+MF NCR iter [900/1000] completed, loss = 31476.264724, delta_loss: 1.802941, lr: 1.516459 theta=0.677297
+AUC = 0.712559, NDCG = 0.724583, RMSE = 1.028045, MAE = 0.817375, MRR = 0.863010 
+MF NCR iter [1000/1000] completed, loss = 31461.664649, delta_loss: 7.121999, lr: 5.187276 theta=0.601678
+AUC = 0.712167, NDCG = 0.724532, RMSE = 1.028191, MAE = 0.817123, MRR = 0.863898 
+MF_NCR 2/5 fold completed
+generate data completed
+MF NCR iter [100/1000] completed, loss = 31840.736377, delta_loss: 5.724376, lr: 10.342100 theta=0.450553
+AUC = 0.720579, NDCG = 0.711393, RMSE = 1.035238, MAE = 0.820318, MRR = 0.860262 
+MF NCR iter [200/1000] completed, loss = 31700.577018, delta_loss: 0.904203, lr: 4.658660 theta=0.596545
+AUC = 0.720664, NDCG = 0.710969, RMSE = 1.032962, MAE = 0.819086, MRR = 0.860085 
+MF NCR iter [300/1000] completed, loss = 31651.570816, delta_loss: 0.548677, lr: 1.399014 theta=0.571032
+AUC = 0.720839, NDCG = 0.711667, RMSE = 1.032023, MAE = 0.818541, MRR = 0.860616 
+MF NCR iter [400/1000] completed, loss = 31636.254532, delta_loss: 0.655321, lr: 0.420129 theta=0.512520
+AUC = 0.723582, NDCG = 0.711394, RMSE = 1.031717, MAE = 0.818279, MRR = 0.862562 
+MF NCR iter [500/1000] completed, loss = 31645.890471, delta_loss: 13.887094, lr: 0.425812 theta=0.466366
+AUC = 0.722583, NDCG = 0.710822, RMSE = 1.031415, MAE = 0.819277, MRR = 0.860775 
+MF NCR iter [600/1000] completed, loss = 31590.596162, delta_loss: -28.450732, lr: 0.647357 theta=0.672982
+AUC = 0.720155, NDCG = 0.710880, RMSE = 1.035385, MAE = 0.815686, MRR = 0.861925 
+MF NCR iter [700/1000] completed, loss = 31334.770366, delta_loss: 7.170477, lr: 7.473538 theta=0.837340
+AUC = 0.721662, NDCG = 0.710098, RMSE = 1.032825, MAE = 0.818729, MRR = 0.861695 
+MF NCR iter [800/1000] completed, loss = 34069.715596, delta_loss: -376.581789, lr: 1.496222 theta=0.804609
+AUC = 0.717114, NDCG = 0.709456, RMSE = 1.035196, MAE = 0.828518, MRR = 0.858563 
+MF NCR iter [900/1000] completed, loss = 30986.332147, delta_loss: 2.887907, lr: 1.516459 theta=0.998457
+AUC = 0.719813, NDCG = 0.709437, RMSE = 1.034408, MAE = 0.819546, MRR = 0.859059 
+MF NCR iter [1000/1000] completed, loss = 31054.481653, delta_loss: 12.344705, lr: 2.305456 theta=0.837423
+AUC = 0.720840, NDCG = 0.711150, RMSE = 1.033507, MAE = 0.818426, MRR = 0.861447 
+MF_NCR 3/5 fold completed
+generate data completed
+MF NCR iter [100/1000] completed, loss = 31793.127331, delta_loss: 7.636193, lr: 15.513150 theta=0.490154
+AUC = 0.720748, NDCG = 0.725129, RMSE = 1.035209, MAE = 0.821916, MRR = 0.881598 
+MF NCR iter [200/1000] completed, loss = 31702.887815, delta_loss: 1.000941, lr: 4.658660 theta=0.412914
+AUC = 0.720928, NDCG = 0.725498, RMSE = 1.033745, MAE = 0.820798, MRR = 0.882660 
+MF NCR iter [300/1000] completed, loss = 31646.218313, delta_loss: 0.295871, lr: 1.399014 theta=0.474665
+AUC = 0.720676, NDCG = 0.724917, RMSE = 1.032924, MAE = 0.820229, MRR = 0.881066 
+MF NCR iter [400/1000] completed, loss = 31639.877352, delta_loss: 0.311395, lr: 0.630194 theta=0.385831
+AUC = 0.720852, NDCG = 0.725362, RMSE = 1.032801, MAE = 0.820180, MRR = 0.881155 
+MF NCR iter [500/1000] completed, loss = 31630.753574, delta_loss: 1.269581, lr: 0.425812 theta=0.437323
+AUC = 0.720216, NDCG = 0.724590, RMSE = 1.033163, MAE = 0.819598, MRR = 0.880411 
+MF NCR iter [600/1000] completed, loss = 34949.875531, delta_loss: -3392.772544, lr: 7.373802 theta=0.100000
+AUC = 0.711999, NDCG = 0.718499, RMSE = 1.106090, MAE = 0.914088, MRR = 0.865905 
+MF NCR iter [700/1000] completed, loss = 31472.229178, delta_loss: 4.132595, lr: 4.982359 theta=0.660114
+AUC = 0.719745, NDCG = 0.724142, RMSE = 1.033982, MAE = 0.820066, MRR = 0.878852 
+MF NCR iter [800/1000] completed, loss = 31419.026266, delta_loss: 5.529563, lr: 3.366499 theta=0.642848
+AUC = 0.720539, NDCG = 0.724793, RMSE = 1.034126, MAE = 0.819883, MRR = 0.879738 
+MF NCR iter [900/1000] completed, loss = 31135.497801, delta_loss: 15.483365, lr: 7.677076 theta=0.854255
+AUC = 0.716931, NDCG = 0.722570, RMSE = 1.036193, MAE = 0.820983, MRR = 0.872830 
+MF NCR iter [1000/1000] completed, loss = 30882.858347, delta_loss: 8.702512, lr: 3.458184 theta=0.975344
+AUC = 0.719201, NDCG = 0.723681, RMSE = 1.037664, MAE = 0.822164, MRR = 0.874867 
+MF_NCR 4/5 fold completed
+generate data completed
+MF NCR iter [100/1000] completed, loss = 32052.553269, delta_loss: 3.731032, lr: 3.064326 theta=0.445255
+AUC = 0.700350, NDCG = 0.711302, RMSE = 1.033746, MAE = 0.821203, MRR = 0.863638 
+MF NCR iter [200/1000] completed, loss = 31789.718303, delta_loss: 0.140545, lr: 0.272660 theta=0.579345
+AUC = 0.700565, NDCG = 0.709731, RMSE = 1.029304, MAE = 0.818949, MRR = 0.861637 
+MF NCR iter [300/1000] completed, loss = 31913.866617, delta_loss: -97.564979, lr: 1.399014 theta=0.349081
+AUC = 0.700588, NDCG = 0.710089, RMSE = 1.029979, MAE = 0.824353, MRR = 0.858679 
+MF NCR iter [400/1000] completed, loss = 33135.472888, delta_loss: -992.224078, lr: 2.126905 theta=0.316372
+AUC = 0.702018, NDCG = 0.709535, RMSE = 1.038567, MAE = 0.839905, MRR = 0.862363 
+MF NCR iter [500/1000] completed, loss = 31685.358164, delta_loss: 0.156863, lr: 1.437115 theta=0.600439
+AUC = 0.700736, NDCG = 0.710754, RMSE = 1.027645, MAE = 0.818179, MRR = 0.861070 
+MF NCR iter [600/1000] completed, loss = 31744.884805, delta_loss: 0.700631, lr: 0.287714 theta=0.387985
+AUC = 0.701094, NDCG = 0.709351, RMSE = 1.027699, MAE = 0.818090, MRR = 0.860450 
+MF NCR iter [700/1000] completed, loss = 32019.544970, delta_loss: -145.834964, lr: 1.476254 theta=0.172689
+AUC = 0.702198, NDCG = 0.709698, RMSE = 1.030015, MAE = 0.825737, MRR = 0.860574 
+MF NCR iter [800/1000] completed, loss = 31789.133816, delta_loss: 874.999075, lr: 1.496222 theta=0.561581
+AUC = 0.702381, NDCG = 0.709609, RMSE = 1.028850, MAE = 0.821897, MRR = 0.863124 
+MF NCR iter [900/1000] completed, loss = 31554.033394, delta_loss: 2.703416, lr: 5.118051 theta=0.768121
+AUC = 0.700621, NDCG = 0.710344, RMSE = 1.029007, MAE = 0.818482, MRR = 0.863018 
+MF NCR iter [1000/1000] completed, loss = 31479.632186, delta_loss: 5.163723, lr: 5.187276 theta=0.757006
+AUC = 0.699955, NDCG = 0.709711, RMSE = 1.029150, MAE = 0.818299, MRR = 0.862079 
+MF_NCR 5/5 fold completed
+AUC = 0.710798, NDCG = 0.716616, RMSE = 1.032566, MAE = 0.820587, MRR = 0.863293 
+>> 

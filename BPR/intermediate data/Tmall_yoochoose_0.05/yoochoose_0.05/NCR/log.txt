@@ -1,0 +1,1514 @@
+>> load('session_Yoochoose.mat')
+>> NCR_BPR(1,session,'yoochoose_NCR_0.05');
+BPR_NCR generate data completed
+BPR_NCR:iter [1/100] completed, loss: 1706895.891802, delta_loss = -1706895.891802, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.536539, ndcg = 0.450083, MRR = 0.674446, map = 0.590817, pre = 0.443969
+时间已过 12.667314 秒。
+BPR_NCR:iter [2/100] completed, loss: 1358539.487413, delta_loss = 348356.404389, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.571449, ndcg = 0.465999, MRR = 0.699552, map = 0.615400, pre = 0.453348
+时间已过 12.731720 秒。
+BPR_NCR:iter [3/100] completed, loss: 1288763.194090, delta_loss = 69776.293323, lr: 5.250000 ,theta:0.100000
+BPR_NCR Results: auc = 0.594778, ndcg = 0.475570, MRR = 0.714371, map = 0.631803, pre = 0.458952
+时间已过 12.600174 秒。
+BPR_NCR:iter [4/100] completed, loss: 1253205.646841, delta_loss = 35557.547249, lr: 5.512500 ,theta:0.100000
+BPR_NCR Results: auc = 0.609641, ndcg = 0.481516, MRR = 0.724822, map = 0.642438, pre = 0.461934
+时间已过 12.550330 秒。
+BPR_NCR:iter [5/100] completed, loss: 1227772.398511, delta_loss = 25433.248331, lr: 5.788125 ,theta:0.007047
+BPR_NCR Results: auc = 0.620786, ndcg = 0.485790, MRR = 0.733000, map = 0.650360, pre = 0.463720
+时间已过 12.573294 秒。
+BPR_NCR:iter [6/100] completed, loss: 1208361.503293, delta_loss = 19410.895217, lr: 6.077531 ,theta:0.022376
+BPR_NCR Results: auc = 0.630461, ndcg = 0.489516, MRR = 0.740006, map = 0.657368, pre = 0.465367
+时间已过 12.674845 秒。
+BPR_NCR:iter [7/100] completed, loss: 1193294.836360, delta_loss = 15066.666933, lr: 6.381408 ,theta:0.194081
+BPR_NCR Results: auc = 0.638613, ndcg = 0.492508, MRR = 0.745748, map = 0.663070, pre = 0.466591
+时间已过 12.445525 秒。
+BPR_NCR:iter [8/100] completed, loss: 1181387.416613, delta_loss = 11907.419747, lr: 6.700478 ,theta:0.320152
+BPR_NCR Results: auc = 0.644374, ndcg = 0.494815, MRR = 0.750182, map = 0.667528, pre = 0.467666
+时间已过 12.406536 秒。
+BPR_NCR:iter [9/100] completed, loss: 1170551.985127, delta_loss = 10835.431486, lr: 7.035502 ,theta:0.508137
+BPR_NCR Results: auc = 0.649452, ndcg = 0.496823, MRR = 0.753707, map = 0.671335, pre = 0.468647
+时间已过 12.359747 秒。
+BPR_NCR:iter [10/100] completed, loss: 1161503.276895, delta_loss = 9048.708232, lr: 7.387277 ,theta:0.622095
+BPR_NCR Results: auc = 0.653657, ndcg = 0.498368, MRR = 0.756319, map = 0.674328, pre = 0.469415
+时间已过 12.483533 秒。
+BPR_NCR:iter [11/100] completed, loss: 1152918.970276, delta_loss = 8584.306620, lr: 7.756641 ,theta:0.739435
+BPR_NCR Results: auc = 0.658305, ndcg = 0.500044, MRR = 0.759532, map = 0.677616, pre = 0.470173
+时间已过 12.570234 秒。
+BPR_NCR:iter [12/100] completed, loss: 1145381.006767, delta_loss = 7537.963509, lr: 8.144473 ,theta:0.836563
+BPR_NCR Results: auc = 0.662227, ndcg = 0.501497, MRR = 0.762542, map = 0.680606, pre = 0.470753
+时间已过 12.660530 秒。
+BPR_NCR:iter [13/100] completed, loss: 1138362.140112, delta_loss = 7018.866655, lr: 8.551697 ,theta:0.927677
+BPR_NCR Results: auc = 0.665182, ndcg = 0.502578, MRR = 0.764588, map = 0.682737, pre = 0.471240
+时间已过 12.231439 秒。
+BPR_NCR:iter [14/100] completed, loss: 1131907.282094, delta_loss = 6454.858019, lr: 8.979282 ,theta:1.011687
+BPR_NCR Results: auc = 0.668071, ndcg = 0.503699, MRR = 0.766597, map = 0.684930, pre = 0.471823
+时间已过 12.684755 秒。
+BPR_NCR:iter [15/100] completed, loss: 1125790.720026, delta_loss = 6116.562068, lr: 9.428246 ,theta:1.090360
+BPR_NCR Results: auc = 0.670696, ndcg = 0.504603, MRR = 0.768299, map = 0.686693, pre = 0.472200
+时间已过 12.625305 秒。
+BPR_NCR:iter [16/100] completed, loss: 1119946.514016, delta_loss = 5844.206010, lr: 9.899658 ,theta:1.165475
+BPR_NCR Results: auc = 0.673099, ndcg = 0.505451, MRR = 0.769908, map = 0.688445, pre = 0.472561
+时间已过 12.740584 秒。
+BPR_NCR:iter [17/100] completed, loss: 1114347.270212, delta_loss = 5599.243804, lr: 10.394641 ,theta:1.237214
+BPR_NCR Results: auc = 0.675073, ndcg = 0.506233, MRR = 0.771370, map = 0.690057, pre = 0.472927
+时间已过 12.484650 秒。
+BPR_NCR:iter [18/100] completed, loss: 1109105.648861, delta_loss = 5241.621351, lr: 10.914373 ,theta:1.305891
+BPR_NCR Results: auc = 0.677003, ndcg = 0.506938, MRR = 0.772683, map = 0.691464, pre = 0.473237
+时间已过 12.276753 秒。
+BPR_NCR:iter [19/100] completed, loss: 1104250.696382, delta_loss = 4854.952479, lr: 11.460092 ,theta:1.370640
+BPR_NCR Results: auc = 0.678424, ndcg = 0.507538, MRR = 0.773798, map = 0.692617, pre = 0.473516
+时间已过 12.662262 秒。
+BPR_NCR:iter [20/100] completed, loss: 1099895.774069, delta_loss = 4354.922313, lr: 12.033096 ,theta:1.431969
+BPR_NCR Results: auc = 0.679438, ndcg = 0.508027, MRR = 0.774598, map = 0.693509, pre = 0.473811
+时间已过 12.413397 秒。
+BPR_NCR:iter [21/100] completed, loss: 1095929.608038, delta_loss = 3966.166030, lr: 12.634751 ,theta:1.488253
+BPR_NCR Results: auc = 0.680484, ndcg = 0.508471, MRR = 0.775482, map = 0.694415, pre = 0.473996
+时间已过 12.451642 秒。
+BPR_NCR:iter [22/100] completed, loss: 1092518.796411, delta_loss = 3410.811628, lr: 13.266489 ,theta:1.541600
+BPR_NCR Results: auc = 0.681536, ndcg = 0.508880, MRR = 0.776212, map = 0.695284, pre = 0.474204
+时间已过 12.178973 秒。
+BPR_NCR:iter [23/100] completed, loss: 1089253.143134, delta_loss = 3265.653276, lr: 13.929813 ,theta:1.588154
+BPR_NCR Results: auc = 0.681861, ndcg = 0.509078, MRR = 0.776435, map = 0.695568, pre = 0.474386
+时间已过 12.417795 秒。
+BPR_NCR:iter [24/100] completed, loss: 1087504.568946, delta_loss = 1748.574188, lr: 14.626304 ,theta:1.614604
+BPR_NCR Results: auc = 0.682527, ndcg = 0.509331, MRR = 0.776741, map = 0.696179, pre = 0.474564
+时间已过 12.815351 秒。
+BPR_NCR:iter [25/100] completed, loss: 1085362.956657, delta_loss = 2141.612289, lr: 15.357619 ,theta:1.468753
+BPR_NCR Results: auc = 0.682337, ndcg = 0.509475, MRR = 0.777296, map = 0.696340, pre = 0.474611
+时间已过 14.214007 秒。
+BPR_NCR:iter [26/100] completed, loss: 1091307.927992, delta_loss = -5944.971336, lr: 7.678809 ,theta:0.221119
+BPR_NCR Results: auc = 0.683710, ndcg = 0.509783, MRR = 0.777700, map = 0.697195, pre = 0.474863
+时间已过 14.202175 秒。
+BPR_NCR:iter [27/100] completed, loss: 1146843.530227, delta_loss = -55535.602234, lr: 3.839405 ,theta:0.075346
+BPR_NCR Results: auc = 0.684176, ndcg = 0.510042, MRR = 0.778098, map = 0.697833, pre = 0.474895
+时间已过 14.354566 秒。
+BPR_NCR:iter [28/100] completed, loss: 1102273.896515, delta_loss = 44569.633712, lr: 4.031375 ,theta:0.301309
+BPR_NCR Results: auc = 0.683024, ndcg = 0.509738, MRR = 0.777555, map = 0.697239, pre = 0.474796
+时间已过 14.166651 秒。
+BPR_NCR:iter [29/100] completed, loss: 1059272.783940, delta_loss = 43001.112575, lr: 4.232944 ,theta:1.115218
+BPR_NCR Results: auc = 0.683551, ndcg = 0.509991, MRR = 0.777978, map = 0.697590, pre = 0.474954
+时间已过 14.051554 秒。
+BPR_NCR:iter [30/100] completed, loss: 1050671.698770, delta_loss = 8601.085170, lr: 4.444591 ,theta:1.195821
+BPR_NCR Results: auc = 0.684838, ndcg = 0.510456, MRR = 0.778791, map = 0.698428, pre = 0.475144
+时间已过 14.819806 秒。
+BPR_NCR:iter [31/100] completed, loss: 1047438.011706, delta_loss = 3233.687064, lr: 4.666820 ,theta:1.238309
+BPR_NCR Results: auc = 0.684886, ndcg = 0.510446, MRR = 0.778766, map = 0.698307, pre = 0.475162
+时间已过 14.429176 秒。
+BPR_NCR:iter [32/100] completed, loss: 1044788.629744, delta_loss = 2649.381962, lr: 4.900161 ,theta:1.295579
+BPR_NCR Results: auc = 0.685535, ndcg = 0.510579, MRR = 0.778911, map = 0.698697, pre = 0.475209
+时间已过 14.048779 秒。
+BPR_NCR:iter [33/100] completed, loss: 1043650.848352, delta_loss = 1137.781392, lr: 5.145169 ,theta:1.344369
+BPR_NCR Results: auc = 0.685696, ndcg = 0.510698, MRR = 0.779103, map = 0.698818, pre = 0.475314
+时间已过 14.276804 秒。
+BPR_NCR:iter [34/100] completed, loss: 1043088.239049, delta_loss = 562.609303, lr: 5.402428 ,theta:1.382533
+BPR_NCR Results: auc = 0.685908, ndcg = 0.510764, MRR = 0.779109, map = 0.698929, pre = 0.475390
+时间已过 14.491098 秒。
+BPR_NCR:iter [35/100] completed, loss: 1042401.669812, delta_loss = 686.569237, lr: 5.672549 ,theta:1.421515
+BPR_NCR Results: auc = 0.686153, ndcg = 0.510796, MRR = 0.779105, map = 0.698992, pre = 0.475393
+时间已过 14.148481 秒。
+BPR_NCR:iter [36/100] completed, loss: 1041896.165755, delta_loss = 505.504056, lr: 5.956177 ,theta:1.460624
+BPR_NCR Results: auc = 0.686090, ndcg = 0.510791, MRR = 0.778965, map = 0.698953, pre = 0.475443
+时间已过 14.338702 秒。
+BPR_NCR:iter [37/100] completed, loss: 1041607.618985, delta_loss = 288.546771, lr: 6.253986 ,theta:1.499948
+BPR_NCR Results: auc = 0.686284, ndcg = 0.510817, MRR = 0.778978, map = 0.699012, pre = 0.475452
+时间已过 14.214204 秒。
+BPR_NCR:iter [38/100] completed, loss: 1041696.912949, delta_loss = -89.293964, lr: 3.126993 ,theta:1.539041
+BPR_NCR Results: auc = 0.686526, ndcg = 0.510905, MRR = 0.779007, map = 0.699194, pre = 0.475546
+时间已过 14.206687 秒。
+BPR_NCR:iter [39/100] completed, loss: 1037231.388194, delta_loss = 4465.524754, lr: 3.283342 ,theta:1.367569
+BPR_NCR Results: auc = 0.686880, ndcg = 0.510935, MRR = 0.779066, map = 0.699316, pre = 0.475543
+时间已过 14.024065 秒。
+BPR_NCR:iter [40/100] completed, loss: 1032052.899709, delta_loss = 5178.488485, lr: 3.447510 ,theta:1.447031
+BPR_NCR Results: auc = 0.687014, ndcg = 0.511005, MRR = 0.779274, map = 0.699394, pre = 0.475546
+时间已过 13.950665 秒。
+BPR_NCR:iter [41/100] completed, loss: 1030783.279743, delta_loss = 1269.619966, lr: 3.619885 ,theta:1.469419
+BPR_NCR Results: auc = 0.686992, ndcg = 0.510998, MRR = 0.779100, map = 0.699397, pre = 0.475604
+时间已过 13.689826 秒。
+BPR_NCR:iter [42/100] completed, loss: 1030267.933338, delta_loss = 515.346405, lr: 3.800879 ,theta:1.483363
+BPR_NCR Results: auc = 0.686971, ndcg = 0.510996, MRR = 0.779127, map = 0.699376, pre = 0.475613
+时间已过 12.615040 秒。
+BPR_NCR:iter [43/100] completed, loss: 1029397.419057, delta_loss = 870.514280, lr: 3.990923 ,theta:1.506259
+BPR_NCR Results: auc = 0.687054, ndcg = 0.511009, MRR = 0.779048, map = 0.699377, pre = 0.475639
+时间已过 12.361510 秒。
+BPR_NCR:iter [44/100] completed, loss: 1028855.851642, delta_loss = 541.567415, lr: 4.190469 ,theta:1.529214
+BPR_NCR Results: auc = 0.687148, ndcg = 0.511057, MRR = 0.779140, map = 0.699456, pre = 0.475666
+时间已过 12.474136 秒。
+BPR_NCR:iter [45/100] completed, loss: 1028376.317544, delta_loss = 479.534099, lr: 4.399993 ,theta:1.551778
+BPR_NCR Results: auc = 0.687204, ndcg = 0.511119, MRR = 0.779179, map = 0.699554, pre = 0.475739
+时间已过 12.505583 秒。
+BPR_NCR:iter [46/100] completed, loss: 1027896.440991, delta_loss = 479.876552, lr: 4.619993 ,theta:1.575279
+BPR_NCR Results: auc = 0.687337, ndcg = 0.511169, MRR = 0.779272, map = 0.699638, pre = 0.475762
+时间已过 12.429134 秒。
+BPR_NCR:iter [47/100] completed, loss: 1027473.280269, delta_loss = 423.160722, lr: 4.850992 ,theta:1.599888
+BPR_NCR Results: auc = 0.687501, ndcg = 0.511184, MRR = 0.779241, map = 0.699711, pre = 0.475754
+时间已过 12.262837 秒。
+BPR_NCR:iter [48/100] completed, loss: 1027169.585443, delta_loss = 303.694826, lr: 5.093542 ,theta:1.625536
+BPR_NCR Results: auc = 0.687657, ndcg = 0.511252, MRR = 0.779474, map = 0.699816, pre = 0.475754
+时间已过 12.438396 秒。
+BPR_NCR:iter [49/100] completed, loss: 1026989.016903, delta_loss = 180.568540, lr: 5.348219 ,theta:1.652079
+BPR_NCR Results: auc = 0.687954, ndcg = 0.511339, MRR = 0.779613, map = 0.700004, pre = 0.475806
+时间已过 12.278386 秒。
+BPR_NCR:iter [50/100] completed, loss: 1026999.274509, delta_loss = -10.257606, lr: 2.674109 ,theta:1.679456
+BPR_NCR Results: auc = 0.688094, ndcg = 0.511363, MRR = 0.779651, map = 0.700070, pre = 0.475812
+时间已过 12.360421 秒。
+BPR_NCR:iter [51/100] completed, loss: 1022728.141287, delta_loss = 4271.133222, lr: 2.807815 ,theta:1.519463
+BPR_NCR Results: auc = 0.688330, ndcg = 0.511368, MRR = 0.779541, map = 0.700132, pre = 0.475833
+时间已过 12.478578 秒。
+BPR_NCR:iter [52/100] completed, loss: 1019497.195721, delta_loss = 3230.945566, lr: 2.948206 ,theta:1.583094
+BPR_NCR Results: auc = 0.688356, ndcg = 0.511402, MRR = 0.779660, map = 0.700147, pre = 0.475838
+时间已过 12.524063 秒。
+BPR_NCR:iter [53/100] completed, loss: 1019024.028759, delta_loss = 473.166962, lr: 3.095616 ,theta:1.602512
+BPR_NCR Results: auc = 0.688496, ndcg = 0.511495, MRR = 0.779807, map = 0.700289, pre = 0.475912
+时间已过 12.530045 秒。
+BPR_NCR:iter [54/100] completed, loss: 1018479.364869, delta_loss = 544.663890, lr: 3.250397 ,theta:1.612065
+BPR_NCR Results: auc = 0.688618, ndcg = 0.511563, MRR = 0.779853, map = 0.700382, pre = 0.475967
+时间已过 12.424510 秒。
+BPR_NCR:iter [55/100] completed, loss: 1017894.660159, delta_loss = 584.704710, lr: 3.412917 ,theta:1.629502
+BPR_NCR Results: auc = 0.688689, ndcg = 0.511538, MRR = 0.779740, map = 0.700381, pre = 0.475959
+时间已过 12.639449 秒。
+BPR_NCR:iter [56/100] completed, loss: 1017537.692850, delta_loss = 356.967308, lr: 3.583562 ,theta:1.647166
+BPR_NCR Results: auc = 0.688683, ndcg = 0.511524, MRR = 0.779726, map = 0.700382, pre = 0.475959
+时间已过 12.302535 秒。
+BPR_NCR:iter [57/100] completed, loss: 1017157.771944, delta_loss = 379.920907, lr: 3.762741 ,theta:1.664468
+BPR_NCR Results: auc = 0.688821, ndcg = 0.511589, MRR = 0.779848, map = 0.700490, pre = 0.475976
+时间已过 12.407662 秒。
+BPR_NCR:iter [58/100] completed, loss: 1016780.282021, delta_loss = 377.489922, lr: 3.950878 ,theta:1.682553
+BPR_NCR Results: auc = 0.688916, ndcg = 0.511659, MRR = 0.779995, map = 0.700590, pre = 0.476003
+时间已过 12.466694 秒。
+BPR_NCR:iter [59/100] completed, loss: 1016441.113336, delta_loss = 339.168686, lr: 4.148421 ,theta:1.701600
+BPR_NCR Results: auc = 0.689007, ndcg = 0.511688, MRR = 0.779992, map = 0.700658, pre = 0.476035
+时间已过 12.294097 秒。
+BPR_NCR:iter [60/100] completed, loss: 1016154.234347, delta_loss = 286.878988, lr: 4.355843 ,theta:1.721542
+BPR_NCR Results: auc = 0.689129, ndcg = 0.511705, MRR = 0.780066, map = 0.700721, pre = 0.476005
+时间已过 12.586768 秒。
+BPR_NCR:iter [61/100] completed, loss: 1015929.808132, delta_loss = 224.426216, lr: 4.573635 ,theta:1.742314
+BPR_NCR Results: auc = 0.689452, ndcg = 0.511789, MRR = 0.780270, map = 0.700919, pre = 0.476023
+时间已过 12.549377 秒。
+BPR_NCR:iter [62/100] completed, loss: 1015797.771366, delta_loss = 132.036765, lr: 4.802316 ,theta:1.763882
+BPR_NCR Results: auc = 0.689450, ndcg = 0.511791, MRR = 0.780261, map = 0.700955, pre = 0.476020
+时间已过 12.042126 秒。
+BPR_NCR:iter [63/100] completed, loss: 1015784.286006, delta_loss = 13.485360, lr: 5.042432 ,theta:1.786111
+BPR_NCR Results: auc = 0.689487, ndcg = 0.511834, MRR = 0.780354, map = 0.701060, pre = 0.476049
+时间已过 12.406742 秒。
+BPR_NCR:iter [64/100] completed, loss: 1015938.345594, delta_loss = -154.059588, lr: 2.521216 ,theta:1.808814
+BPR_NCR Results: auc = 0.689483, ndcg = 0.511823, MRR = 0.780352, map = 0.701024, pre = 0.476046
+时间已过 12.502928 秒。
+BPR_NCR:iter [65/100] completed, loss: 1011827.236500, delta_loss = 4111.109094, lr: 2.647277 ,theta:1.654431
+BPR_NCR Results: auc = 0.689907, ndcg = 0.511908, MRR = 0.780443, map = 0.701196, pre = 0.476096
+时间已过 12.387463 秒。
+BPR_NCR:iter [66/100] completed, loss: 1008881.545822, delta_loss = 2945.690678, lr: 2.779641 ,theta:1.696649
+BPR_NCR Results: auc = 0.689915, ndcg = 0.511906, MRR = 0.780511, map = 0.701190, pre = 0.476049
+时间已过 14.164361 秒。
+BPR_NCR:iter [67/100] completed, loss: 1008328.871485, delta_loss = 552.674337, lr: 2.918623 ,theta:1.725057
+BPR_NCR Results: auc = 0.690014, ndcg = 0.512013, MRR = 0.780648, map = 0.701337, pre = 0.476128
+时间已过 14.531970 秒。
+BPR_NCR:iter [68/100] completed, loss: 1007997.400672, delta_loss = 331.470813, lr: 3.064554 ,theta:1.733872
+BPR_NCR Results: auc = 0.690154, ndcg = 0.512044, MRR = 0.780710, map = 0.701396, pre = 0.476149
+时间已过 14.436494 秒。
+BPR_NCR:iter [69/100] completed, loss: 1007572.527297, delta_loss = 424.873375, lr: 3.217782 ,theta:1.747313
+BPR_NCR Results: auc = 0.690139, ndcg = 0.512045, MRR = 0.780707, map = 0.701384, pre = 0.476152
+时间已过 14.204516 秒。
+BPR_NCR:iter [70/100] completed, loss: 1007287.523280, delta_loss = 285.004018, lr: 3.378671 ,theta:1.763225
+BPR_NCR Results: auc = 0.690149, ndcg = 0.512057, MRR = 0.780695, map = 0.701428, pre = 0.476172
+时间已过 13.991519 秒。
+BPR_NCR:iter [71/100] completed, loss: 1007029.850249, delta_loss = 257.673031, lr: 3.547604 ,theta:1.779041
+BPR_NCR Results: auc = 0.690156, ndcg = 0.512066, MRR = 0.780603, map = 0.701422, pre = 0.476222
+时间已过 14.310069 秒。
+BPR_NCR:iter [72/100] completed, loss: 1006773.944837, delta_loss = 255.905412, lr: 3.724984 ,theta:1.795095
+BPR_NCR Results: auc = 0.690126, ndcg = 0.512086, MRR = 0.780576, map = 0.701457, pre = 0.476269
+时间已过 14.239008 秒。
+BPR_NCR:iter [73/100] completed, loss: 1006552.939588, delta_loss = 221.005249, lr: 3.911234 ,theta:1.811843
+BPR_NCR Results: auc = 0.690159, ndcg = 0.512123, MRR = 0.780678, map = 0.701544, pre = 0.476275
+时间已过 14.151156 秒。
+BPR_NCR:iter [74/100] completed, loss: 1006365.499464, delta_loss = 187.440123, lr: 4.106795 ,theta:1.829354
+BPR_NCR Results: auc = 0.690218, ndcg = 0.512112, MRR = 0.780698, map = 0.701560, pre = 0.476234
+时间已过 13.975164 秒。
+BPR_NCR:iter [75/100] completed, loss: 1006246.516494, delta_loss = 118.982970, lr: 4.312135 ,theta:1.847567
+BPR_NCR Results: auc = 0.690205, ndcg = 0.512097, MRR = 0.780681, map = 0.701540, pre = 0.476219
+时间已过 14.537863 秒。
+BPR_NCR:iter [76/100] completed, loss: 1006194.699746, delta_loss = 51.816748, lr: 4.527742 ,theta:1.866324
+BPR_NCR Results: auc = 0.690195, ndcg = 0.512103, MRR = 0.780681, map = 0.701542, pre = 0.476240
+时间已过 14.836966 秒。
+BPR_NCR:iter [77/100] completed, loss: 1006259.841809, delta_loss = -65.142063, lr: 2.263871 ,theta:1.885500
+BPR_NCR Results: auc = 0.690151, ndcg = 0.512079, MRR = 0.780534, map = 0.701488, pre = 0.476266
+时间已过 14.351241 秒。
+BPR_NCR:iter [78/100] completed, loss: 1002412.254882, delta_loss = 3847.586928, lr: 2.377064 ,theta:1.747750
+BPR_NCR Results: auc = 0.690497, ndcg = 0.512161, MRR = 0.780784, map = 0.701631, pre = 0.476254
+时间已过 13.878106 秒。
+BPR_NCR:iter [79/100] completed, loss: 1000380.270999, delta_loss = 2031.983882, lr: 2.495918 ,theta:1.785110
+BPR_NCR Results: auc = 0.690337, ndcg = 0.512150, MRR = 0.780720, map = 0.701578, pre = 0.476284
+时间已过 14.488803 秒。
+BPR_NCR:iter [80/100] completed, loss: 1000086.199813, delta_loss = 294.071186, lr: 2.620714 ,theta:1.808607
+BPR_NCR Results: auc = 0.690404, ndcg = 0.512199, MRR = 0.780844, map = 0.701680, pre = 0.476298
+时间已过 14.401655 秒。
+BPR_NCR:iter [81/100] completed, loss: 999800.045736, delta_loss = 286.154077, lr: 2.751749 ,theta:1.815593
+BPR_NCR Results: auc = 0.690399, ndcg = 0.512224, MRR = 0.780834, map = 0.701665, pre = 0.476342
+时间已过 13.891459 秒。
+BPR_NCR:iter [82/100] completed, loss: 999498.806431, delta_loss = 301.239306, lr: 2.889337 ,theta:1.827292
+BPR_NCR Results: auc = 0.690499, ndcg = 0.512240, MRR = 0.780824, map = 0.701710, pre = 0.476363
+时间已过 14.339290 秒。
+BPR_NCR:iter [83/100] completed, loss: 999280.188942, delta_loss = 218.617488, lr: 3.033804 ,theta:1.840837
+BPR_NCR Results: auc = 0.690623, ndcg = 0.512284, MRR = 0.780873, map = 0.701773, pre = 0.476389
+时间已过 14.116656 秒。
+BPR_NCR:iter [84/100] completed, loss: 999079.386115, delta_loss = 200.802827, lr: 3.185494 ,theta:1.854117
+BPR_NCR Results: auc = 0.690603, ndcg = 0.512253, MRR = 0.780757, map = 0.701743, pre = 0.476380
+时间已过 14.270716 秒。
+BPR_NCR:iter [85/100] completed, loss: 998881.330550, delta_loss = 198.055565, lr: 3.344768 ,theta:1.867650
+BPR_NCR Results: auc = 0.690627, ndcg = 0.512261, MRR = 0.780749, map = 0.701770, pre = 0.476392
+时间已过 14.329988 秒。
+BPR_NCR:iter [86/100] completed, loss: 998703.852232, delta_loss = 177.478318, lr: 3.512007 ,theta:1.881825
+BPR_NCR Results: auc = 0.690601, ndcg = 0.512234, MRR = 0.780689, map = 0.701751, pre = 0.476369
+时间已过 13.929575 秒。
+BPR_NCR:iter [87/100] completed, loss: 998548.878227, delta_loss = 154.974005, lr: 3.687607 ,theta:1.896669
+BPR_NCR Results: auc = 0.690705, ndcg = 0.512296, MRR = 0.780843, map = 0.701860, pre = 0.476392
+时间已过 14.300027 秒。
+BPR_NCR:iter [88/100] completed, loss: 998436.454130, delta_loss = 112.424097, lr: 3.871988 ,theta:1.912121
+BPR_NCR Results: auc = 0.690747, ndcg = 0.512313, MRR = 0.780885, map = 0.701892, pre = 0.476392
+时间已过 13.956335 秒。
+BPR_NCR:iter [89/100] completed, loss: 998365.775342, delta_loss = 70.678788, lr: 4.065587 ,theta:1.928087
+BPR_NCR Results: auc = 0.690747, ndcg = 0.512317, MRR = 0.780894, map = 0.701882, pre = 0.476407
+时间已过 14.441117 秒。
+BPR_NCR:iter [90/100] completed, loss: 998366.500857, delta_loss = -0.725515, lr: 2.032793 ,theta:1.944476
+BPR_NCR Results: auc = 0.690704, ndcg = 0.512259, MRR = 0.780747, map = 0.701794, pre = 0.476383
+时间已过 14.408161 秒。
+BPR_NCR:iter [91/100] completed, loss: 994804.078263, delta_loss = 3562.422594, lr: 2.134433 ,theta:1.822274
+BPR_NCR Results: auc = 0.690983, ndcg = 0.512300, MRR = 0.780831, map = 0.701905, pre = 0.476386
+时间已过 14.205737 秒。
+BPR_NCR:iter [92/100] completed, loss: 993413.003935, delta_loss = 1391.074328, lr: 2.241155 ,theta:1.858912
+BPR_NCR Results: auc = 0.690998, ndcg = 0.512384, MRR = 0.781097, map = 0.702005, pre = 0.476404
+时间已过 14.380086 秒。
+BPR_NCR:iter [93/100] completed, loss: 993267.704861, delta_loss = 145.299074, lr: 2.353213 ,theta:1.876021
+BPR_NCR Results: auc = 0.691059, ndcg = 0.512401, MRR = 0.781076, map = 0.702039, pre = 0.476424
+时间已过 14.228080 秒。
+BPR_NCR:iter [94/100] completed, loss: 993016.300611, delta_loss = 251.404250, lr: 2.470873 ,theta:1.881462
+BPR_NCR Results: auc = 0.691039, ndcg = 0.512429, MRR = 0.781051, map = 0.702052, pre = 0.476477
+时间已过 14.331960 秒。
+BPR_NCR:iter [95/100] completed, loss: 992792.908605, delta_loss = 223.392006, lr: 2.594417 ,theta:1.892160
+BPR_NCR Results: auc = 0.691142, ndcg = 0.512470, MRR = 0.781112, map = 0.702143, pre = 0.476509
+时间已过 14.581986 秒。
+BPR_NCR:iter [96/100] completed, loss: 992625.333520, delta_loss = 167.575084, lr: 2.724138 ,theta:1.903624
+BPR_NCR Results: auc = 0.691205, ndcg = 0.512496, MRR = 0.781122, map = 0.702196, pre = 0.476527
+时间已过 14.368073 秒。
+BPR_NCR:iter [97/100] completed, loss: 992467.976425, delta_loss = 157.357095, lr: 2.860345 ,theta:1.914685
+BPR_NCR Results: auc = 0.691212, ndcg = 0.512469, MRR = 0.781030, map = 0.702167, pre = 0.476518
+时间已过 13.994346 秒。
+BPR_NCR:iter [98/100] completed, loss: 992310.645281, delta_loss = 157.331144, lr: 3.003362 ,theta:1.926131
+BPR_NCR Results: auc = 0.691242, ndcg = 0.512501, MRR = 0.781095, map = 0.702216, pre = 0.476536
+时间已过 14.730811 秒。
+BPR_NCR:iter [99/100] completed, loss: 992167.568293, delta_loss = 143.076987, lr: 3.153530 ,theta:1.938188
+BPR_NCR Results: auc = 0.691166, ndcg = 0.512463, MRR = 0.780958, map = 0.702155, pre = 0.476536
+时间已过 14.075089 秒。
+BPR_NCR:iter [100/100] completed, loss: 992040.541571, delta_loss = 127.026722, lr: 3.311206 ,theta:1.950810
+BPR_NCR Results: auc = 0.691174, ndcg = 0.512470, MRR = 0.780928, map = 0.702141, pre = 0.476556
+时间已过 14.259697 秒。
+BPR:fold [1/5] completed
+BPR_NCR generate data completed
+BPR_NCR:iter [1/100] completed, loss: 1676420.040164, delta_loss = -1676420.040164, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.533584, ndcg = 0.450368, MRR = 0.673256, map = 0.589491, pre = 0.444862
+时间已过 14.625867 秒。
+BPR_NCR:iter [2/100] completed, loss: 1354442.364045, delta_loss = 321977.676118, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.570968, ndcg = 0.466223, MRR = 0.699691, map = 0.615358, pre = 0.453553
+时间已过 14.315491 秒。
+BPR_NCR:iter [3/100] completed, loss: 1281305.502328, delta_loss = 73136.861718, lr: 5.250000 ,theta:0.100000
+BPR_NCR Results: auc = 0.594058, ndcg = 0.475510, MRR = 0.713918, map = 0.631361, pre = 0.458928
+时间已过 14.612731 秒。
+BPR_NCR:iter [4/100] completed, loss: 1246229.705326, delta_loss = 35075.797002, lr: 5.512500 ,theta:0.000385
+BPR_NCR Results: auc = 0.608871, ndcg = 0.481364, MRR = 0.724126, map = 0.641626, pre = 0.461728
+时间已过 14.124912 秒。
+BPR_NCR:iter [5/100] completed, loss: 1222075.584608, delta_loss = 24154.120718, lr: 5.788125 ,theta:0.100000
+BPR_NCR Results: auc = 0.620786, ndcg = 0.486007, MRR = 0.732652, map = 0.650243, pre = 0.463986
+时间已过 14.170804 秒。
+BPR_NCR:iter [6/100] completed, loss: 1204427.457037, delta_loss = 17648.127571, lr: 6.077531 ,theta:0.137371
+BPR_NCR Results: auc = 0.630438, ndcg = 0.489461, MRR = 0.739160, map = 0.656902, pre = 0.465372
+时间已过 14.625710 秒。
+BPR_NCR:iter [7/100] completed, loss: 1190756.364139, delta_loss = 13671.092898, lr: 6.381408 ,theta:0.210364
+BPR_NCR Results: auc = 0.637322, ndcg = 0.492132, MRR = 0.744175, map = 0.662096, pre = 0.466617
+时间已过 14.350186 秒。
+BPR_NCR:iter [8/100] completed, loss: 1179213.935351, delta_loss = 11542.428788, lr: 6.700478 ,theta:0.382062
+BPR_NCR Results: auc = 0.642896, ndcg = 0.494326, MRR = 0.748037, map = 0.666319, pre = 0.467709
+时间已过 14.272436 秒。
+BPR_NCR:iter [9/100] completed, loss: 1169376.870763, delta_loss = 9837.064587, lr: 7.035502 ,theta:0.542646
+BPR_NCR Results: auc = 0.648346, ndcg = 0.496427, MRR = 0.752043, map = 0.670428, pre = 0.468644
+时间已过 14.513122 秒。
+BPR_NCR:iter [10/100] completed, loss: 1160935.233013, delta_loss = 8441.637750, lr: 7.387277 ,theta:0.654520
+BPR_NCR Results: auc = 0.653636, ndcg = 0.498289, MRR = 0.755681, map = 0.674235, pre = 0.469379
+时间已过 14.868608 秒。
+BPR_NCR:iter [11/100] completed, loss: 1153007.236230, delta_loss = 7927.996783, lr: 7.756641 ,theta:0.767129
+BPR_NCR Results: auc = 0.658067, ndcg = 0.499987, MRR = 0.758982, map = 0.677627, pre = 0.470132
+时间已过 14.358304 秒。
+BPR_NCR:iter [12/100] completed, loss: 1146012.896460, delta_loss = 6994.339770, lr: 8.144473 ,theta:0.861828
+BPR_NCR Results: auc = 0.661644, ndcg = 0.501348, MRR = 0.761267, map = 0.680349, pre = 0.470849
+时间已过 14.329557 秒。
+BPR_NCR:iter [13/100] completed, loss: 1139391.684922, delta_loss = 6621.211537, lr: 8.551697 ,theta:0.951628
+BPR_NCR Results: auc = 0.665220, ndcg = 0.502526, MRR = 0.763845, map = 0.682842, pre = 0.471201
+时间已过 14.493227 秒。
+BPR_NCR:iter [14/100] completed, loss: 1133201.223839, delta_loss = 6190.461083, lr: 8.979282 ,theta:1.034890
+BPR_NCR Results: auc = 0.668000, ndcg = 0.503586, MRR = 0.765795, map = 0.684991, pre = 0.471699
+时间已过 14.283649 秒。
+BPR_NCR:iter [15/100] completed, loss: 1127191.477030, delta_loss = 6009.746809, lr: 9.428246 ,theta:1.113314
+BPR_NCR Results: auc = 0.670640, ndcg = 0.504500, MRR = 0.767529, map = 0.686886, pre = 0.472100
+时间已过 14.255970 秒。
+BPR_NCR:iter [16/100] completed, loss: 1121334.711806, delta_loss = 5856.765224, lr: 9.899658 ,theta:1.188370
+BPR_NCR Results: auc = 0.672501, ndcg = 0.505235, MRR = 0.768950, map = 0.688310, pre = 0.472428
+时间已过 14.338294 秒。
+BPR_NCR:iter [17/100] completed, loss: 1115632.149447, delta_loss = 5702.562359, lr: 10.394641 ,theta:1.260138
+BPR_NCR Results: auc = 0.674020, ndcg = 0.505839, MRR = 0.770137, map = 0.689467, pre = 0.472689
+时间已过 14.357680 秒。
+BPR_NCR:iter [18/100] completed, loss: 1110258.832178, delta_loss = 5373.317269, lr: 10.914373 ,theta:1.328829
+BPR_NCR Results: auc = 0.676413, ndcg = 0.506664, MRR = 0.771742, map = 0.691090, pre = 0.473023
+时间已过 14.549835 秒。
+BPR_NCR:iter [19/100] completed, loss: 1105253.669929, delta_loss = 5005.162249, lr: 11.460092 ,theta:1.393660
+BPR_NCR Results: auc = 0.678008, ndcg = 0.507235, MRR = 0.772964, map = 0.692289, pre = 0.473213
+时间已过 14.050743 秒。
+BPR_NCR:iter [20/100] completed, loss: 1100775.525532, delta_loss = 4478.144397, lr: 12.033096 ,theta:1.455088
+BPR_NCR Results: auc = 0.679533, ndcg = 0.507823, MRR = 0.774123, map = 0.693456, pre = 0.473462
+时间已过 14.536658 秒。
+BPR_NCR:iter [21/100] completed, loss: 1096667.901604, delta_loss = 4107.623928, lr: 12.634751 ,theta:1.511520
+BPR_NCR Results: auc = 0.681022, ndcg = 0.508394, MRR = 0.775247, map = 0.694584, pre = 0.473711
+时间已过 14.062212 秒。
+BPR_NCR:iter [22/100] completed, loss: 1093167.448811, delta_loss = 3500.452793, lr: 13.266489 ,theta:1.564912
+BPR_NCR Results: auc = 0.681920, ndcg = 0.508811, MRR = 0.776042, map = 0.695375, pre = 0.473931
+时间已过 14.526184 秒。
+BPR_NCR:iter [23/100] completed, loss: 1089737.778301, delta_loss = 3429.670510, lr: 13.929813 ,theta:1.610779
+BPR_NCR Results: auc = 0.681993, ndcg = 0.508956, MRR = 0.776309, map = 0.695640, pre = 0.474109
+时间已过 14.110205 秒。
+BPR_NCR:iter [24/100] completed, loss: 1087942.045629, delta_loss = 1795.732673, lr: 14.626304 ,theta:1.640341
+BPR_NCR Results: auc = 0.683793, ndcg = 0.509447, MRR = 0.777256, map = 0.696751, pre = 0.474241
+时间已过 14.549319 秒。
+BPR_NCR:iter [25/100] completed, loss: 1085228.980884, delta_loss = 2713.064745, lr: 15.357619 ,theta:1.505670
+BPR_NCR Results: auc = 0.683558, ndcg = 0.509456, MRR = 0.777421, map = 0.696710, pre = 0.474253
+时间已过 14.274931 秒。
+BPR_NCR:iter [26/100] completed, loss: 1091387.251037, delta_loss = -6158.270153, lr: 7.678809 ,theta:0.368029
+BPR_NCR Results: auc = 0.684211, ndcg = 0.509395, MRR = 0.777239, map = 0.696784, pre = 0.474215
+时间已过 14.068380 秒。
+BPR_NCR:iter [27/100] completed, loss: 1141077.255100, delta_loss = -49690.004063, lr: 3.839405 ,theta:0.100000
+BPR_NCR Results: auc = 0.686129, ndcg = 0.509895, MRR = 0.778022, map = 0.698098, pre = 0.474338
+时间已过 13.894370 秒。
+BPR_NCR:iter [28/100] completed, loss: 1101375.239646, delta_loss = 39702.015454, lr: 4.031375 ,theta:0.362943
+BPR_NCR Results: auc = 0.685100, ndcg = 0.509944, MRR = 0.778219, map = 0.697916, pre = 0.474461
+时间已过 14.683960 秒。
+BPR_NCR:iter [29/100] completed, loss: 1056590.681681, delta_loss = 44784.557965, lr: 4.232944 ,theta:1.190977
+BPR_NCR Results: auc = 0.686152, ndcg = 0.510386, MRR = 0.779021, map = 0.698756, pre = 0.474681
+时间已过 14.358834 秒。
+BPR_NCR:iter [30/100] completed, loss: 1050898.091527, delta_loss = 5692.590153, lr: 4.444591 ,theta:1.230561
+BPR_NCR Results: auc = 0.685978, ndcg = 0.510285, MRR = 0.778468, map = 0.698529, pre = 0.474777
+时间已过 14.061663 秒。
+BPR_NCR:iter [31/100] completed, loss: 1047323.357566, delta_loss = 3574.733961, lr: 4.666820 ,theta:1.263026
+BPR_NCR Results: auc = 0.686492, ndcg = 0.510363, MRR = 0.778410, map = 0.698696, pre = 0.474848
+时间已过 14.303330 秒。
+BPR_NCR:iter [32/100] completed, loss: 1044318.285884, delta_loss = 3005.071683, lr: 4.900161 ,theta:1.324936
+BPR_NCR Results: auc = 0.687060, ndcg = 0.510552, MRR = 0.778545, map = 0.699070, pre = 0.474997
+时间已过 14.364462 秒。
+BPR_NCR:iter [33/100] completed, loss: 1043228.594166, delta_loss = 1089.691718, lr: 5.145169 ,theta:1.371495
+BPR_NCR Results: auc = 0.687119, ndcg = 0.510633, MRR = 0.778690, map = 0.699195, pre = 0.475073
+时间已过 14.070538 秒。
+BPR_NCR:iter [34/100] completed, loss: 1042724.223898, delta_loss = 504.370268, lr: 5.402428 ,theta:1.408895
+BPR_NCR Results: auc = 0.687542, ndcg = 0.510727, MRR = 0.778798, map = 0.699420, pre = 0.475108
+时间已过 14.284463 秒。
+BPR_NCR:iter [35/100] completed, loss: 1042035.238816, delta_loss = 688.985081, lr: 5.672549 ,theta:1.447471
+BPR_NCR Results: auc = 0.687852, ndcg = 0.510804, MRR = 0.779021, map = 0.699546, pre = 0.475111
+时间已过 14.289476 秒。
+BPR_NCR:iter [36/100] completed, loss: 1041516.399470, delta_loss = 518.839347, lr: 5.956177 ,theta:1.486435
+BPR_NCR Results: auc = 0.687927, ndcg = 0.510791, MRR = 0.778985, map = 0.699543, pre = 0.475120
+时间已过 14.277053 秒。
+BPR_NCR:iter [37/100] completed, loss: 1041216.885308, delta_loss = 299.514162, lr: 6.253986 ,theta:1.525898
+BPR_NCR Results: auc = 0.688079, ndcg = 0.510860, MRR = 0.779190, map = 0.699655, pre = 0.475138
+时间已过 14.306472 秒。
+BPR_NCR:iter [38/100] completed, loss: 1041312.752162, delta_loss = -95.866854, lr: 3.126993 ,theta:1.565099
+BPR_NCR Results: auc = 0.688259, ndcg = 0.510917, MRR = 0.779198, map = 0.699771, pre = 0.475187
+时间已过 13.954965 秒。
+BPR_NCR:iter [39/100] completed, loss: 1036853.067119, delta_loss = 4459.685043, lr: 3.283342 ,theta:1.388539
+BPR_NCR Results: auc = 0.687971, ndcg = 0.510736, MRR = 0.778985, map = 0.699552, pre = 0.475070
+时间已过 14.014402 秒。
+BPR_NCR:iter [40/100] completed, loss: 1031707.052340, delta_loss = 5146.014779, lr: 3.447510 ,theta:1.466561
+BPR_NCR Results: auc = 0.688251, ndcg = 0.510845, MRR = 0.779210, map = 0.699759, pre = 0.475102
+时间已过 14.300230 秒。
+BPR_NCR:iter [41/100] completed, loss: 1030275.944545, delta_loss = 1431.107795, lr: 3.619885 ,theta:1.492550
+BPR_NCR Results: auc = 0.688571, ndcg = 0.511026, MRR = 0.779454, map = 0.700015, pre = 0.475225
+时间已过 14.192399 秒。
+BPR_NCR:iter [42/100] completed, loss: 1029814.375884, delta_loss = 461.568660, lr: 3.800879 ,theta:1.506083
+BPR_NCR Results: auc = 0.688659, ndcg = 0.511051, MRR = 0.779407, map = 0.700055, pre = 0.475269
+时间已过 14.852175 秒。
+BPR_NCR:iter [43/100] completed, loss: 1028940.061069, delta_loss = 874.314815, lr: 3.990923 ,theta:1.528450
+BPR_NCR Results: auc = 0.688805, ndcg = 0.511099, MRR = 0.779469, map = 0.700143, pre = 0.475290
+时间已过 14.327500 秒。
+BPR_NCR:iter [44/100] completed, loss: 1028374.401241, delta_loss = 565.659828, lr: 4.190469 ,theta:1.551773
+BPR_NCR Results: auc = 0.688760, ndcg = 0.511085, MRR = 0.779315, map = 0.700129, pre = 0.475331
+时间已过 14.545778 秒。
+BPR_NCR:iter [45/100] completed, loss: 1027893.606699, delta_loss = 480.794542, lr: 4.399993 ,theta:1.574607
+BPR_NCR Results: auc = 0.689032, ndcg = 0.511157, MRR = 0.779391, map = 0.700264, pre = 0.475381
+时间已过 14.329853 秒。
+BPR_NCR:iter [46/100] completed, loss: 1027417.327318, delta_loss = 476.279381, lr: 4.619993 ,theta:1.598203
+BPR_NCR Results: auc = 0.689223, ndcg = 0.511220, MRR = 0.779454, map = 0.700386, pre = 0.475425
+时间已过 14.712228 秒。
+BPR_NCR:iter [47/100] completed, loss: 1026983.999668, delta_loss = 433.327649, lr: 4.850992 ,theta:1.622893
+BPR_NCR Results: auc = 0.689388, ndcg = 0.511248, MRR = 0.779503, map = 0.700470, pre = 0.475442
+时间已过 14.141328 秒。
+BPR_NCR:iter [48/100] completed, loss: 1026671.380793, delta_loss = 312.618875, lr: 5.093542 ,theta:1.648683
+BPR_NCR Results: auc = 0.689527, ndcg = 0.511320, MRR = 0.779750, map = 0.700590, pre = 0.475445
+时间已过 14.835961 秒。
+BPR_NCR:iter [49/100] completed, loss: 1026473.647353, delta_loss = 197.733440, lr: 5.348219 ,theta:1.675377
+BPR_NCR Results: auc = 0.689738, ndcg = 0.511403, MRR = 0.779930, map = 0.700756, pre = 0.475489
+时间已过 14.126186 秒。
+BPR_NCR:iter [50/100] completed, loss: 1026471.474599, delta_loss = 2.172754, lr: 5.615630 ,theta:1.702928
+BPR_NCR Results: auc = 0.689936, ndcg = 0.511484, MRR = 0.780028, map = 0.700899, pre = 0.475542
+时间已过 14.273241 秒。
+BPR_NCR:iter [51/100] completed, loss: 1026669.212825, delta_loss = -197.738226, lr: 2.807815 ,theta:1.730956
+BPR_NCR Results: auc = 0.690102, ndcg = 0.511544, MRR = 0.780138, map = 0.700989, pre = 0.475568
+时间已过 14.223571 秒。
+BPR_NCR:iter [52/100] completed, loss: 1022446.226567, delta_loss = 4222.986258, lr: 2.948206 ,theta:1.560265
+BPR_NCR Results: auc = 0.689587, ndcg = 0.511279, MRR = 0.779576, map = 0.700626, pre = 0.475495
+时间已过 14.182534 秒。
+BPR_NCR:iter [53/100] completed, loss: 1018422.104264, delta_loss = 4024.122303, lr: 3.095616 ,theta:1.610835
+BPR_NCR Results: auc = 0.689929, ndcg = 0.511462, MRR = 0.779898, map = 0.700886, pre = 0.475574
+时间已过 14.117741 秒。
+BPR_NCR:iter [54/100] completed, loss: 1017345.081102, delta_loss = 1077.023162, lr: 3.250397 ,theta:1.643948
+BPR_NCR Results: auc = 0.690210, ndcg = 0.511584, MRR = 0.780136, map = 0.701104, pre = 0.475636
+时间已过 14.679990 秒。
+BPR_NCR:iter [55/100] completed, loss: 1017006.507099, delta_loss = 338.574003, lr: 3.412917 ,theta:1.655106
+BPR_NCR Results: auc = 0.690294, ndcg = 0.511584, MRR = 0.779986, map = 0.701114, pre = 0.475662
+时间已过 14.487673 秒。
+BPR_NCR:iter [56/100] completed, loss: 1016414.592411, delta_loss = 591.914688, lr: 3.583562 ,theta:1.670962
+BPR_NCR Results: auc = 0.690191, ndcg = 0.511563, MRR = 0.779907, map = 0.701056, pre = 0.475679
+时间已过 14.185715 秒。
+BPR_NCR:iter [57/100] completed, loss: 1015998.767236, delta_loss = 415.825175, lr: 3.762741 ,theta:1.689822
+BPR_NCR Results: auc = 0.690230, ndcg = 0.511581, MRR = 0.779859, map = 0.701102, pre = 0.475715
+时间已过 14.346005 秒。
+BPR_NCR:iter [58/100] completed, loss: 1015671.494679, delta_loss = 327.272557, lr: 3.950878 ,theta:1.708817
+BPR_NCR Results: auc = 0.690440, ndcg = 0.511640, MRR = 0.779967, map = 0.701248, pre = 0.475744
+时间已过 14.568359 秒。
+BPR_NCR:iter [59/100] completed, loss: 1015324.261701, delta_loss = 347.232978, lr: 4.148421 ,theta:1.728037
+BPR_NCR Results: auc = 0.690479, ndcg = 0.511715, MRR = 0.780088, map = 0.701339, pre = 0.475814
+时间已过 14.331583 秒。
+BPR_NCR:iter [60/100] completed, loss: 1015041.185086, delta_loss = 283.076615, lr: 4.355843 ,theta:1.748051
+BPR_NCR Results: auc = 0.690525, ndcg = 0.511734, MRR = 0.780148, map = 0.701415, pre = 0.475805
+时间已过 14.501241 秒。
+BPR_NCR:iter [61/100] completed, loss: 1014792.726664, delta_loss = 248.458422, lr: 4.573635 ,theta:1.768902
+BPR_NCR Results: auc = 0.690686, ndcg = 0.511797, MRR = 0.780346, map = 0.701545, pre = 0.475808
+时间已过 14.761135 秒。
+BPR_NCR:iter [62/100] completed, loss: 1014666.413668, delta_loss = 126.312996, lr: 4.802316 ,theta:1.790631
+BPR_NCR Results: auc = 0.690867, ndcg = 0.511830, MRR = 0.780450, map = 0.701635, pre = 0.475782
+时间已过 14.306877 秒。
+BPR_NCR:iter [63/100] completed, loss: 1014617.820667, delta_loss = 48.593002, lr: 5.042432 ,theta:1.812889
+BPR_NCR Results: auc = 0.690916, ndcg = 0.511849, MRR = 0.780562, map = 0.701667, pre = 0.475759
+时间已过 14.342880 秒。
+BPR_NCR:iter [64/100] completed, loss: 1014775.249115, delta_loss = -157.428449, lr: 2.521216 ,theta:1.835682
+BPR_NCR Results: auc = 0.691060, ndcg = 0.511876, MRR = 0.780522, map = 0.701735, pre = 0.475785
+时间已过 13.070655 秒。
+BPR_NCR:iter [65/100] completed, loss: 1010680.921311, delta_loss = 4094.327804, lr: 2.647277 ,theta:1.682616
+BPR_NCR Results: auc = 0.690464, ndcg = 0.511593, MRR = 0.779875, map = 0.701265, pre = 0.475712
+时间已过 12.541137 秒。
+BPR_NCR:iter [66/100] completed, loss: 1007877.195581, delta_loss = 2803.725730, lr: 2.779641 ,theta:1.720025
+BPR_NCR Results: auc = 0.690679, ndcg = 0.511760, MRR = 0.780167, map = 0.701476, pre = 0.475802
+时间已过 12.505181 秒。
+BPR_NCR:iter [67/100] completed, loss: 1007203.037887, delta_loss = 674.157694, lr: 2.918623 ,theta:1.750836
+BPR_NCR Results: auc = 0.690795, ndcg = 0.511821, MRR = 0.780252, map = 0.701585, pre = 0.475829
+时间已过 12.452669 秒。
+BPR_NCR:iter [68/100] completed, loss: 1006915.318577, delta_loss = 287.719310, lr: 3.064554 ,theta:1.760729
+BPR_NCR Results: auc = 0.690852, ndcg = 0.511856, MRR = 0.780278, map = 0.701622, pre = 0.475861
+时间已过 12.532245 秒。
+BPR_NCR:iter [69/100] completed, loss: 1006505.901415, delta_loss = 409.417163, lr: 3.217782 ,theta:1.773496
+BPR_NCR Results: auc = 0.690993, ndcg = 0.511885, MRR = 0.780211, map = 0.701682, pre = 0.475905
+时间已过 12.419851 秒。
+BPR_NCR:iter [70/100] completed, loss: 1006205.360530, delta_loss = 300.540885, lr: 3.378671 ,theta:1.789204
+BPR_NCR Results: auc = 0.691095, ndcg = 0.511949, MRR = 0.780335, map = 0.701787, pre = 0.475955
+时间已过 12.443062 秒。
+BPR_NCR:iter [71/100] completed, loss: 1005944.854758, delta_loss = 260.505771, lr: 3.547604 ,theta:1.805160
+BPR_NCR Results: auc = 0.691104, ndcg = 0.511971, MRR = 0.780365, map = 0.701801, pre = 0.475975
+时间已过 12.389041 秒。
+BPR_NCR:iter [72/100] completed, loss: 1005688.771092, delta_loss = 256.083666, lr: 3.724984 ,theta:1.821269
+BPR_NCR Results: auc = 0.691158, ndcg = 0.511992, MRR = 0.780427, map = 0.701856, pre = 0.475969
+时间已过 12.335304 秒。
+BPR_NCR:iter [73/100] completed, loss: 1005465.396272, delta_loss = 223.374820, lr: 3.911234 ,theta:1.837974
+BPR_NCR Results: auc = 0.691309, ndcg = 0.512010, MRR = 0.780514, map = 0.701923, pre = 0.475937
+时间已过 12.297419 秒。
+BPR_NCR:iter [74/100] completed, loss: 1005269.486219, delta_loss = 195.910054, lr: 4.106795 ,theta:1.855398
+BPR_NCR Results: auc = 0.691450, ndcg = 0.512062, MRR = 0.780677, map = 0.702036, pre = 0.475928
+时间已过 12.299615 秒。
+BPR_NCR:iter [75/100] completed, loss: 1005141.050911, delta_loss = 128.435307, lr: 4.312135 ,theta:1.873528
+BPR_NCR Results: auc = 0.691576, ndcg = 0.512112, MRR = 0.780797, map = 0.702127, pre = 0.475943
+时间已过 12.078843 秒。
+BPR_NCR:iter [76/100] completed, loss: 1005072.283789, delta_loss = 68.767122, lr: 4.527742 ,theta:1.892170
+BPR_NCR Results: auc = 0.691790, ndcg = 0.512192, MRR = 0.780979, map = 0.702287, pre = 0.475964
+时间已过 12.356250 秒。
+BPR_NCR:iter [77/100] completed, loss: 1005118.776223, delta_loss = -46.492434, lr: 2.263871 ,theta:1.911205
+BPR_NCR Results: auc = 0.691933, ndcg = 0.512227, MRR = 0.781029, map = 0.702348, pre = 0.475975
+时间已过 12.304652 秒。
+BPR_NCR:iter [78/100] completed, loss: 1001281.595417, delta_loss = 3837.180805, lr: 2.377064 ,theta:1.776104
+BPR_NCR Results: auc = 0.691660, ndcg = 0.512024, MRR = 0.780604, map = 0.702108, pre = 0.475917
+时间已过 12.512867 秒。
+BPR_NCR:iter [79/100] completed, loss: 999360.620930, delta_loss = 1920.974488, lr: 2.495918 ,theta:1.809031
+BPR_NCR Results: auc = 0.691898, ndcg = 0.512174, MRR = 0.780787, map = 0.702316, pre = 0.476010
+时间已过 12.342382 秒。
+BPR_NCR:iter [80/100] completed, loss: 998982.205062, delta_loss = 378.415867, lr: 2.620714 ,theta:1.834533
+BPR_NCR Results: auc = 0.691980, ndcg = 0.512219, MRR = 0.780844, map = 0.702396, pre = 0.476037
+时间已过 12.325691 秒。
+BPR_NCR:iter [81/100] completed, loss: 998723.792741, delta_loss = 258.412321, lr: 2.751749 ,theta:1.842251
+BPR_NCR Results: auc = 0.691935, ndcg = 0.512235, MRR = 0.780827, map = 0.702395, pre = 0.476066
+时间已过 12.421898 秒。
+BPR_NCR:iter [82/100] completed, loss: 998434.416226, delta_loss = 289.376515, lr: 2.889337 ,theta:1.853323
+BPR_NCR Results: auc = 0.691874, ndcg = 0.512218, MRR = 0.780707, map = 0.702342, pre = 0.476095
+时间已过 12.178932 秒。
+BPR_NCR:iter [83/100] completed, loss: 998200.449818, delta_loss = 233.966408, lr: 3.033804 ,theta:1.866701
+BPR_NCR Results: auc = 0.691962, ndcg = 0.512250, MRR = 0.780794, map = 0.702415, pre = 0.476101
+时间已过 12.528376 秒。
+BPR_NCR:iter [84/100] completed, loss: 998003.259177, delta_loss = 197.190641, lr: 3.185494 ,theta:1.880058
+BPR_NCR Results: auc = 0.692001, ndcg = 0.512275, MRR = 0.780811, map = 0.702447, pre = 0.476133
+时间已过 12.573855 秒。
+BPR_NCR:iter [85/100] completed, loss: 997799.505925, delta_loss = 203.753252, lr: 3.344768 ,theta:1.893538
+BPR_NCR Results: auc = 0.692219, ndcg = 0.512307, MRR = 0.780895, map = 0.702537, pre = 0.476116
+时间已过 12.609835 秒。
+BPR_NCR:iter [86/100] completed, loss: 997624.762583, delta_loss = 174.743342, lr: 3.512007 ,theta:1.907599
+BPR_NCR Results: auc = 0.692347, ndcg = 0.512344, MRR = 0.780967, map = 0.702632, pre = 0.476128
+时间已过 12.349222 秒。
+BPR_NCR:iter [87/100] completed, loss: 997457.373228, delta_loss = 167.389355, lr: 3.687607 ,theta:1.922281
+BPR_NCR Results: auc = 0.692477, ndcg = 0.512368, MRR = 0.781037, map = 0.702690, pre = 0.476128
+时间已过 12.343981 秒。
+BPR_NCR:iter [88/100] completed, loss: 997344.493732, delta_loss = 112.879497, lr: 3.871988 ,theta:1.937604
+BPR_NCR Results: auc = 0.692649, ndcg = 0.512406, MRR = 0.781117, map = 0.702780, pre = 0.476131
+时间已过 12.884111 秒。
+BPR_NCR:iter [89/100] completed, loss: 997253.527339, delta_loss = 90.966393, lr: 4.065587 ,theta:1.953370
+BPR_NCR Results: auc = 0.692656, ndcg = 0.512415, MRR = 0.781198, map = 0.702785, pre = 0.476110
+时间已过 14.314431 秒。
+BPR_NCR:iter [90/100] completed, loss: 997249.841978, delta_loss = 3.685361, lr: 4.268866 ,theta:1.969590
+BPR_NCR Results: auc = 0.692736, ndcg = 0.512447, MRR = 0.781220, map = 0.702849, pre = 0.476128
+时间已过 14.211298 秒。
+BPR_NCR:iter [91/100] completed, loss: 997290.504986, delta_loss = -40.663008, lr: 2.134433 ,theta:1.985858
+BPR_NCR Results: auc = 0.692854, ndcg = 0.512501, MRR = 0.781349, map = 0.702957, pre = 0.476151
+时间已过 14.598342 秒。
+BPR_NCR:iter [92/100] completed, loss: 993542.675934, delta_loss = 3747.829052, lr: 2.241155 ,theta:1.864073
+BPR_NCR Results: auc = 0.692548, ndcg = 0.512346, MRR = 0.781026, map = 0.702727, pre = 0.476125
+时间已过 14.568187 秒。
+BPR_NCR:iter [93/100] completed, loss: 991976.239085, delta_loss = 1566.436848, lr: 2.353213 ,theta:1.887044
+BPR_NCR Results: auc = 0.692830, ndcg = 0.512469, MRR = 0.781264, map = 0.702952, pre = 0.476154
+时间已过 14.698026 秒。
+BPR_NCR:iter [94/100] completed, loss: 991622.819500, delta_loss = 353.419586, lr: 2.470873 ,theta:1.912696
+BPR_NCR Results: auc = 0.692768, ndcg = 0.512481, MRR = 0.781132, map = 0.702926, pre = 0.476213
+时间已过 14.392937 秒。
+BPR_NCR:iter [95/100] completed, loss: 991428.745775, delta_loss = 194.073725, lr: 2.594417 ,theta:1.920460
+BPR_NCR Results: auc = 0.692833, ndcg = 0.512499, MRR = 0.781128, map = 0.702949, pre = 0.476251
+时间已过 14.174646 秒。
+BPR_NCR:iter [96/100] completed, loss: 991231.833924, delta_loss = 196.911851, lr: 2.724138 ,theta:1.929868
+BPR_NCR Results: auc = 0.692857, ndcg = 0.512534, MRR = 0.781203, map = 0.702976, pre = 0.476286
+时间已过 14.230469 秒。
+BPR_NCR:iter [97/100] completed, loss: 991030.808218, delta_loss = 201.025706, lr: 2.860345 ,theta:1.941676
+BPR_NCR Results: auc = 0.692939, ndcg = 0.512552, MRR = 0.781266, map = 0.703047, pre = 0.476271
+时间已过 14.123450 秒。
+BPR_NCR:iter [98/100] completed, loss: 990903.584232, delta_loss = 127.223985, lr: 3.003362 ,theta:1.953735
+BPR_NCR Results: auc = 0.692959, ndcg = 0.512572, MRR = 0.781266, map = 0.703051, pre = 0.476297
+时间已过 14.436274 秒。
+BPR_NCR:iter [99/100] completed, loss: 990740.112726, delta_loss = 163.471506, lr: 3.153530 ,theta:1.965764
+BPR_NCR Results: auc = 0.693032, ndcg = 0.512574, MRR = 0.781385, map = 0.703094, pre = 0.476239
+时间已过 14.480532 秒。
+BPR_NCR:iter [100/100] completed, loss: 990637.221628, delta_loss = 102.891098, lr: 3.311206 ,theta:1.978293
+BPR_NCR Results: auc = 0.693122, ndcg = 0.512601, MRR = 0.781402, map = 0.703138, pre = 0.476265
+时间已过 14.638701 秒。
+BPR:fold [2/5] completed
+BPR_NCR generate data completed
+BPR_NCR:iter [1/100] completed, loss: 1688203.951346, delta_loss = -1688203.951346, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.538464, ndcg = 0.452486, MRR = 0.676273, map = 0.591865, pre = 0.446138
+时间已过 14.574407 秒。
+BPR_NCR:iter [2/100] completed, loss: 1344043.211781, delta_loss = 344160.739565, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.575449, ndcg = 0.468555, MRR = 0.701501, map = 0.617693, pre = 0.455734
+时间已过 14.386130 秒。
+BPR_NCR:iter [3/100] completed, loss: 1277990.240271, delta_loss = 66052.971510, lr: 5.250000 ,theta:0.100000
+BPR_NCR Results: auc = 0.596781, ndcg = 0.477436, MRR = 0.716391, map = 0.632813, pre = 0.460465
+时间已过 14.747254 秒。
+BPR_NCR:iter [4/100] completed, loss: 1246044.986832, delta_loss = 31945.253440, lr: 5.512500 ,theta:0.100000
+BPR_NCR Results: auc = 0.611441, ndcg = 0.483460, MRR = 0.727082, map = 0.643191, pre = 0.463426
+时间已过 14.039262 秒。
+BPR_NCR:iter [5/100] completed, loss: 1223225.191651, delta_loss = 22819.795181, lr: 5.788125 ,theta:0.031139
+BPR_NCR Results: auc = 0.622290, ndcg = 0.487691, MRR = 0.734305, map = 0.651069, pre = 0.465533
+时间已过 14.094273 秒。
+BPR_NCR:iter [6/100] completed, loss: 1205601.824310, delta_loss = 17623.367341, lr: 6.077531 ,theta:0.047553
+BPR_NCR Results: auc = 0.629657, ndcg = 0.490838, MRR = 0.739664, map = 0.656839, pre = 0.467223
+时间已过 14.163251 秒。
+BPR_NCR:iter [7/100] completed, loss: 1191617.621297, delta_loss = 13984.203013, lr: 6.381408 ,theta:0.214719
+BPR_NCR Results: auc = 0.636184, ndcg = 0.493472, MRR = 0.744842, map = 0.661958, pre = 0.468348
+时间已过 14.300659 秒。
+BPR_NCR:iter [8/100] completed, loss: 1181057.578682, delta_loss = 10560.042615, lr: 6.700478 ,theta:0.290914
+BPR_NCR Results: auc = 0.641825, ndcg = 0.495733, MRR = 0.748931, map = 0.666205, pre = 0.469387
+时间已过 14.161478 秒。
+BPR_NCR:iter [9/100] completed, loss: 1170880.997319, delta_loss = 10176.581363, lr: 7.035502 ,theta:0.470086
+BPR_NCR Results: auc = 0.647048, ndcg = 0.497752, MRR = 0.752708, map = 0.670137, pre = 0.470325
+时间已过 14.583671 秒。
+BPR_NCR:iter [10/100] completed, loss: 1162611.595411, delta_loss = 8269.401908, lr: 7.387277 ,theta:0.575834
+BPR_NCR Results: auc = 0.651367, ndcg = 0.499396, MRR = 0.755714, map = 0.673334, pre = 0.471072
+时间已过 14.375748 秒。
+BPR_NCR:iter [11/100] completed, loss: 1154667.794462, delta_loss = 7943.800949, lr: 7.756641 ,theta:0.687095
+BPR_NCR Results: auc = 0.655797, ndcg = 0.501064, MRR = 0.758722, map = 0.676583, pre = 0.471872
+时间已过 14.153580 秒。
+BPR_NCR:iter [12/100] completed, loss: 1147671.658839, delta_loss = 6996.135623, lr: 8.144473 ,theta:0.781174
+BPR_NCR Results: auc = 0.659233, ndcg = 0.502346, MRR = 0.761225, map = 0.679236, pre = 0.472411
+时间已过 14.216812 秒。
+BPR_NCR:iter [13/100] completed, loss: 1141096.162671, delta_loss = 6575.496168, lr: 8.551697 ,theta:0.871239
+BPR_NCR Results: auc = 0.662254, ndcg = 0.503398, MRR = 0.763316, map = 0.681429, pre = 0.472806
+时间已过 14.532923 秒。
+BPR_NCR:iter [14/100] completed, loss: 1135007.088329, delta_loss = 6089.074341, lr: 8.979282 ,theta:0.954782
+BPR_NCR Results: auc = 0.665125, ndcg = 0.504447, MRR = 0.765526, map = 0.683547, pre = 0.473201
+时间已过 14.622087 秒。
+BPR_NCR:iter [15/100] completed, loss: 1129116.559694, delta_loss = 5890.528636, lr: 9.428246 ,theta:1.034409
+BPR_NCR Results: auc = 0.667566, ndcg = 0.505316, MRR = 0.767124, map = 0.685250, pre = 0.473597
+时间已过 14.264062 秒。
+BPR_NCR:iter [16/100] completed, loss: 1123403.304978, delta_loss = 5713.254716, lr: 9.899658 ,theta:1.111090
+BPR_NCR Results: auc = 0.669660, ndcg = 0.506111, MRR = 0.768449, map = 0.686848, pre = 0.474048
+时间已过 14.284011 秒。
+BPR_NCR:iter [17/100] completed, loss: 1117811.020423, delta_loss = 5592.284555, lr: 10.394641 ,theta:1.184885
+BPR_NCR Results: auc = 0.671379, ndcg = 0.506697, MRR = 0.769459, map = 0.688060, pre = 0.474341
+时间已过 14.292729 秒。
+BPR_NCR:iter [18/100] completed, loss: 1112503.391320, delta_loss = 5307.629103, lr: 10.914373 ,theta:1.256102
+BPR_NCR Results: auc = 0.673381, ndcg = 0.507370, MRR = 0.770685, map = 0.689369, pre = 0.474640
+时间已过 14.645729 秒。
+BPR_NCR:iter [19/100] completed, loss: 1107511.544282, delta_loss = 4991.847038, lr: 11.460092 ,theta:1.323972
+BPR_NCR Results: auc = 0.675240, ndcg = 0.508018, MRR = 0.771962, map = 0.690606, pre = 0.474909
+时间已过 14.202310 秒。
+BPR_NCR:iter [20/100] completed, loss: 1103006.173931, delta_loss = 4505.370351, lr: 12.033096 ,theta:1.388919
+BPR_NCR Results: auc = 0.676651, ndcg = 0.508568, MRR = 0.772908, map = 0.691662, pre = 0.475190
+时间已过 14.263631 秒。
+BPR_NCR:iter [21/100] completed, loss: 1098831.734164, delta_loss = 4174.439767, lr: 12.634751 ,theta:1.448921
+BPR_NCR Results: auc = 0.678037, ndcg = 0.509116, MRR = 0.773775, map = 0.692679, pre = 0.475489
+时间已过 14.669914 秒。
+BPR_NCR:iter [22/100] completed, loss: 1095158.313399, delta_loss = 3673.420764, lr: 13.266489 ,theta:1.505906
+BPR_NCR Results: auc = 0.679156, ndcg = 0.509488, MRR = 0.774617, map = 0.693462, pre = 0.475603
+时间已过 14.540384 秒。
+BPR_NCR:iter [23/100] completed, loss: 1091626.044908, delta_loss = 3532.268491, lr: 13.929813 ,theta:1.555130
+BPR_NCR Results: auc = 0.679435, ndcg = 0.509641, MRR = 0.774782, map = 0.693639, pre = 0.475697
+时间已过 14.291042 秒。
+BPR_NCR:iter [24/100] completed, loss: 1089057.554188, delta_loss = 2568.490720, lr: 14.626304 ,theta:1.593849
+BPR_NCR Results: auc = 0.680800, ndcg = 0.510074, MRR = 0.775826, map = 0.694643, pre = 0.475820
+时间已过 14.486925 秒。
+BPR_NCR:iter [25/100] completed, loss: 1085901.794552, delta_loss = 3155.759636, lr: 15.357619 ,theta:1.560483
+BPR_NCR Results: auc = 0.681556, ndcg = 0.510423, MRR = 0.776581, map = 0.695224, pre = 0.475932
+时间已过 14.364924 秒。
+BPR_NCR:iter [26/100] completed, loss: 1088716.268354, delta_loss = -2814.473802, lr: 7.678809 ,theta:1.107236
+BPR_NCR Results: auc = 0.682694, ndcg = 0.510666, MRR = 0.777030, map = 0.695992, pre = 0.476063
+时间已过 14.083133 秒。
+BPR_NCR:iter [27/100] completed, loss: 1091888.782836, delta_loss = -3172.514481, lr: 3.839405 ,theta:0.292369
+BPR_NCR Results: auc = 0.683896, ndcg = 0.510943, MRR = 0.777344, map = 0.696774, pre = 0.476216
+时间已过 14.239869 秒。
+BPR_NCR:iter [28/100] completed, loss: 1082277.340420, delta_loss = 9611.442416, lr: 4.031375 ,theta:0.646662
+BPR_NCR Results: auc = 0.683914, ndcg = 0.511174, MRR = 0.777969, map = 0.697086, pre = 0.476286
+时间已过 14.357274 秒。
+BPR_NCR:iter [29/100] completed, loss: 1051304.909984, delta_loss = 30972.430436, lr: 4.232944 ,theta:1.168771
+BPR_NCR Results: auc = 0.684667, ndcg = 0.511434, MRR = 0.778222, map = 0.697599, pre = 0.476456
+时间已过 14.306828 秒。
+BPR_NCR:iter [30/100] completed, loss: 1049274.363298, delta_loss = 2030.546686, lr: 4.444591 ,theta:1.293464
+BPR_NCR Results: auc = 0.684314, ndcg = 0.511385, MRR = 0.778062, map = 0.697269, pre = 0.476500
+时间已过 14.267443 秒。
+BPR_NCR:iter [31/100] completed, loss: 1047935.391060, delta_loss = 1338.972238, lr: 4.666820 ,theta:1.287689
+BPR_NCR Results: auc = 0.685112, ndcg = 0.511635, MRR = 0.778516, map = 0.697767, pre = 0.476643
+时间已过 14.188750 秒。
+BPR_NCR:iter [32/100] completed, loss: 1044812.296332, delta_loss = 3123.094728, lr: 4.900161 ,theta:1.342641
+BPR_NCR Results: auc = 0.685107, ndcg = 0.511621, MRR = 0.778460, map = 0.697749, pre = 0.476664
+时间已过 14.208292 秒。
+BPR_NCR:iter [33/100] completed, loss: 1043622.869148, delta_loss = 1189.427184, lr: 5.145169 ,theta:1.389594
+BPR_NCR Results: auc = 0.685259, ndcg = 0.511714, MRR = 0.778491, map = 0.697890, pre = 0.476769
+时间已过 14.368015 秒。
+BPR_NCR:iter [34/100] completed, loss: 1043332.996216, delta_loss = 289.872932, lr: 5.402428 ,theta:1.426130
+BPR_NCR Results: auc = 0.685277, ndcg = 0.511756, MRR = 0.778505, map = 0.697920, pre = 0.476825
+时间已过 14.094307 秒。
+BPR_NCR:iter [35/100] completed, loss: 1042898.901906, delta_loss = 434.094310, lr: 5.672549 ,theta:1.463060
+BPR_NCR Results: auc = 0.685328, ndcg = 0.511800, MRR = 0.778628, map = 0.698009, pre = 0.476851
+时间已过 14.110131 秒。
+BPR_NCR:iter [36/100] completed, loss: 1042583.038558, delta_loss = 315.863348, lr: 5.956177 ,theta:1.501156
+BPR_NCR Results: auc = 0.685553, ndcg = 0.511859, MRR = 0.778660, map = 0.698155, pre = 0.476910
+时间已过 14.603367 秒。
+BPR_NCR:iter [37/100] completed, loss: 1042567.029515, delta_loss = 16.009043, lr: 6.253986 ,theta:1.540036
+BPR_NCR Results: auc = 0.685883, ndcg = 0.511947, MRR = 0.778687, map = 0.698334, pre = 0.476977
+时间已过 14.713694 秒。
+BPR_NCR:iter [38/100] completed, loss: 1043012.626859, delta_loss = -445.597344, lr: 3.126993 ,theta:1.578788
+BPR_NCR Results: auc = 0.686096, ndcg = 0.512037, MRR = 0.778863, map = 0.698482, pre = 0.477018
+时间已过 14.639947 秒。
+BPR_NCR:iter [39/100] completed, loss: 1038704.867982, delta_loss = 4307.758877, lr: 3.283342 ,theta:1.394003
+BPR_NCR Results: auc = 0.686073, ndcg = 0.511942, MRR = 0.778918, map = 0.698412, pre = 0.476875
+时间已过 14.204299 秒。
+BPR_NCR:iter [40/100] completed, loss: 1032159.505890, delta_loss = 6545.362092, lr: 3.447510 ,theta:1.469945
+BPR_NCR Results: auc = 0.686245, ndcg = 0.512049, MRR = 0.779093, map = 0.698577, pre = 0.476954
+时间已过 14.614992 秒。
+BPR_NCR:iter [41/100] completed, loss: 1030629.913974, delta_loss = 1529.591916, lr: 3.619885 ,theta:1.498894
+BPR_NCR Results: auc = 0.686414, ndcg = 0.512170, MRR = 0.779130, map = 0.698747, pre = 0.477092
+时间已过 14.493467 秒。
+BPR_NCR:iter [42/100] completed, loss: 1030212.961890, delta_loss = 416.952084, lr: 3.800879 ,theta:1.512798
+BPR_NCR Results: auc = 0.686492, ndcg = 0.512189, MRR = 0.779135, map = 0.698799, pre = 0.477109
+时间已过 14.543677 秒。
+BPR_NCR:iter [43/100] completed, loss: 1029303.326313, delta_loss = 909.635576, lr: 3.990923 ,theta:1.535713
+BPR_NCR Results: auc = 0.686559, ndcg = 0.512226, MRR = 0.779212, map = 0.698857, pre = 0.477150
+时间已过 14.558309 秒。
+BPR_NCR:iter [44/100] completed, loss: 1028776.293451, delta_loss = 527.032862, lr: 4.190469 ,theta:1.559719
+BPR_NCR Results: auc = 0.686692, ndcg = 0.512277, MRR = 0.779256, map = 0.698958, pre = 0.477200
+时间已过 14.654851 秒。
+BPR_NCR:iter [45/100] completed, loss: 1028357.820928, delta_loss = 418.472523, lr: 4.399993 ,theta:1.583221
+BPR_NCR Results: auc = 0.686837, ndcg = 0.512324, MRR = 0.779288, map = 0.699032, pre = 0.477238
+时间已过 14.322285 秒。
+BPR_NCR:iter [46/100] completed, loss: 1027939.926643, delta_loss = 417.894285, lr: 4.619993 ,theta:1.607497
+BPR_NCR Results: auc = 0.686994, ndcg = 0.512351, MRR = 0.779311, map = 0.699110, pre = 0.477256
+时间已过 14.704600 秒。
+BPR_NCR:iter [47/100] completed, loss: 1027598.701950, delta_loss = 341.224693, lr: 4.850992 ,theta:1.632868
+BPR_NCR Results: auc = 0.687456, ndcg = 0.512502, MRR = 0.779613, map = 0.699428, pre = 0.477302
+时间已过 14.685069 秒。
+BPR_NCR:iter [48/100] completed, loss: 1027405.095404, delta_loss = 193.606546, lr: 5.093542 ,theta:1.659295
+BPR_NCR Results: auc = 0.687570, ndcg = 0.512527, MRR = 0.779648, map = 0.699477, pre = 0.477302
+时间已过 14.092400 秒。
+BPR_NCR:iter [49/100] completed, loss: 1027381.528136, delta_loss = 23.567267, lr: 5.348219 ,theta:1.686567
+BPR_NCR Results: auc = 0.687674, ndcg = 0.512583, MRR = 0.779673, map = 0.699557, pre = 0.477367
+时间已过 14.310501 秒。
+BPR_NCR:iter [50/100] completed, loss: 1027598.353418, delta_loss = -216.825282, lr: 2.674109 ,theta:1.714579
+BPR_NCR Results: auc = 0.687826, ndcg = 0.512601, MRR = 0.779719, map = 0.699627, pre = 0.477346
+时间已过 14.305951 秒。
+BPR_NCR:iter [51/100] completed, loss: 1023176.627469, delta_loss = 4421.725949, lr: 2.807815 ,theta:1.542842
+BPR_NCR Results: auc = 0.687927, ndcg = 0.512539, MRR = 0.779908, map = 0.699685, pre = 0.477171
+时间已过 13.891240 秒。
+BPR_NCR:iter [52/100] completed, loss: 1019174.736621, delta_loss = 4001.890848, lr: 2.948206 ,theta:1.603881
+BPR_NCR Results: auc = 0.688040, ndcg = 0.512666, MRR = 0.780085, map = 0.699835, pre = 0.477276
+时间已过 14.292106 秒。
+BPR_NCR:iter [53/100] completed, loss: 1018599.464403, delta_loss = 575.272218, lr: 3.095616 ,theta:1.629047
+BPR_NCR Results: auc = 0.688166, ndcg = 0.512749, MRR = 0.780064, map = 0.699945, pre = 0.477393
+时间已过 14.111937 秒。
+BPR_NCR:iter [54/100] completed, loss: 1018077.157134, delta_loss = 522.307269, lr: 3.250397 ,theta:1.638923
+BPR_NCR Results: auc = 0.688315, ndcg = 0.512785, MRR = 0.780110, map = 0.700035, pre = 0.477414
+时间已过 14.513127 秒。
+BPR_NCR:iter [55/100] completed, loss: 1017467.646250, delta_loss = 609.510884, lr: 3.412917 ,theta:1.656659
+BPR_NCR Results: auc = 0.688374, ndcg = 0.512795, MRR = 0.780004, map = 0.700050, pre = 0.477461
+时间已过 14.497407 秒。
+BPR_NCR:iter [56/100] completed, loss: 1017122.547222, delta_loss = 345.099027, lr: 3.583562 ,theta:1.675465
+BPR_NCR Results: auc = 0.688519, ndcg = 0.512848, MRR = 0.780043, map = 0.700146, pre = 0.477507
+时间已过 14.448777 秒。
+BPR_NCR:iter [57/100] completed, loss: 1016771.621470, delta_loss = 350.925752, lr: 3.762741 ,theta:1.693815
+BPR_NCR Results: auc = 0.688637, ndcg = 0.512872, MRR = 0.780093, map = 0.700208, pre = 0.477510
+时间已过 14.288592 秒。
+BPR_NCR:iter [58/100] completed, loss: 1016421.491027, delta_loss = 350.130444, lr: 3.950878 ,theta:1.712804
+BPR_NCR Results: auc = 0.688747, ndcg = 0.512917, MRR = 0.780160, map = 0.700269, pre = 0.477534
+时间已过 14.581359 秒。
+BPR_NCR:iter [59/100] completed, loss: 1016123.719334, delta_loss = 297.771693, lr: 4.148421 ,theta:1.732766
+BPR_NCR Results: auc = 0.688798, ndcg = 0.512937, MRR = 0.780226, map = 0.700315, pre = 0.477548
+时间已过 14.501302 秒。
+BPR_NCR:iter [60/100] completed, loss: 1015891.084773, delta_loss = 232.634561, lr: 4.355843 ,theta:1.753645
+BPR_NCR Results: auc = 0.689003, ndcg = 0.512967, MRR = 0.780268, map = 0.700394, pre = 0.477548
+时间已过 14.451094 秒。
+BPR_NCR:iter [61/100] completed, loss: 1015746.588608, delta_loss = 144.496165, lr: 4.573635 ,theta:1.775348
+BPR_NCR Results: auc = 0.689069, ndcg = 0.513025, MRR = 0.780322, map = 0.700461, pre = 0.477607
+时间已过 14.373386 秒。
+BPR_NCR:iter [62/100] completed, loss: 1015717.459398, delta_loss = 29.129210, lr: 4.802316 ,theta:1.797782
+BPR_NCR Results: auc = 0.689181, ndcg = 0.513028, MRR = 0.780282, map = 0.700478, pre = 0.477607
+时间已过 14.111713 秒。
+BPR_NCR:iter [63/100] completed, loss: 1015848.321636, delta_loss = -130.862239, lr: 2.401158 ,theta:1.820795
+BPR_NCR Results: auc = 0.689389, ndcg = 0.513054, MRR = 0.780242, map = 0.700543, pre = 0.477622
+时间已过 14.537617 秒。
+BPR_NCR:iter [64/100] completed, loss: 1011719.476527, delta_loss = 4128.845110, lr: 2.521216 ,theta:1.663006
+BPR_NCR Results: auc = 0.689349, ndcg = 0.512973, MRR = 0.780381, map = 0.700558, pre = 0.477452
+时间已过 14.612090 秒。
+BPR_NCR:iter [65/100] completed, loss: 1008789.395173, delta_loss = 2930.081353, lr: 2.647277 ,theta:1.711662
+BPR_NCR Results: auc = 0.689297, ndcg = 0.513050, MRR = 0.780321, map = 0.700580, pre = 0.477584
+时间已过 14.138831 秒。
+BPR_NCR:iter [66/100] completed, loss: 1008468.245436, delta_loss = 321.149737, lr: 2.779641 ,theta:1.736312
+BPR_NCR Results: auc = 0.689565, ndcg = 0.513120, MRR = 0.780385, map = 0.700739, pre = 0.477642
+时间已过 14.516300 秒。
+BPR_NCR:iter [67/100] completed, loss: 1008052.578267, delta_loss = 415.667170, lr: 2.918623 ,theta:1.744381
+BPR_NCR Results: auc = 0.689463, ndcg = 0.513076, MRR = 0.780253, map = 0.700670, pre = 0.477645
+时间已过 14.365723 秒。
+BPR_NCR:iter [68/100] completed, loss: 1007633.159911, delta_loss = 419.418356, lr: 3.064554 ,theta:1.758961
+BPR_NCR Results: auc = 0.689562, ndcg = 0.513132, MRR = 0.780318, map = 0.700773, pre = 0.477686
+时间已过 13.949480 秒。
+BPR_NCR:iter [69/100] completed, loss: 1007364.740713, delta_loss = 268.419197, lr: 3.217782 ,theta:1.774978
+BPR_NCR Results: auc = 0.689680, ndcg = 0.513193, MRR = 0.780373, map = 0.700865, pre = 0.477736
+时间已过 14.353825 秒。
+BPR_NCR:iter [70/100] completed, loss: 1007096.881470, delta_loss = 267.859243, lr: 3.378671 ,theta:1.790572
+BPR_NCR Results: auc = 0.689936, ndcg = 0.513247, MRR = 0.780499, map = 0.701013, pre = 0.477742
+时间已过 14.552230 秒。
+BPR_NCR:iter [71/100] completed, loss: 1006835.078550, delta_loss = 261.802920, lr: 3.547604 ,theta:1.806613
+BPR_NCR Results: auc = 0.689908, ndcg = 0.513250, MRR = 0.780467, map = 0.701007, pre = 0.477771
+时间已过 14.302039 秒。
+BPR_NCR:iter [72/100] completed, loss: 1006605.650506, delta_loss = 229.428044, lr: 3.724984 ,theta:1.823478
+BPR_NCR Results: auc = 0.689930, ndcg = 0.513257, MRR = 0.780491, map = 0.701007, pre = 0.477783
+时间已过 14.242460 秒。
+BPR_NCR:iter [73/100] completed, loss: 1006414.033026, delta_loss = 191.617481, lr: 3.911234 ,theta:1.841134
+BPR_NCR Results: auc = 0.689927, ndcg = 0.513271, MRR = 0.780507, map = 0.701026, pre = 0.477800
+时间已过 14.211021 秒。
+BPR_NCR:iter [74/100] completed, loss: 1006283.032853, delta_loss = 131.000173, lr: 4.106795 ,theta:1.859515
+BPR_NCR Results: auc = 0.689987, ndcg = 0.513319, MRR = 0.780578, map = 0.701069, pre = 0.477844
+时间已过 14.498667 秒。
+BPR_NCR:iter [75/100] completed, loss: 1006221.322468, delta_loss = 61.710385, lr: 4.312135 ,theta:1.878526
+BPR_NCR Results: auc = 0.690041, ndcg = 0.513353, MRR = 0.780575, map = 0.701110, pre = 0.477882
+时间已过 14.545059 秒。
+BPR_NCR:iter [76/100] completed, loss: 1006265.701168, delta_loss = -44.378700, lr: 2.156068 ,theta:1.898075
+BPR_NCR Results: auc = 0.690277, ndcg = 0.513441, MRR = 0.780832, map = 0.701353, pre = 0.477891
+时间已过 14.559271 秒。
+BPR_NCR:iter [77/100] completed, loss: 1002462.230660, delta_loss = 3803.470507, lr: 2.263871 ,theta:1.756562
+BPR_NCR Results: auc = 0.690457, ndcg = 0.513372, MRR = 0.780953, map = 0.701409, pre = 0.477721
+时间已过 14.301305 秒。
+BPR_NCR:iter [78/100] completed, loss: 1000385.832611, delta_loss = 2076.398049, lr: 2.377064 ,theta:1.799783
+BPR_NCR Results: auc = 0.690306, ndcg = 0.513382, MRR = 0.780723, map = 0.701304, pre = 0.477827
+时间已过 14.278600 秒。
+BPR_NCR:iter [79/100] completed, loss: 1000230.715113, delta_loss = 155.117498, lr: 2.495918 ,theta:1.819938
+BPR_NCR Results: auc = 0.690497, ndcg = 0.513455, MRR = 0.780829, map = 0.701448, pre = 0.477877
+时间已过 14.614847 秒。
+BPR_NCR:iter [80/100] completed, loss: 999891.872451, delta_loss = 338.842662, lr: 2.620714 ,theta:1.826523
+BPR_NCR Results: auc = 0.690478, ndcg = 0.513477, MRR = 0.780875, map = 0.701443, pre = 0.477903
+时间已过 14.777981 秒。
+BPR_NCR:iter [81/100] completed, loss: 999592.786506, delta_loss = 299.085945, lr: 2.751749 ,theta:1.839285
+BPR_NCR Results: auc = 0.690539, ndcg = 0.513506, MRR = 0.780920, map = 0.701486, pre = 0.477929
+时间已过 14.130837 秒。
+BPR_NCR:iter [82/100] completed, loss: 999380.067353, delta_loss = 212.719153, lr: 2.889337 ,theta:1.852890
+BPR_NCR Results: auc = 0.690516, ndcg = 0.513543, MRR = 0.780928, map = 0.701519, pre = 0.477994
+时间已过 14.795616 秒。
+BPR_NCR:iter [83/100] completed, loss: 999172.073155, delta_loss = 207.994198, lr: 3.033804 ,theta:1.866049
+BPR_NCR Results: auc = 0.690521, ndcg = 0.513544, MRR = 0.780939, map = 0.701514, pre = 0.477991
+时间已过 14.278444 秒。
+BPR_NCR:iter [84/100] completed, loss: 998967.533071, delta_loss = 204.540084, lr: 3.185494 ,theta:1.879680
+BPR_NCR Results: auc = 0.690500, ndcg = 0.513539, MRR = 0.780942, map = 0.701491, pre = 0.477991
+时间已过 14.565269 秒。
+BPR_NCR:iter [85/100] completed, loss: 998783.200587, delta_loss = 184.332484, lr: 3.344768 ,theta:1.894044
+BPR_NCR Results: auc = 0.690496, ndcg = 0.513537, MRR = 0.780934, map = 0.701483, pre = 0.477991
+时间已过 14.778651 秒。
+BPR_NCR:iter [86/100] completed, loss: 998623.849007, delta_loss = 159.351580, lr: 3.512007 ,theta:1.909083
+BPR_NCR Results: auc = 0.690517, ndcg = 0.513539, MRR = 0.780909, map = 0.701509, pre = 0.477997
+时间已过 14.024069 秒。
+BPR_NCR:iter [87/100] completed, loss: 998502.201025, delta_loss = 121.647982, lr: 3.687607 ,theta:1.924755
+BPR_NCR Results: auc = 0.690609, ndcg = 0.513554, MRR = 0.780893, map = 0.701532, pre = 0.478014
+时间已过 14.555562 秒。
+BPR_NCR:iter [88/100] completed, loss: 998423.481900, delta_loss = 78.719125, lr: 3.871988 ,theta:1.941015
+BPR_NCR Results: auc = 0.690706, ndcg = 0.513623, MRR = 0.781098, map = 0.701688, pre = 0.478023
+时间已过 14.275918 秒。
+BPR_NCR:iter [89/100] completed, loss: 998410.462509, delta_loss = 13.019390, lr: 4.065587 ,theta:1.957803
+BPR_NCR Results: auc = 0.690741, ndcg = 0.513622, MRR = 0.781017, map = 0.701693, pre = 0.478032
+时间已过 14.570057 秒。
+BPR_NCR:iter [90/100] completed, loss: 998475.446648, delta_loss = -64.984138, lr: 2.032793 ,theta:1.974955
+BPR_NCR Results: auc = 0.690946, ndcg = 0.513687, MRR = 0.781086, map = 0.701831, pre = 0.478076
+时间已过 14.461805 秒。
+BPR_NCR:iter [91/100] completed, loss: 994778.822040, delta_loss = 3696.624608, lr: 2.134433 ,theta:1.844092
+BPR_NCR Results: auc = 0.690946, ndcg = 0.513600, MRR = 0.781274, map = 0.701821, pre = 0.477879
+时间已过 14.190518 秒。
+BPR_NCR:iter [92/100] completed, loss: 993028.360273, delta_loss = 1750.461767, lr: 2.241155 ,theta:1.877894
+BPR_NCR Results: auc = 0.690871, ndcg = 0.513607, MRR = 0.781017, map = 0.701739, pre = 0.477982
+时间已过 14.148518 秒。
+BPR_NCR:iter [93/100] completed, loss: 992860.140679, delta_loss = 168.219593, lr: 2.353213 ,theta:1.899493
+BPR_NCR Results: auc = 0.690987, ndcg = 0.513687, MRR = 0.781139, map = 0.701853, pre = 0.478038
+时间已过 14.572236 秒。
+BPR_NCR:iter [94/100] completed, loss: 992620.125554, delta_loss = 240.015126, lr: 2.470873 ,theta:1.905531
+BPR_NCR Results: auc = 0.691077, ndcg = 0.513724, MRR = 0.781236, map = 0.701928, pre = 0.478052
+时间已过 14.648856 秒。
+BPR_NCR:iter [95/100] completed, loss: 992391.471571, delta_loss = 228.653983, lr: 2.594417 ,theta:1.916509
+BPR_NCR Results: auc = 0.691202, ndcg = 0.513768, MRR = 0.781336, map = 0.702037, pre = 0.478076
+时间已过 14.597983 秒。
+BPR_NCR:iter [96/100] completed, loss: 992219.185216, delta_loss = 172.286354, lr: 2.724138 ,theta:1.928888
+BPR_NCR Results: auc = 0.691209, ndcg = 0.513787, MRR = 0.781278, map = 0.702059, pre = 0.478131
+时间已过 14.231934 秒。
+BPR_NCR:iter [97/100] completed, loss: 992073.329627, delta_loss = 145.855590, lr: 2.860345 ,theta:1.940874
+BPR_NCR Results: auc = 0.691217, ndcg = 0.513768, MRR = 0.781248, map = 0.702015, pre = 0.478114
+时间已过 14.617365 秒。
+BPR_NCR:iter [98/100] completed, loss: 991921.093573, delta_loss = 152.236054, lr: 3.003362 ,theta:1.953127
+BPR_NCR Results: auc = 0.691253, ndcg = 0.513788, MRR = 0.781284, map = 0.702040, pre = 0.478131
+时间已过 14.180770 秒。
+BPR_NCR:iter [99/100] completed, loss: 991793.677724, delta_loss = 127.415849, lr: 3.153530 ,theta:1.966021
+BPR_NCR Results: auc = 0.691288, ndcg = 0.513785, MRR = 0.781291, map = 0.702040, pre = 0.478126
+时间已过 14.697952 秒。
+BPR_NCR:iter [100/100] completed, loss: 991679.845170, delta_loss = 113.832553, lr: 3.311206 ,theta:1.979498
+BPR_NCR Results: auc = 0.691259, ndcg = 0.513768, MRR = 0.781251, map = 0.701972, pre = 0.478126
+时间已过 14.418694 秒。
+BPR:fold [3/5] completed
+BPR_NCR generate data completed
+BPR_NCR:iter [1/100] completed, loss: 1671814.997549, delta_loss = -1671814.997549, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.530413, ndcg = 0.450415, MRR = 0.672074, map = 0.587859, pre = 0.445311
+时间已过 14.462700 秒。
+BPR_NCR:iter [2/100] completed, loss: 1356519.891499, delta_loss = 315295.106050, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.566776, ndcg = 0.466216, MRR = 0.697404, map = 0.613094, pre = 0.454675
+时间已过 14.328951 秒。
+BPR_NCR:iter [3/100] completed, loss: 1286207.258910, delta_loss = 70312.632589, lr: 5.250000 ,theta:0.100000
+BPR_NCR Results: auc = 0.590538, ndcg = 0.475855, MRR = 0.712901, map = 0.629755, pre = 0.459819
+时间已过 14.324403 秒。
+BPR_NCR:iter [4/100] completed, loss: 1251061.429910, delta_loss = 35145.828999, lr: 5.512500 ,theta:0.100000
+BPR_NCR Results: auc = 0.606661, ndcg = 0.482230, MRR = 0.723850, map = 0.641294, pre = 0.463012
+时间已过 14.853785 秒。
+BPR_NCR:iter [5/100] completed, loss: 1226813.015121, delta_loss = 24248.414789, lr: 5.788125 ,theta:0.013624
+BPR_NCR Results: auc = 0.619157, ndcg = 0.487015, MRR = 0.732466, map = 0.650239, pre = 0.465340
+时间已过 14.584086 秒。
+BPR_NCR:iter [6/100] completed, loss: 1208512.205798, delta_loss = 18300.809323, lr: 6.077531 ,theta:0.042901
+BPR_NCR Results: auc = 0.629312, ndcg = 0.490870, MRR = 0.739608, map = 0.657603, pre = 0.467051
+时间已过 12.180157 秒。
+BPR_NCR:iter [7/100] completed, loss: 1194578.598158, delta_loss = 13933.607640, lr: 6.381408 ,theta:0.148204
+BPR_NCR Results: auc = 0.637513, ndcg = 0.493923, MRR = 0.745604, map = 0.663709, pre = 0.468355
+时间已过 12.356871 秒。
+BPR_NCR:iter [8/100] completed, loss: 1183060.529483, delta_loss = 11518.068674, lr: 6.700478 ,theta:0.320633
+BPR_NCR Results: auc = 0.643002, ndcg = 0.496218, MRR = 0.749900, map = 0.668094, pre = 0.469503
+时间已过 12.241549 秒。
+BPR_NCR:iter [9/100] completed, loss: 1173180.051706, delta_loss = 9880.477777, lr: 7.035502 ,theta:0.486208
+BPR_NCR Results: auc = 0.648403, ndcg = 0.498189, MRR = 0.753255, map = 0.672082, pre = 0.470481
+时间已过 12.334841 秒。
+BPR_NCR:iter [10/100] completed, loss: 1164732.209926, delta_loss = 8447.841780, lr: 7.387277 ,theta:0.599547
+BPR_NCR Results: auc = 0.653170, ndcg = 0.500031, MRR = 0.756624, map = 0.675597, pre = 0.471363
+时间已过 12.489413 秒。
+BPR_NCR:iter [11/100] completed, loss: 1156823.146881, delta_loss = 7909.063046, lr: 7.756641 ,theta:0.713581
+BPR_NCR Results: auc = 0.657117, ndcg = 0.501549, MRR = 0.759534, map = 0.678584, pre = 0.471963
+时间已过 12.326752 秒。
+BPR_NCR:iter [12/100] completed, loss: 1149868.431168, delta_loss = 6954.715713, lr: 8.144473 ,theta:0.809569
+BPR_NCR Results: auc = 0.661052, ndcg = 0.503017, MRR = 0.762230, map = 0.681491, pre = 0.472628
+时间已过 12.644818 秒。
+BPR_NCR:iter [13/100] completed, loss: 1143333.320818, delta_loss = 6535.110349, lr: 8.551697 ,theta:0.900440
+BPR_NCR Results: auc = 0.664153, ndcg = 0.504160, MRR = 0.764447, map = 0.683958, pre = 0.473082
+时间已过 12.269980 秒。
+BPR_NCR:iter [14/100] completed, loss: 1137268.879044, delta_loss = 6064.441775, lr: 8.979282 ,theta:0.984064
+BPR_NCR Results: auc = 0.667190, ndcg = 0.505293, MRR = 0.766943, map = 0.686209, pre = 0.473495
+时间已过 12.547305 秒。
+BPR_NCR:iter [15/100] completed, loss: 1131375.453859, delta_loss = 5893.425184, lr: 9.428246 ,theta:1.062688
+BPR_NCR Results: auc = 0.670084, ndcg = 0.506367, MRR = 0.768935, map = 0.688427, pre = 0.473993
+时间已过 12.325325 秒。
+BPR_NCR:iter [16/100] completed, loss: 1125633.192251, delta_loss = 5742.261609, lr: 9.899658 ,theta:1.137566
+BPR_NCR Results: auc = 0.671778, ndcg = 0.507003, MRR = 0.770270, map = 0.689754, pre = 0.474251
+时间已过 12.467328 秒。
+BPR_NCR:iter [17/100] completed, loss: 1119992.288441, delta_loss = 5640.903810, lr: 10.394641 ,theta:1.208757
+BPR_NCR Results: auc = 0.673767, ndcg = 0.507814, MRR = 0.771765, map = 0.691391, pre = 0.474699
+时间已过 12.325967 秒。
+BPR_NCR:iter [18/100] completed, loss: 1114638.020459, delta_loss = 5354.267981, lr: 10.914373 ,theta:1.276708
+BPR_NCR Results: auc = 0.675824, ndcg = 0.508506, MRR = 0.773227, map = 0.692742, pre = 0.474922
+时间已过 12.193440 秒。
+BPR_NCR:iter [19/100] completed, loss: 1109590.678107, delta_loss = 5047.342353, lr: 11.460092 ,theta:1.340704
+BPR_NCR Results: auc = 0.677281, ndcg = 0.509026, MRR = 0.774132, map = 0.693794, pre = 0.475206
+时间已过 12.305828 秒。
+BPR_NCR:iter [20/100] completed, loss: 1105051.637545, delta_loss = 4539.040562, lr: 12.033096 ,theta:1.401430
+BPR_NCR Results: auc = 0.678819, ndcg = 0.509605, MRR = 0.775172, map = 0.694904, pre = 0.475493
+时间已过 12.272629 秒。
+BPR_NCR:iter [21/100] completed, loss: 1100814.760486, delta_loss = 4236.877059, lr: 12.634751 ,theta:1.457141
+BPR_NCR Results: auc = 0.680367, ndcg = 0.510163, MRR = 0.775938, map = 0.695961, pre = 0.475824
+时间已过 12.343017 秒。
+BPR_NCR:iter [22/100] completed, loss: 1097202.058907, delta_loss = 3612.701580, lr: 13.266489 ,theta:1.509168
+BPR_NCR Results: auc = 0.681675, ndcg = 0.510683, MRR = 0.776922, map = 0.696990, pre = 0.476067
+时间已过 12.226404 秒。
+BPR_NCR:iter [23/100] completed, loss: 1093477.110086, delta_loss = 3724.948821, lr: 13.929813 ,theta:1.553157
+BPR_NCR Results: auc = 0.681711, ndcg = 0.510704, MRR = 0.776939, map = 0.696975, pre = 0.476134
+时间已过 12.136480 秒。
+BPR_NCR:iter [24/100] completed, loss: 1091770.270394, delta_loss = 1706.839692, lr: 14.626304 ,theta:1.569206
+BPR_NCR Results: auc = 0.683213, ndcg = 0.511195, MRR = 0.777805, map = 0.697988, pre = 0.476319
+时间已过 12.217400 秒。
+BPR_NCR:iter [25/100] completed, loss: 1088557.762030, delta_loss = 3212.508364, lr: 15.357619 ,theta:1.402997
+BPR_NCR Results: auc = 0.683446, ndcg = 0.511331, MRR = 0.778186, map = 0.698369, pre = 0.476442
+时间已过 12.275439 秒。
+BPR_NCR:iter [26/100] completed, loss: 1095244.318228, delta_loss = -6686.556198, lr: 7.678809 ,theta:0.086592
+BPR_NCR Results: auc = 0.684523, ndcg = 0.511660, MRR = 0.778793, map = 0.699055, pre = 0.476629
+时间已过 12.413124 秒。
+BPR_NCR:iter [27/100] completed, loss: 1144635.981670, delta_loss = -49391.663441, lr: 3.839405 ,theta:0.340909
+BPR_NCR Results: auc = 0.686241, ndcg = 0.512102, MRR = 0.779548, map = 0.700151, pre = 0.476591
+时间已过 12.374732 秒。
+BPR_NCR:iter [28/100] completed, loss: 1096696.694820, delta_loss = 47939.286850, lr: 4.031375 ,theta:0.478581
+BPR_NCR Results: auc = 0.684742, ndcg = 0.511755, MRR = 0.778900, map = 0.699333, pre = 0.476591
+时间已过 12.347189 秒。
+BPR_NCR:iter [29/100] completed, loss: 1060270.544053, delta_loss = 36426.150767, lr: 4.232944 ,theta:1.092517
+BPR_NCR Results: auc = 0.685717, ndcg = 0.512153, MRR = 0.779930, map = 0.700056, pre = 0.476688
+时间已过 12.362274 秒。
+BPR_NCR:iter [30/100] completed, loss: 1053402.819078, delta_loss = 6867.724975, lr: 4.444591 ,theta:1.194302
+BPR_NCR Results: auc = 0.686385, ndcg = 0.512280, MRR = 0.779999, map = 0.700408, pre = 0.476682
+时间已过 13.951718 秒。
+BPR_NCR:iter [31/100] completed, loss: 1051047.727321, delta_loss = 2355.091757, lr: 4.666820 ,theta:1.226297
+BPR_NCR Results: auc = 0.685676, ndcg = 0.512076, MRR = 0.779546, map = 0.699966, pre = 0.476682
+时间已过 14.524083 秒。
+BPR_NCR:iter [32/100] completed, loss: 1048269.634569, delta_loss = 2778.092752, lr: 4.900161 ,theta:1.289616
+BPR_NCR Results: auc = 0.686734, ndcg = 0.512399, MRR = 0.780002, map = 0.700621, pre = 0.476858
+时间已过 14.802702 秒。
+BPR_NCR:iter [33/100] completed, loss: 1047258.958276, delta_loss = 1010.676292, lr: 5.145169 ,theta:1.336985
+BPR_NCR Results: auc = 0.686969, ndcg = 0.512416, MRR = 0.779999, map = 0.700693, pre = 0.476861
+时间已过 14.474088 秒。
+BPR_NCR:iter [34/100] completed, loss: 1046758.628803, delta_loss = 500.329474, lr: 5.402428 ,theta:1.374681
+BPR_NCR Results: auc = 0.687153, ndcg = 0.512437, MRR = 0.780012, map = 0.700786, pre = 0.476858
+时间已过 14.998645 秒。
+BPR_NCR:iter [35/100] completed, loss: 1046067.240993, delta_loss = 691.387810, lr: 5.672549 ,theta:1.414109
+BPR_NCR Results: auc = 0.687467, ndcg = 0.512562, MRR = 0.780221, map = 0.700994, pre = 0.476922
+时间已过 14.632553 秒。
+BPR_NCR:iter [36/100] completed, loss: 1045647.481889, delta_loss = 419.759104, lr: 5.956177 ,theta:1.453550
+BPR_NCR Results: auc = 0.687492, ndcg = 0.512545, MRR = 0.780121, map = 0.700954, pre = 0.476922
+时间已过 14.766548 秒。
+BPR_NCR:iter [37/100] completed, loss: 1045448.214441, delta_loss = 199.267448, lr: 6.253986 ,theta:1.492796
+BPR_NCR Results: auc = 0.687473, ndcg = 0.512519, MRR = 0.779880, map = 0.700874, pre = 0.476972
+时间已过 14.489668 秒。
+BPR_NCR:iter [38/100] completed, loss: 1045693.979318, delta_loss = -245.764878, lr: 3.126993 ,theta:1.531780
+BPR_NCR Results: auc = 0.687580, ndcg = 0.512551, MRR = 0.779842, map = 0.700955, pre = 0.477016
+时间已过 14.632153 秒。
+BPR_NCR:iter [39/100] completed, loss: 1041091.781476, delta_loss = 4602.197842, lr: 3.283342 ,theta:1.362350
+BPR_NCR Results: auc = 0.687940, ndcg = 0.512609, MRR = 0.779951, map = 0.701111, pre = 0.477037
+时间已过 14.172592 秒。
+BPR_NCR:iter [40/100] completed, loss: 1035279.802038, delta_loss = 5811.979438, lr: 3.447510 ,theta:1.439495
+BPR_NCR Results: auc = 0.688126, ndcg = 0.512705, MRR = 0.780211, map = 0.701280, pre = 0.477054
+时间已过 14.505085 秒。
+BPR_NCR:iter [41/100] completed, loss: 1033993.686679, delta_loss = 1286.115359, lr: 3.619885 ,theta:1.462483
+BPR_NCR Results: auc = 0.688226, ndcg = 0.512791, MRR = 0.780269, map = 0.701383, pre = 0.477139
+时间已过 14.717809 秒。
+BPR_NCR:iter [42/100] completed, loss: 1033466.888454, delta_loss = 526.798225, lr: 3.800879 ,theta:1.477482
+BPR_NCR Results: auc = 0.688322, ndcg = 0.512802, MRR = 0.780325, map = 0.701395, pre = 0.477139
+时间已过 14.644293 秒。
+BPR_NCR:iter [43/100] completed, loss: 1032576.986998, delta_loss = 889.901457, lr: 3.990923 ,theta:1.500929
+BPR_NCR Results: auc = 0.688190, ndcg = 0.512820, MRR = 0.780229, map = 0.701388, pre = 0.477227
+时间已过 14.609015 秒。
+BPR_NCR:iter [44/100] completed, loss: 1032051.307843, delta_loss = 525.679155, lr: 4.190469 ,theta:1.524271
+BPR_NCR Results: auc = 0.688421, ndcg = 0.512893, MRR = 0.780376, map = 0.701549, pre = 0.477250
+时间已过 14.805815 秒。
+BPR_NCR:iter [45/100] completed, loss: 1031577.298481, delta_loss = 474.009362, lr: 4.399993 ,theta:1.547264
+BPR_NCR Results: auc = 0.688543, ndcg = 0.512928, MRR = 0.780422, map = 0.701645, pre = 0.477268
+时间已过 14.351661 秒。
+BPR_NCR:iter [46/100] completed, loss: 1031109.734533, delta_loss = 467.563948, lr: 4.619993 ,theta:1.571217
+BPR_NCR Results: auc = 0.688649, ndcg = 0.512940, MRR = 0.780385, map = 0.701686, pre = 0.477291
+时间已过 14.890287 秒。
+BPR_NCR:iter [47/100] completed, loss: 1030708.773992, delta_loss = 400.960540, lr: 4.850992 ,theta:1.596190
+BPR_NCR Results: auc = 0.688743, ndcg = 0.512963, MRR = 0.780352, map = 0.701737, pre = 0.477324
+时间已过 14.665427 秒。
+BPR_NCR:iter [48/100] completed, loss: 1030443.515452, delta_loss = 265.258540, lr: 5.093542 ,theta:1.622145
+BPR_NCR Results: auc = 0.688835, ndcg = 0.512986, MRR = 0.780351, map = 0.701776, pre = 0.477356
+时间已过 14.611468 秒。
+BPR_NCR:iter [49/100] completed, loss: 1030312.620844, delta_loss = 130.894608, lr: 5.348219 ,theta:1.648884
+BPR_NCR Results: auc = 0.689035, ndcg = 0.513009, MRR = 0.780432, map = 0.701860, pre = 0.477344
+时间已过 14.176951 秒。
+BPR_NCR:iter [50/100] completed, loss: 1030397.397543, delta_loss = -84.776699, lr: 2.674109 ,theta:1.676397
+BPR_NCR Results: auc = 0.689085, ndcg = 0.513036, MRR = 0.780464, map = 0.701860, pre = 0.477368
+时间已过 14.810982 秒。
+BPR_NCR:iter [51/100] completed, loss: 1025904.328248, delta_loss = 4493.069295, lr: 2.807815 ,theta:1.518294
+BPR_NCR Results: auc = 0.689085, ndcg = 0.513015, MRR = 0.780227, map = 0.701847, pre = 0.477412
+时间已过 14.631851 秒。
+BPR_NCR:iter [52/100] completed, loss: 1022379.211172, delta_loss = 3525.117076, lr: 2.948206 ,theta:1.578846
+BPR_NCR Results: auc = 0.689205, ndcg = 0.513092, MRR = 0.780370, map = 0.701980, pre = 0.477455
+时间已过 14.172794 秒。
+BPR_NCR:iter [53/100] completed, loss: 1021889.293580, delta_loss = 489.917592, lr: 3.095616 ,theta:1.599747
+BPR_NCR Results: auc = 0.689415, ndcg = 0.513196, MRR = 0.780558, map = 0.702146, pre = 0.477523
+时间已过 14.537158 秒。
+BPR_NCR:iter [54/100] completed, loss: 1021320.742891, delta_loss = 568.550690, lr: 3.250397 ,theta:1.610103
+BPR_NCR Results: auc = 0.689476, ndcg = 0.513221, MRR = 0.780711, map = 0.702199, pre = 0.477496
+时间已过 14.340184 秒。
+BPR_NCR:iter [55/100] completed, loss: 1020730.771245, delta_loss = 589.971645, lr: 3.412917 ,theta:1.627958
+BPR_NCR Results: auc = 0.689577, ndcg = 0.513247, MRR = 0.780727, map = 0.702229, pre = 0.477529
+时间已过 14.643174 秒。
+BPR_NCR:iter [56/100] completed, loss: 1020374.794060, delta_loss = 355.977186, lr: 3.583562 ,theta:1.646069
+BPR_NCR Results: auc = 0.689579, ndcg = 0.513262, MRR = 0.780690, map = 0.702252, pre = 0.477576
+时间已过 14.456702 秒。
+BPR_NCR:iter [57/100] completed, loss: 1019995.109278, delta_loss = 379.684782, lr: 3.762741 ,theta:1.663865
+BPR_NCR Results: auc = 0.689671, ndcg = 0.513286, MRR = 0.780655, map = 0.702318, pre = 0.477605
+时间已过 14.480600 秒。
+BPR_NCR:iter [58/100] completed, loss: 1019619.374708, delta_loss = 375.734570, lr: 3.950878 ,theta:1.682410
+BPR_NCR Results: auc = 0.689682, ndcg = 0.513283, MRR = 0.780603, map = 0.702311, pre = 0.477614
+时间已过 14.534465 秒。
+BPR_NCR:iter [59/100] completed, loss: 1019291.842796, delta_loss = 327.531912, lr: 4.148421 ,theta:1.701880
+BPR_NCR Results: auc = 0.689781, ndcg = 0.513312, MRR = 0.780640, map = 0.702398, pre = 0.477631
+时间已过 14.501587 秒。
+BPR_NCR:iter [60/100] completed, loss: 1019019.867900, delta_loss = 271.974895, lr: 4.355843 ,theta:1.722193
+BPR_NCR Results: auc = 0.689865, ndcg = 0.513351, MRR = 0.780608, map = 0.702431, pre = 0.477690
+时间已过 14.593738 秒。
+BPR_NCR:iter [61/100] completed, loss: 1018822.954009, delta_loss = 196.913892, lr: 4.573635 ,theta:1.743288
+BPR_NCR Results: auc = 0.689892, ndcg = 0.513351, MRR = 0.780530, map = 0.702379, pre = 0.477725
+时间已过 14.803745 秒。
+BPR_NCR:iter [62/100] completed, loss: 1018726.250894, delta_loss = 96.703115, lr: 4.802316 ,theta:1.765100
+BPR_NCR Results: auc = 0.689994, ndcg = 0.513370, MRR = 0.780561, map = 0.702449, pre = 0.477731
+时间已过 14.870315 秒。
+BPR_NCR:iter [63/100] completed, loss: 1018768.593541, delta_loss = -42.342647, lr: 2.401158 ,theta:1.787497
+BPR_NCR Results: auc = 0.689855, ndcg = 0.513327, MRR = 0.780424, map = 0.702333, pre = 0.477737
+时间已过 14.588677 秒。
+BPR_NCR:iter [64/100] completed, loss: 1014585.931328, delta_loss = 4182.662213, lr: 2.521216 ,theta:1.641703
+BPR_NCR Results: auc = 0.690194, ndcg = 0.513419, MRR = 0.780533, map = 0.702580, pre = 0.477801
+时间已过 14.673393 秒。
+BPR_NCR:iter [65/100] completed, loss: 1012008.402826, delta_loss = 2577.528502, lr: 2.647277 ,theta:1.689644
+BPR_NCR Results: auc = 0.690146, ndcg = 0.513461, MRR = 0.780610, map = 0.702621, pre = 0.477825
+时间已过 14.556020 秒。
+BPR_NCR:iter [66/100] completed, loss: 1011720.861549, delta_loss = 287.541277, lr: 2.779641 ,theta:1.710916
+BPR_NCR Results: auc = 0.690238, ndcg = 0.513520, MRR = 0.780760, map = 0.702716, pre = 0.477839
+时间已过 14.680994 秒。
+BPR_NCR:iter [67/100] completed, loss: 1011275.959447, delta_loss = 444.902102, lr: 2.918623 ,theta:1.719167
+BPR_NCR Results: auc = 0.690371, ndcg = 0.513549, MRR = 0.780824, map = 0.702746, pre = 0.477833
+时间已过 14.485856 秒。
+BPR_NCR:iter [68/100] completed, loss: 1010868.086067, delta_loss = 407.873380, lr: 3.064554 ,theta:1.733782
+BPR_NCR Results: auc = 0.690602, ndcg = 0.513620, MRR = 0.780885, map = 0.702885, pre = 0.477892
+时间已过 14.269512 秒。
+BPR_NCR:iter [69/100] completed, loss: 1010590.639221, delta_loss = 277.446846, lr: 3.217782 ,theta:1.749192
+BPR_NCR Results: auc = 0.690669, ndcg = 0.513623, MRR = 0.780883, map = 0.702884, pre = 0.477883
+时间已过 14.905894 秒。
+BPR_NCR:iter [70/100] completed, loss: 1010305.344260, delta_loss = 285.294961, lr: 3.378671 ,theta:1.764254
+BPR_NCR Results: auc = 0.690747, ndcg = 0.513609, MRR = 0.780873, map = 0.702885, pre = 0.477860
+时间已过 14.741246 秒。
+BPR_NCR:iter [71/100] completed, loss: 1010026.135745, delta_loss = 279.208515, lr: 3.547604 ,theta:1.779840
+BPR_NCR Results: auc = 0.690784, ndcg = 0.513616, MRR = 0.780775, map = 0.702903, pre = 0.477892
+时间已过 14.931784 秒。
+BPR_NCR:iter [72/100] completed, loss: 1009777.764429, delta_loss = 248.371316, lr: 3.724984 ,theta:1.796218
+BPR_NCR Results: auc = 0.690855, ndcg = 0.513629, MRR = 0.780811, map = 0.702923, pre = 0.477898
+时间已过 14.961013 秒。
+BPR_NCR:iter [73/100] completed, loss: 1009560.898474, delta_loss = 216.865954, lr: 3.911234 ,theta:1.813318
+BPR_NCR Results: auc = 0.690919, ndcg = 0.513630, MRR = 0.780797, map = 0.702952, pre = 0.477898
+时间已过 14.358999 秒。
+BPR_NCR:iter [74/100] completed, loss: 1009397.943213, delta_loss = 162.955261, lr: 4.106795 ,theta:1.831101
+BPR_NCR Results: auc = 0.690983, ndcg = 0.513666, MRR = 0.780904, map = 0.703049, pre = 0.477918
+时间已过 14.731246 秒。
+BPR_NCR:iter [75/100] completed, loss: 1009294.473017, delta_loss = 103.470196, lr: 4.312135 ,theta:1.849483
+BPR_NCR Results: auc = 0.691079, ndcg = 0.513687, MRR = 0.780970, map = 0.703102, pre = 0.477915
+时间已过 14.829143 秒。
+BPR_NCR:iter [76/100] completed, loss: 1009286.073485, delta_loss = 8.399532, lr: 4.527742 ,theta:1.868395
+BPR_NCR Results: auc = 0.691032, ndcg = 0.513697, MRR = 0.780842, map = 0.703096, pre = 0.477974
+时间已过 14.666447 秒。
+BPR_NCR:iter [77/100] completed, loss: 1009387.662747, delta_loss = -101.589262, lr: 2.263871 ,theta:1.887601
+BPR_NCR Results: auc = 0.691106, ndcg = 0.513722, MRR = 0.780856, map = 0.703134, pre = 0.478009
+时间已过 14.294076 秒。
+BPR_NCR:iter [78/100] completed, loss: 1005325.644784, delta_loss = 4062.017962, lr: 2.377064 ,theta:1.751721
+BPR_NCR Results: auc = 0.691367, ndcg = 0.513761, MRR = 0.780964, map = 0.703257, pre = 0.478006
+时间已过 14.644408 秒。
+BPR_NCR:iter [79/100] completed, loss: 1003090.649524, delta_loss = 2234.995260, lr: 2.495918 ,theta:1.784745
+BPR_NCR Results: auc = 0.691306, ndcg = 0.513796, MRR = 0.781080, map = 0.703300, pre = 0.477994
+时间已过 14.580514 秒。
+BPR_NCR:iter [80/100] completed, loss: 1002764.531965, delta_loss = 326.117559, lr: 2.620714 ,theta:1.810404
+BPR_NCR Results: auc = 0.691507, ndcg = 0.513879, MRR = 0.781286, map = 0.703441, pre = 0.478018
+时间已过 14.949743 秒。
+BPR_NCR:iter [81/100] completed, loss: 1002470.852248, delta_loss = 293.679718, lr: 2.751749 ,theta:1.818332
+BPR_NCR Results: auc = 0.691645, ndcg = 0.513952, MRR = 0.781466, map = 0.703593, pre = 0.478053
+时间已过 14.393542 秒。
+BPR_NCR:iter [82/100] completed, loss: 1002172.740081, delta_loss = 298.112167, lr: 2.889337 ,theta:1.830284
+BPR_NCR Results: auc = 0.691687, ndcg = 0.513940, MRR = 0.781438, map = 0.703608, pre = 0.478041
+时间已过 14.871351 秒。
+BPR_NCR:iter [83/100] completed, loss: 1001944.471706, delta_loss = 228.268375, lr: 3.033804 ,theta:1.844235
+BPR_NCR Results: auc = 0.691675, ndcg = 0.513933, MRR = 0.781424, map = 0.703590, pre = 0.478050
+时间已过 14.810910 秒。
+BPR_NCR:iter [84/100] completed, loss: 1001750.556605, delta_loss = 193.915100, lr: 3.185494 ,theta:1.858038
+BPR_NCR Results: auc = 0.691620, ndcg = 0.513902, MRR = 0.781248, map = 0.703522, pre = 0.478065
+时间已过 14.558390 秒。
+BPR_NCR:iter [85/100] completed, loss: 1001550.084098, delta_loss = 200.472507, lr: 3.344768 ,theta:1.872002
+BPR_NCR Results: auc = 0.691672, ndcg = 0.513912, MRR = 0.781212, map = 0.703553, pre = 0.478097
+时间已过 14.792023 秒。
+BPR_NCR:iter [86/100] completed, loss: 1001385.996952, delta_loss = 164.087146, lr: 3.512007 ,theta:1.886600
+BPR_NCR Results: auc = 0.691730, ndcg = 0.513934, MRR = 0.781283, map = 0.703594, pre = 0.478100
+时间已过 14.770271 秒。
+BPR_NCR:iter [87/100] completed, loss: 1001235.244985, delta_loss = 150.751967, lr: 3.687607 ,theta:1.901785
+BPR_NCR Results: auc = 0.691725, ndcg = 0.513932, MRR = 0.781212, map = 0.703590, pre = 0.478129
+时间已过 14.221091 秒。
+BPR_NCR:iter [88/100] completed, loss: 1001148.551927, delta_loss = 86.693058, lr: 3.871988 ,theta:1.917589
+BPR_NCR Results: auc = 0.691771, ndcg = 0.513953, MRR = 0.781214, map = 0.703612, pre = 0.478156
+时间已过 14.527011 秒。
+BPR_NCR:iter [89/100] completed, loss: 1001093.415017, delta_loss = 55.136910, lr: 4.065587 ,theta:1.933777
+BPR_NCR Results: auc = 0.691822, ndcg = 0.513974, MRR = 0.781189, map = 0.703628, pre = 0.478185
+时间已过 14.651326 秒。
+BPR_NCR:iter [90/100] completed, loss: 1001140.638719, delta_loss = -47.223702, lr: 2.032793 ,theta:1.950396
+BPR_NCR Results: auc = 0.692003, ndcg = 0.514069, MRR = 0.781396, map = 0.703787, pre = 0.478229
+时间已过 14.642254 秒。
+BPR_NCR:iter [91/100] completed, loss: 997362.117629, delta_loss = 3778.521090, lr: 2.134433 ,theta:1.829300
+BPR_NCR Results: auc = 0.692072, ndcg = 0.514043, MRR = 0.781442, map = 0.703781, pre = 0.478197
+时间已过 14.868520 秒。
+BPR_NCR:iter [92/100] completed, loss: 995848.516126, delta_loss = 1513.601502, lr: 2.241155 ,theta:1.861707
+BPR_NCR Results: auc = 0.691853, ndcg = 0.514009, MRR = 0.781353, map = 0.703662, pre = 0.478179
+时间已过 14.667731 秒。
+BPR_NCR:iter [93/100] completed, loss: 995669.549888, delta_loss = 178.966239, lr: 2.353213 ,theta:1.881286
+BPR_NCR Results: auc = 0.692197, ndcg = 0.514132, MRR = 0.781712, map = 0.703898, pre = 0.478179
+时间已过 14.596959 秒。
+BPR_NCR:iter [94/100] completed, loss: 995422.776299, delta_loss = 246.773589, lr: 2.470873 ,theta:1.887463
+BPR_NCR Results: auc = 0.692282, ndcg = 0.514170, MRR = 0.781754, map = 0.703963, pre = 0.478214
+时间已过 15.018630 秒。
+BPR_NCR:iter [95/100] completed, loss: 995199.754167, delta_loss = 223.022132, lr: 2.594417 ,theta:1.898307
+BPR_NCR Results: auc = 0.692336, ndcg = 0.514177, MRR = 0.781760, map = 0.704007, pre = 0.478211
+时间已过 14.244220 秒。
+BPR_NCR:iter [96/100] completed, loss: 995026.857851, delta_loss = 172.896315, lr: 2.724138 ,theta:1.910224
+BPR_NCR Results: auc = 0.692255, ndcg = 0.514160, MRR = 0.781735, map = 0.703984, pre = 0.478205
+时间已过 14.724322 秒。
+BPR_NCR:iter [97/100] completed, loss: 994873.545122, delta_loss = 153.312729, lr: 2.860345 ,theta:1.921793
+BPR_NCR Results: auc = 0.692266, ndcg = 0.514180, MRR = 0.781720, map = 0.704012, pre = 0.478241
+时间已过 14.481818 秒。
+BPR_NCR:iter [98/100] completed, loss: 994717.885422, delta_loss = 155.659700, lr: 3.003362 ,theta:1.933658
+BPR_NCR Results: auc = 0.692379, ndcg = 0.514198, MRR = 0.781698, map = 0.704056, pre = 0.478252
+时间已过 14.478033 秒。
+BPR_NCR:iter [99/100] completed, loss: 994582.811337, delta_loss = 135.074085, lr: 3.153530 ,theta:1.946114
+BPR_NCR Results: auc = 0.692372, ndcg = 0.514176, MRR = 0.781595, map = 0.704025, pre = 0.478258
+时间已过 14.638415 秒。
+BPR_NCR:iter [100/100] completed, loss: 994462.869354, delta_loss = 119.941983, lr: 3.311206 ,theta:1.959102
+BPR_NCR Results: auc = 0.692409, ndcg = 0.514196, MRR = 0.781622, map = 0.704073, pre = 0.478282
+时间已过 14.704858 秒。
+BPR:fold [4/5] completed
+BPR_NCR generate data completed
+BPR_NCR:iter [1/100] completed, loss: 1720857.004775, delta_loss = -1720857.004775, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.531616, ndcg = 0.449229, MRR = 0.669578, map = 0.586089, pre = 0.444961
+时间已过 15.156467 秒。
+BPR_NCR:iter [2/100] completed, loss: 1343894.223919, delta_loss = 376962.780855, lr: 5.000000 ,theta:0.100000
+BPR_NCR Results: auc = 0.573699, ndcg = 0.466915, MRR = 0.699127, map = 0.615251, pre = 0.454721
+时间已过 14.289129 秒。
+BPR_NCR:iter [3/100] completed, loss: 1272093.242446, delta_loss = 71800.981474, lr: 5.250000 ,theta:0.100000
+BPR_NCR Results: auc = 0.596999, ndcg = 0.476104, MRR = 0.713858, map = 0.631926, pre = 0.459654
+时间已过 14.803226 秒。
+BPR_NCR:iter [4/100] completed, loss: 1239843.324864, delta_loss = 32249.917582, lr: 5.512500 ,theta:0.025817
+BPR_NCR Results: auc = 0.612200, ndcg = 0.482318, MRR = 0.725580, map = 0.643299, pre = 0.462486
+时间已过 14.594851 秒。
+BPR_NCR:iter [5/100] completed, loss: 1217459.383147, delta_loss = 22383.941717, lr: 5.788125 ,theta:0.100000
+BPR_NCR Results: auc = 0.623060, ndcg = 0.486625, MRR = 0.733461, map = 0.651390, pre = 0.464481
+时间已过 14.654393 秒。
+BPR_NCR:iter [6/100] completed, loss: 1200821.709860, delta_loss = 16637.673287, lr: 6.077531 ,theta:0.093535
+BPR_NCR Results: auc = 0.632379, ndcg = 0.490276, MRR = 0.740835, map = 0.658236, pre = 0.465952
+时间已过 14.416030 秒。
+BPR_NCR:iter [7/100] completed, loss: 1186896.587944, delta_loss = 13925.121916, lr: 6.381408 ,theta:0.284074
+BPR_NCR Results: auc = 0.639581, ndcg = 0.493191, MRR = 0.746427, map = 0.663859, pre = 0.467229
+时间已过 14.597784 秒。
+BPR_NCR:iter [8/100] completed, loss: 1176134.604258, delta_loss = 10761.983686, lr: 6.700478 ,theta:0.419389
+BPR_NCR Results: auc = 0.645319, ndcg = 0.495339, MRR = 0.750570, map = 0.668002, pre = 0.468169
+时间已过 14.859189 秒。
+BPR_NCR:iter [9/100] completed, loss: 1166335.592239, delta_loss = 9799.012019, lr: 7.035502 ,theta:0.561161
+BPR_NCR Results: auc = 0.649871, ndcg = 0.497116, MRR = 0.753904, map = 0.671449, pre = 0.469001
+时间已过 14.496532 秒。
+BPR_NCR:iter [10/100] completed, loss: 1157753.112336, delta_loss = 8582.479903, lr: 7.387277 ,theta:0.669144
+BPR_NCR Results: auc = 0.654249, ndcg = 0.498695, MRR = 0.756963, map = 0.674674, pre = 0.469648
+时间已过 14.286582 秒。
+BPR_NCR:iter [11/100] completed, loss: 1149839.223873, delta_loss = 7913.888464, lr: 7.756641 ,theta:0.772018
+BPR_NCR Results: auc = 0.657693, ndcg = 0.499995, MRR = 0.759287, map = 0.677313, pre = 0.470255
+时间已过 14.565058 秒。
+BPR_NCR:iter [12/100] completed, loss: 1142721.874549, delta_loss = 7117.349323, lr: 8.144473 ,theta:0.862655
+BPR_NCR Results: auc = 0.661387, ndcg = 0.501458, MRR = 0.762213, map = 0.680238, pre = 0.470870
+时间已过 14.791377 秒。
+BPR_NCR:iter [13/100] completed, loss: 1136107.153396, delta_loss = 6614.721153, lr: 8.551697 ,theta:0.947628
+BPR_NCR Results: auc = 0.664444, ndcg = 0.502614, MRR = 0.764395, map = 0.682655, pre = 0.471350
+时间已过 14.591262 秒。
+BPR_NCR:iter [14/100] completed, loss: 1129929.553282, delta_loss = 6177.600114, lr: 8.979282 ,theta:1.027508
+BPR_NCR Results: auc = 0.666954, ndcg = 0.503580, MRR = 0.766062, map = 0.684571, pre = 0.471801
+时间已过 14.414640 秒。
+BPR_NCR:iter [15/100] completed, loss: 1124038.966767, delta_loss = 5890.586515, lr: 9.428246 ,theta:1.103278
+BPR_NCR Results: auc = 0.669256, ndcg = 0.504423, MRR = 0.767510, map = 0.686179, pre = 0.472220
+时间已过 14.476564 秒。
+BPR_NCR:iter [16/100] completed, loss: 1118362.693920, delta_loss = 5676.272847, lr: 9.899658 ,theta:1.175889
+BPR_NCR Results: auc = 0.671942, ndcg = 0.505341, MRR = 0.769122, map = 0.688002, pre = 0.472648
+时间已过 14.306603 秒。
+BPR_NCR:iter [17/100] completed, loss: 1112897.029058, delta_loss = 5465.664862, lr: 10.394641 ,theta:1.245431
+BPR_NCR Results: auc = 0.674069, ndcg = 0.506073, MRR = 0.770355, map = 0.689415, pre = 0.473037
+时间已过 14.700288 秒。
+BPR_NCR:iter [18/100] completed, loss: 1107742.203109, delta_loss = 5154.825949, lr: 10.914373 ,theta:1.311789
+BPR_NCR Results: auc = 0.675737, ndcg = 0.506707, MRR = 0.771469, map = 0.690668, pre = 0.473339
+时间已过 14.151974 秒。
+BPR_NCR:iter [19/100] completed, loss: 1102965.665216, delta_loss = 4776.537892, lr: 11.460092 ,theta:1.374291
+BPR_NCR Results: auc = 0.677387, ndcg = 0.507330, MRR = 0.772507, map = 0.691917, pre = 0.473691
+时间已过 14.547312 秒。
+BPR_NCR:iter [20/100] completed, loss: 1098650.619327, delta_loss = 4315.045889, lr: 12.033096 ,theta:1.432701
+BPR_NCR Results: auc = 0.679061, ndcg = 0.507891, MRR = 0.773731, map = 0.693118, pre = 0.473869
+时间已过 14.711777 秒。
+BPR_NCR:iter [21/100] completed, loss: 1094706.433470, delta_loss = 3944.185856, lr: 12.634751 ,theta:1.486649
+BPR_NCR Results: auc = 0.680090, ndcg = 0.508326, MRR = 0.774493, map = 0.693798, pre = 0.474110
+时间已过 14.353566 秒。
+BPR_NCR:iter [22/100] completed, loss: 1091296.275195, delta_loss = 3410.158275, lr: 13.266489 ,theta:1.536383
+BPR_NCR Results: auc = 0.681434, ndcg = 0.508758, MRR = 0.775084, map = 0.694634, pre = 0.474356
+时间已过 12.762160 秒。
+BPR_NCR:iter [23/100] completed, loss: 1087930.243071, delta_loss = 3366.032124, lr: 13.929813 ,theta:1.583739
+BPR_NCR Results: auc = 0.681497, ndcg = 0.508864, MRR = 0.775164, map = 0.694738, pre = 0.474484
+时间已过 12.344608 秒。
+BPR_NCR:iter [24/100] completed, loss: 1086266.472625, delta_loss = 1663.770446, lr: 14.626304 ,theta:1.616837
+BPR_NCR Results: auc = 0.683107, ndcg = 0.509360, MRR = 0.776202, map = 0.695882, pre = 0.474619
+时间已过 12.250890 秒。
+BPR_NCR:iter [25/100] completed, loss: 1083096.180286, delta_loss = 3170.292339, lr: 15.357619 ,theta:1.570155
+BPR_NCR Results: auc = 0.682694, ndcg = 0.509266, MRR = 0.776116, map = 0.695643, pre = 0.474531
+时间已过 12.379733 秒。
+BPR_NCR:iter [26/100] completed, loss: 1091853.702511, delta_loss = -8757.522225, lr: 7.678809 ,theta:0.651559
+BPR_NCR Results: auc = 0.684076, ndcg = 0.509716, MRR = 0.776765, map = 0.696531, pre = 0.474854
+时间已过 12.427876 秒。
+BPR_NCR:iter [27/100] completed, loss: 1126182.207802, delta_loss = -34328.505291, lr: 3.839405 ,theta:0.100000
+BPR_NCR Results: auc = 0.684973, ndcg = 0.510051, MRR = 0.777299, map = 0.697509, pre = 0.474997
+时间已过 12.410923 秒。
+BPR_NCR:iter [28/100] completed, loss: 1100959.034936, delta_loss = 25223.172866, lr: 4.031375 ,theta:0.522749
+BPR_NCR Results: auc = 0.685063, ndcg = 0.510217, MRR = 0.777912, map = 0.697838, pre = 0.475073
+时间已过 12.423152 秒。
+BPR_NCR:iter [29/100] completed, loss: 1054577.942497, delta_loss = 46381.092439, lr: 4.232944 ,theta:1.162494
+BPR_NCR Results: auc = 0.685420, ndcg = 0.510391, MRR = 0.777986, map = 0.698042, pre = 0.475228
+时间已过 12.428313 秒。
+BPR_NCR:iter [30/100] completed, loss: 1049580.989088, delta_loss = 4996.953409, lr: 4.444591 ,theta:1.300876
+BPR_NCR Results: auc = 0.685019, ndcg = 0.510364, MRR = 0.777933, map = 0.697762, pre = 0.475214
+时间已过 12.349145 秒。
+BPR_NCR:iter [31/100] completed, loss: 1047283.538370, delta_loss = 2297.450718, lr: 4.666820 ,theta:1.289030
+BPR_NCR Results: auc = 0.685803, ndcg = 0.510448, MRR = 0.778026, map = 0.698038, pre = 0.475182
+时间已过 12.449446 秒。
+BPR_NCR:iter [32/100] completed, loss: 1043459.341087, delta_loss = 3824.197283, lr: 4.900161 ,theta:1.344108
+BPR_NCR Results: auc = 0.686287, ndcg = 0.510580, MRR = 0.778278, map = 0.698313, pre = 0.475217
+时间已过 12.392356 秒。
+BPR_NCR:iter [33/100] completed, loss: 1041978.660248, delta_loss = 1480.680839, lr: 5.145169 ,theta:1.395025
+BPR_NCR Results: auc = 0.686283, ndcg = 0.510561, MRR = 0.778175, map = 0.698271, pre = 0.475231
+时间已过 12.384486 秒。
+BPR_NCR:iter [34/100] completed, loss: 1041672.015850, delta_loss = 306.644398, lr: 5.402428 ,theta:1.429541
+BPR_NCR Results: auc = 0.686715, ndcg = 0.510663, MRR = 0.778459, map = 0.698458, pre = 0.475237
+时间已过 12.217245 秒。
+BPR_NCR:iter [35/100] completed, loss: 1041118.530824, delta_loss = 553.485026, lr: 5.672549 ,theta:1.464665
+BPR_NCR Results: auc = 0.687051, ndcg = 0.510772, MRR = 0.778655, map = 0.698677, pre = 0.475299
+时间已过 12.222037 秒。
+BPR_NCR:iter [36/100] completed, loss: 1040606.068262, delta_loss = 512.462562, lr: 5.956177 ,theta:1.500332
+BPR_NCR Results: auc = 0.687241, ndcg = 0.510825, MRR = 0.778708, map = 0.698785, pre = 0.475337
+时间已过 12.151039 秒。
+BPR_NCR:iter [37/100] completed, loss: 1040287.654211, delta_loss = 318.414051, lr: 6.253986 ,theta:1.537711
+BPR_NCR Results: auc = 0.687334, ndcg = 0.510899, MRR = 0.778858, map = 0.698913, pre = 0.475390
+时间已过 12.295060 秒。
+BPR_NCR:iter [38/100] completed, loss: 1040411.703750, delta_loss = -124.049540, lr: 3.126993 ,theta:1.574151
+BPR_NCR Results: auc = 0.687659, ndcg = 0.510974, MRR = 0.778917, map = 0.699107, pre = 0.475431
+时间已过 12.489077 秒。
+BPR_NCR:iter [39/100] completed, loss: 1036026.533169, delta_loss = 4385.170581, lr: 3.283342 ,theta:1.407878
+BPR_NCR Results: auc = 0.687470, ndcg = 0.510884, MRR = 0.778651, map = 0.698923, pre = 0.475445
+时间已过 12.297031 秒。
+BPR_NCR:iter [40/100] completed, loss: 1030664.659972, delta_loss = 5361.873197, lr: 3.447510 ,theta:1.474361
+BPR_NCR Results: auc = 0.687703, ndcg = 0.511070, MRR = 0.779238, map = 0.699282, pre = 0.475463
+时间已过 12.294046 秒。
+BPR_NCR:iter [41/100] completed, loss: 1029131.078508, delta_loss = 1533.581464, lr: 3.619885 ,theta:1.504104
+BPR_NCR Results: auc = 0.687961, ndcg = 0.511096, MRR = 0.779219, map = 0.699424, pre = 0.475475
+时间已过 12.289614 秒。
+BPR_NCR:iter [42/100] completed, loss: 1028737.051147, delta_loss = 394.027360, lr: 3.800879 ,theta:1.517697
+BPR_NCR Results: auc = 0.688126, ndcg = 0.511109, MRR = 0.779233, map = 0.699410, pre = 0.475475
+时间已过 12.294291 秒。
+BPR_NCR:iter [43/100] completed, loss: 1027872.265319, delta_loss = 864.785829, lr: 3.990923 ,theta:1.538680
+BPR_NCR Results: auc = 0.688359, ndcg = 0.511169, MRR = 0.779323, map = 0.699516, pre = 0.475495
+时间已过 12.248949 秒。
+BPR_NCR:iter [44/100] completed, loss: 1027303.046558, delta_loss = 569.218760, lr: 4.190469 ,theta:1.561487
+BPR_NCR Results: auc = 0.688487, ndcg = 0.511261, MRR = 0.779401, map = 0.699640, pre = 0.475586
+时间已过 12.621401 秒。
+BPR_NCR:iter [45/100] completed, loss: 1026826.138875, delta_loss = 476.907684, lr: 4.399993 ,theta:1.583867
+BPR_NCR Results: auc = 0.688759, ndcg = 0.511331, MRR = 0.779570, map = 0.699792, pre = 0.475603
+时间已过 12.476024 秒。
+BPR_NCR:iter [46/100] completed, loss: 1026367.065759, delta_loss = 459.073116, lr: 4.619993 ,theta:1.606792
+BPR_NCR Results: auc = 0.688881, ndcg = 0.511392, MRR = 0.779712, map = 0.699913, pre = 0.475639
+时间已过 13.534847 秒。
+BPR_NCR:iter [47/100] completed, loss: 1025941.963581, delta_loss = 425.102178, lr: 4.850992 ,theta:1.630614
+BPR_NCR Results: auc = 0.688934, ndcg = 0.511464, MRR = 0.779768, map = 0.700044, pre = 0.475721
+时间已过 14.713594 秒。
+BPR_NCR:iter [48/100] completed, loss: 1025644.559287, delta_loss = 297.404294, lr: 5.093542 ,theta:1.655430
+BPR_NCR Results: auc = 0.688970, ndcg = 0.511477, MRR = 0.779788, map = 0.700047, pre = 0.475732
+时间已过 14.491264 秒。
+BPR_NCR:iter [49/100] completed, loss: 1025458.217315, delta_loss = 186.341972, lr: 5.348219 ,theta:1.680946
+BPR_NCR Results: auc = 0.689104, ndcg = 0.511521, MRR = 0.779875, map = 0.700147, pre = 0.475762
+时间已过 14.536795 秒。
+BPR_NCR:iter [50/100] completed, loss: 1025479.879305, delta_loss = -21.661990, lr: 2.674109 ,theta:1.707132
+BPR_NCR Results: auc = 0.689173, ndcg = 0.511533, MRR = 0.779845, map = 0.700183, pre = 0.475791
+时间已过 14.760490 秒。
+BPR_NCR:iter [51/100] completed, loss: 1021142.910889, delta_loss = 4336.968416, lr: 2.807815 ,theta:1.556145
+BPR_NCR Results: auc = 0.689185, ndcg = 0.511443, MRR = 0.779706, map = 0.700049, pre = 0.475709
+时间已过 14.194514 秒。
+BPR_NCR:iter [52/100] completed, loss: 1017940.016879, delta_loss = 3202.894010, lr: 2.948206 ,theta:1.607570
+BPR_NCR Results: auc = 0.689042, ndcg = 0.511521, MRR = 0.779998, map = 0.700106, pre = 0.475753
+时间已过 14.918518 秒。
+BPR_NCR:iter [53/100] completed, loss: 1017300.753572, delta_loss = 639.263307, lr: 3.095616 ,theta:1.632497
+BPR_NCR Results: auc = 0.689401, ndcg = 0.511564, MRR = 0.779939, map = 0.700212, pre = 0.475800
+时间已过 15.024415 秒。
+BPR_NCR:iter [54/100] completed, loss: 1016831.118379, delta_loss = 469.635193, lr: 3.250397 ,theta:1.642348
+BPR_NCR Results: auc = 0.689453, ndcg = 0.511580, MRR = 0.779934, map = 0.700238, pre = 0.475823
+时间已过 14.927949 秒。
+BPR_NCR:iter [55/100] completed, loss: 1016254.324999, delta_loss = 576.793381, lr: 3.412917 ,theta:1.658405
+BPR_NCR Results: auc = 0.689638, ndcg = 0.511644, MRR = 0.780056, map = 0.700375, pre = 0.475852
+时间已过 14.884725 秒。
+BPR_NCR:iter [56/100] completed, loss: 1015873.424800, delta_loss = 380.900199, lr: 3.583562 ,theta:1.675971
+BPR_NCR Results: auc = 0.689954, ndcg = 0.511761, MRR = 0.780246, map = 0.700621, pre = 0.475899
+时间已过 14.653516 秒。
+BPR_NCR:iter [57/100] completed, loss: 1015499.257638, delta_loss = 374.167162, lr: 3.762741 ,theta:1.693230
+BPR_NCR Results: auc = 0.690030, ndcg = 0.511783, MRR = 0.780281, map = 0.700680, pre = 0.475908
+时间已过 14.603176 秒。
+BPR_NCR:iter [58/100] completed, loss: 1015124.314213, delta_loss = 374.943425, lr: 3.950878 ,theta:1.710935
+BPR_NCR Results: auc = 0.689990, ndcg = 0.511769, MRR = 0.780231, map = 0.700652, pre = 0.475911
+时间已过 14.955444 秒。
+BPR_NCR:iter [59/100] completed, loss: 1014784.337777, delta_loss = 339.976436, lr: 4.148421 ,theta:1.729469
+BPR_NCR Results: auc = 0.690117, ndcg = 0.511820, MRR = 0.780283, map = 0.700729, pre = 0.475961
+时间已过 14.558280 秒。
+BPR_NCR:iter [60/100] completed, loss: 1014492.838999, delta_loss = 291.498778, lr: 4.355843 ,theta:1.748827
+BPR_NCR Results: auc = 0.690247, ndcg = 0.511883, MRR = 0.780373, map = 0.700872, pre = 0.476014
+时间已过 14.460138 秒。
+BPR_NCR:iter [61/100] completed, loss: 1014267.989954, delta_loss = 224.849045, lr: 4.573635 ,theta:1.768910
+BPR_NCR Results: auc = 0.690282, ndcg = 0.511886, MRR = 0.780369, map = 0.700889, pre = 0.476019
+时间已过 12.874383 秒。
+BPR_NCR:iter [62/100] completed, loss: 1014131.221037, delta_loss = 136.768917, lr: 4.802316 ,theta:1.789608
+BPR_NCR Results: auc = 0.690437, ndcg = 0.511912, MRR = 0.780471, map = 0.700991, pre = 0.476008
+时间已过 12.463909 秒。
+BPR_NCR:iter [63/100] completed, loss: 1014115.323411, delta_loss = 15.897626, lr: 5.042432 ,theta:1.810749
+BPR_NCR Results: auc = 0.690397, ndcg = 0.511893, MRR = 0.780449, map = 0.700963, pre = 0.475990
+时间已过 12.309712 秒。
+BPR_NCR:iter [64/100] completed, loss: 1014257.871828, delta_loss = -142.548417, lr: 2.521216 ,theta:1.832066
+BPR_NCR Results: auc = 0.690352, ndcg = 0.511852, MRR = 0.780408, map = 0.700855, pre = 0.475955
+时间已过 12.406290 秒。
+BPR_NCR:iter [65/100] completed, loss: 1010067.035406, delta_loss = 4190.836422, lr: 2.647277 ,theta:1.692040
+BPR_NCR Results: auc = 0.690512, ndcg = 0.511861, MRR = 0.780288, map = 0.700874, pre = 0.476025
+时间已过 12.391509 秒。
+BPR_NCR:iter [66/100] completed, loss: 1007204.766516, delta_loss = 2862.268889, lr: 2.779641 ,theta:1.720053
+BPR_NCR Results: auc = 0.690423, ndcg = 0.511931, MRR = 0.780472, map = 0.700898, pre = 0.476037
+时间已过 12.363908 秒。
+BPR_NCR:iter [67/100] completed, loss: 1006488.965535, delta_loss = 715.800982, lr: 2.918623 ,theta:1.751781
+BPR_NCR Results: auc = 0.690664, ndcg = 0.511965, MRR = 0.780512, map = 0.701020, pre = 0.476057
+时间已过 12.268740 秒。
+BPR_NCR:iter [68/100] completed, loss: 1006204.294731, delta_loss = 284.670804, lr: 3.064554 ,theta:1.762799
+BPR_NCR Results: auc = 0.690656, ndcg = 0.512000, MRR = 0.780535, map = 0.701075, pre = 0.476090
+时间已过 12.638363 秒。
+BPR_NCR:iter [69/100] completed, loss: 1005810.743211, delta_loss = 393.551520, lr: 3.217782 ,theta:1.775059
+BPR_NCR Results: auc = 0.690900, ndcg = 0.512096, MRR = 0.780740, map = 0.701247, pre = 0.476131
+时间已过 12.659370 秒。
+BPR_NCR:iter [70/100] completed, loss: 1005499.493139, delta_loss = 311.250072, lr: 3.378671 ,theta:1.790277
+BPR_NCR Results: auc = 0.690945, ndcg = 0.512101, MRR = 0.780758, map = 0.701273, pre = 0.476131
+时间已过 12.498175 秒。
+BPR_NCR:iter [71/100] completed, loss: 1005243.898400, delta_loss = 255.594739, lr: 3.547604 ,theta:1.805972
+BPR_NCR Results: auc = 0.691023, ndcg = 0.512139, MRR = 0.780810, map = 0.701356, pre = 0.476166
+时间已过 12.639573 秒。
+BPR_NCR:iter [72/100] completed, loss: 1004983.183705, delta_loss = 260.714695, lr: 3.724984 ,theta:1.821742
+BPR_NCR Results: auc = 0.691020, ndcg = 0.512121, MRR = 0.780785, map = 0.701323, pre = 0.476145
+时间已过 12.323109 秒。
+BPR_NCR:iter [73/100] completed, loss: 1004770.573363, delta_loss = 212.610342, lr: 3.911234 ,theta:1.838004
+BPR_NCR Results: auc = 0.691082, ndcg = 0.512141, MRR = 0.780768, map = 0.701364, pre = 0.476169
+时间已过 12.153501 秒。
+BPR_NCR:iter [74/100] completed, loss: 1004571.521078, delta_loss = 199.052285, lr: 4.106795 ,theta:1.854827
+BPR_NCR Results: auc = 0.691168, ndcg = 0.512160, MRR = 0.780760, map = 0.701404, pre = 0.476169
+时间已过 12.309214 秒。
+BPR_NCR:iter [75/100] completed, loss: 1004459.317473, delta_loss = 112.203606, lr: 4.312135 ,theta:1.872274
+BPR_NCR Results: auc = 0.691146, ndcg = 0.512137, MRR = 0.780744, map = 0.701362, pre = 0.476160
+时间已过 12.358210 秒。
+BPR_NCR:iter [76/100] completed, loss: 1004390.396851, delta_loss = 68.920622, lr: 4.527742 ,theta:1.890013
+BPR_NCR Results: auc = 0.691267, ndcg = 0.512143, MRR = 0.780738, map = 0.701384, pre = 0.476163
+时间已过 12.468363 秒。
+BPR_NCR:iter [77/100] completed, loss: 1004463.446668, delta_loss = -73.049817, lr: 2.263871 ,theta:1.908052
+BPR_NCR Results: auc = 0.691275, ndcg = 0.512140, MRR = 0.780709, map = 0.701398, pre = 0.476163
+时间已过 12.557872 秒。
+BPR_NCR:iter [78/100] completed, loss: 1000475.063416, delta_loss = 3988.383251, lr: 2.377064 ,theta:1.784047
+BPR_NCR Results: auc = 0.691211, ndcg = 0.512063, MRR = 0.780577, map = 0.701259, pre = 0.476113
+时间已过 12.354479 秒。
+BPR_NCR:iter [79/100] completed, loss: 998563.262171, delta_loss = 1911.801246, lr: 2.495918 ,theta:1.808667
+BPR_NCR Results: auc = 0.691293, ndcg = 0.512165, MRR = 0.780867, map = 0.701370, pre = 0.476142
+时间已过 12.533690 秒。
+BPR_NCR:iter [80/100] completed, loss: 998139.926522, delta_loss = 423.335648, lr: 2.620714 ,theta:1.835297
+BPR_NCR Results: auc = 0.691477, ndcg = 0.512218, MRR = 0.780826, map = 0.701499, pre = 0.476207
+时间已过 12.270419 秒。
+BPR_NCR:iter [81/100] completed, loss: 997893.626349, delta_loss = 246.300174, lr: 2.751749 ,theta:1.843991
+BPR_NCR Results: auc = 0.691506, ndcg = 0.512234, MRR = 0.780798, map = 0.701534, pre = 0.476236
+时间已过 12.500719 秒。
+BPR_NCR:iter [82/100] completed, loss: 997609.178010, delta_loss = 284.448339, lr: 2.889337 ,theta:1.854569
+BPR_NCR Results: auc = 0.691568, ndcg = 0.512258, MRR = 0.780809, map = 0.701558, pre = 0.476268
+时间已过 12.410369 秒。
+BPR_NCR:iter [83/100] completed, loss: 997374.152953, delta_loss = 235.025057, lr: 3.033804 ,theta:1.867611
+BPR_NCR Results: auc = 0.691680, ndcg = 0.512281, MRR = 0.780863, map = 0.701604, pre = 0.476262
+时间已过 12.113851 秒。
+BPR_NCR:iter [84/100] completed, loss: 997175.353524, delta_loss = 198.799429, lr: 3.185494 ,theta:1.880806
+BPR_NCR Results: auc = 0.691827, ndcg = 0.512326, MRR = 0.780968, map = 0.701722, pre = 0.476277
+时间已过 12.265306 秒。
+BPR_NCR:iter [85/100] completed, loss: 996976.189397, delta_loss = 199.164127, lr: 3.344768 ,theta:1.894061
+BPR_NCR Results: auc = 0.691890, ndcg = 0.512338, MRR = 0.780934, map = 0.701725, pre = 0.476303
+时间已过 12.352491 秒。
+BPR_NCR:iter [86/100] completed, loss: 996803.219917, delta_loss = 172.969480, lr: 3.512007 ,theta:1.907780
+BPR_NCR Results: auc = 0.691854, ndcg = 0.512322, MRR = 0.780904, map = 0.701692, pre = 0.476306
+时间已过 13.556461 秒。
+BPR_NCR:iter [87/100] completed, loss: 996643.289770, delta_loss = 159.930147, lr: 3.687607 ,theta:1.922040
+BPR_NCR Results: auc = 0.691901, ndcg = 0.512324, MRR = 0.780852, map = 0.701726, pre = 0.476324
+时间已过 14.037692 秒。
+BPR_NCR:iter [88/100] completed, loss: 996534.750536, delta_loss = 108.539234, lr: 3.871988 ,theta:1.936832
+BPR_NCR Results: auc = 0.691885, ndcg = 0.512318, MRR = 0.780834, map = 0.701725, pre = 0.476324
+时间已过 14.251230 秒。
+BPR_NCR:iter [89/100] completed, loss: 996457.236482, delta_loss = 77.514053, lr: 4.065587 ,theta:1.951963
+BPR_NCR Results: auc = 0.691977, ndcg = 0.512360, MRR = 0.780915, map = 0.701794, pre = 0.476342
+时间已过 14.009491 秒。
+BPR_NCR:iter [90/100] completed, loss: 996462.213689, delta_loss = -4.977207, lr: 2.032793 ,theta:1.967379
+BPR_NCR Results: auc = 0.692087, ndcg = 0.512381, MRR = 0.781029, map = 0.701869, pre = 0.476324
+时间已过 14.486128 秒。
+BPR_NCR:iter [91/100] completed, loss: 992746.444113, delta_loss = 3715.769577, lr: 2.134433 ,theta:1.857346
+BPR_NCR Results: auc = 0.692048, ndcg = 0.512312, MRR = 0.780843, map = 0.701778, pre = 0.476315
+时间已过 14.500769 秒。
+BPR_NCR:iter [92/100] completed, loss: 991466.420519, delta_loss = 1280.023594, lr: 2.241155 ,theta:1.882811
+BPR_NCR Results: auc = 0.692024, ndcg = 0.512425, MRR = 0.781095, map = 0.701873, pre = 0.476383
+时间已过 14.356754 秒。
+BPR_NCR:iter [93/100] completed, loss: 991225.467193, delta_loss = 240.953326, lr: 2.353213 ,theta:1.903398
+BPR_NCR Results: auc = 0.692253, ndcg = 0.512491, MRR = 0.781166, map = 0.702014, pre = 0.476412
+时间已过 14.492767 秒。
+BPR_NCR:iter [94/100] completed, loss: 991007.561782, delta_loss = 217.905410, lr: 2.470873 ,theta:1.909728
+BPR_NCR Results: auc = 0.692245, ndcg = 0.512493, MRR = 0.781135, map = 0.702023, pre = 0.476432
+时间已过 14.934643 秒。
+BPR_NCR:iter [95/100] completed, loss: 990792.269541, delta_loss = 215.292241, lr: 2.594417 ,theta:1.919370
+BPR_NCR Results: auc = 0.692206, ndcg = 0.512471, MRR = 0.780995, map = 0.701938, pre = 0.476447
+时间已过 14.280875 秒。
+BPR_NCR:iter [96/100] completed, loss: 990612.913231, delta_loss = 179.356310, lr: 2.724138 ,theta:1.930605
+BPR_NCR Results: auc = 0.692190, ndcg = 0.512496, MRR = 0.781054, map = 0.701954, pre = 0.476476
+时间已过 14.265404 秒。
+BPR_NCR:iter [97/100] completed, loss: 990461.282265, delta_loss = 151.630966, lr: 2.860345 ,theta:1.941611
+BPR_NCR Results: auc = 0.692246, ndcg = 0.512506, MRR = 0.781027, map = 0.701970, pre = 0.476491
+时间已过 14.098093 秒。
+BPR_NCR:iter [98/100] completed, loss: 990303.051965, delta_loss = 158.230300, lr: 3.003362 ,theta:1.952754
+BPR_NCR Results: auc = 0.692316, ndcg = 0.512518, MRR = 0.781031, map = 0.701981, pre = 0.476509
+时间已过 14.182940 秒。
+BPR_NCR:iter [99/100] completed, loss: 990165.307061, delta_loss = 137.744904, lr: 3.153530 ,theta:1.964400
+BPR_NCR Results: auc = 0.692233, ndcg = 0.512494, MRR = 0.781003, map = 0.701933, pre = 0.476491
+时间已过 14.860470 秒。
+BPR_NCR:iter [100/100] completed, loss: 990035.314635, delta_loss = 129.992426, lr: 3.311206 ,theta:1.976540
+BPR_NCR Results: auc = 0.692199, ndcg = 0.512495, MRR = 0.780976, map = 0.701940, pre = 0.476506
+时间已过 14.330186 秒。
+BPR:fold [5/5] completed
+BPR Final Results: auc = 0.692033, ndcg = 0.513106, MRR = 0.781236, map = 0.702653, pre = 0.477147
+>> 
